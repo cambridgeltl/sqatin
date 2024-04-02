@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "can you please put a stop on my bank account",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i need my account frozen",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i want my bank account frozen",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "freeze my bank account",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "put a freeze on my bank account",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i'd like to put a freeze on my bank account",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i want my chase account blocked immediately",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "place a stop on my main account for me please",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "help me freeze my bank account, please",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "place a hold on my bank account",
+        "intents": [
+            "freeze_account"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the routing number on my first merit account",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what's the routing number for my current savings",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "do you know where i can find my suntrust routing number",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "tell me my bank of america routing number",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "for my westport account, what is the routing number",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what's the routing number for my navy federal account",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "could you tell me what my routing number from first republic is",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what's the routing number for my checking account",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what's the routing number for my money market account",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is my routing number for home federal account",
+        "intents": [
+            "routing"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i need to set up a new pin number for my college fund account",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "change the pin on my bofa account to 3892",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "go ahead and change the pin on my bank of america account to be 1234",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how do i get a new pin",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "can i change my pin number",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how do i update my pin number for my account",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i need to change my pin number for my account",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "help me out with changing this pin number",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i would like to change the pin on my checking account, please",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "switch my amex pin to 1234",
+        "intents": [
+            "pin_change"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how do i find when my cable bill is due",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "when does the electric bill up",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how long do i have left to pay for my chase credit card",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "when do i need to pay the water bil",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "when is the bill due",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "when's the ac bill due",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "when is my visa due",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "when do i need to pay the cable bill",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i need the new due date for my pgw gas bill",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what do i do to check when my next credit card payment is",
+        "intents": [
+            "bill_due"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i want to pay my house bill",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i want to pay my rent bill",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i gotta pay my cable bill",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i'd like to make a payment on my credit card bill",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "go ahead and pay my american express bill now",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "pay a bribe using my money market account",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "pay my water bill from my checking account",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "pay my electric bill from my park bank account",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i want to pay that bill now",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i want to pay off my student loan",
+        "intents": [
+            "pay_bill"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i don't know the reason my account is blocked",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i don't understand why my bank account is frozen right now",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "why am i seeing a hold on my boa account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "why in the world am i locked out of my bank account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "find out for me why is my bank account frozen",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i am very confused about why or how my bank would lock me out of my account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "why is there a hold on my edward jones account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "who froze my bank account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what caused a freeze to be put on my bank account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i am unable to complete my order, why could there be a hold on my wells fargo account",
+        "intents": [
+            "account_blocked"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "if i'm using citibank, what is the interest rate",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what interest rate am i getting",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is the interest rate on my money market account",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i wanna know the interest rate on my bank of america cd account",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the best interest rate i can get from now on",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how are the interest rates at chase bank",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the interest rate on my bank of america credit card",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much interest am i getting on my savings",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me my current interest rate",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i want to know td banks interest rates",
+        "intents": [
+            "interest_rate"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is the lowest amount i can pay for my electric bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i need to know the bill's minimum payment",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how small of a payment can i make for my chase card bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is my bill's minimum payment",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the minimum i need to pay for my cell phone bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the minimum i can pay for my phone bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how tiny a payment can i make on electric bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what's the least amount i need to pay on the electric bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the minimum i can pay for my light bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "tell me the minimum payment of my bill",
+        "intents": [
+            "min_payment"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is the total amount that i owe to sony and verizon",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much is my comcast bill",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how much on bills to i have to pay",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "please let me know how much my gas bill is",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is the cost of water and electric this month",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much is my cable bill for",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can you find out how much i owe on my bills",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much is my electricity bill costing me",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "my water bill is how much this month",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "read my bill balances",
+        "intents": [
+            "bill_balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "help me move my money please",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "take $20000 from savings and put it in checking",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can you transfer money from my account",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can we wire some money over to the other account i have",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "send 50 dollars between bank of america and chase accounts",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "please switch $s checking to mortage",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i need $20000 transferred from my savings to my checking",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "move 100 dollars from checking to savings",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "send 2000 dollars between chase and rabobank accounts",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i got to transfer ten dollars from my bank of america account to my capital one account",
+        "intents": [
+            "transfer"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "can you order new checks for my citizens checking",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "can you get me more checkbooks for my southern account",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "order new checks, please",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i recently ran out of checks, so i wanna get some new ones",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can i get new checks to replace the ones we ran out of",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can some more checkbooks get mailed to me",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i don't have checks, so can i get new ones",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i'd love to order some more checks for my checking account",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how do you order new checks",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "would it be possible for you to mail me new checkbooks",
+        "intents": [
+            "order_checks"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "is there enough money in my discover account for a vacation",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much money is in my checking account",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i wanna know the balance of my bank of american account",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "is there any money left",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is the value of my bank accounts",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what is the balance of my bank of american account",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i wish to know the balance of my bank of american account",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what is in my bank accounts",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "please let me know what my current bank balance is",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how much do i have in the bank",
+        "intents": [
+            "balance"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me what i spend on gas for the past two weeks",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how much money did i spend at starbucks in the last week",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much did i spend on gas last week",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "how much money have i spent this week",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "please tell me how much i have spent recently",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how much have i spent on food in the past week",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "have i been spending more money at restaurants",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i have been spending a lot on utility bills lately",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me what i have spent on food recently",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "how much did i spend on furniture last week",
+        "intents": [
+            "spending_history"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what was my last transaction",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what did i buy last",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what did i spend at target on my barclays card last month",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "show me my transactions on make up at sephora",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "what transactions have i made on liquor in the past month",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "show me my transactions on groceries",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i need to see my shopping transactions",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i need to know all the recent transactions i've made",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i want to see the list of transaction on my bank of hawaii",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "can you show me the transactions that were made last night at the restaurant",
+        "intents": [
+            "transactions"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "my card has purchases i don't recognize",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i see a purchase on my chase checking that i did not make",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "report fraudulent activity on my debit card",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i suspect some suspicious activity",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i have a fraudulent transaction from fry's on my account",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "there are some questionable charges on my card",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 0
+    },
+    {
+        "text": "i think i made a fraudulent transaction",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i think there's a fraudulent transaction on my account",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i have a fraudulent transaction from wal mart on my account right now",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "i made a fraudulent transaction",
+        "intents": [
+            "report_fraud"
+        ],
+        "domain": "banking",
+        "fold": 1
+    },
+    {
+        "text": "what's the average battery life of an android phone",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what other nations were involved in the chinese trade war",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i start my own marketing firm",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "which piano is best for classical",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what is the highest earning game on atari",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "is there overtime in college football",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how much money does radiohead earn a year",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i open an online line of credit",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when did camus die",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me something about the nfl",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

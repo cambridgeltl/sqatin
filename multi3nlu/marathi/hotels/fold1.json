@@ -1,0 +1,983 @@
+[
+    {
+        "text": "आभार, माझे पैसे मला परत कधी मिळतील?",
+        "intents": [
+            "thank",
+            "refund",
+            "when"
+        ],
+        "uid": "hotel_1_0",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे उद्याचे रिझर्वेशन मला रद्द का करता येणार नाही?",
+        "intents": [
+            "why",
+            "booking",
+            "cancel_close_leave_freeze",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "उद्याचे",
+                "span": [
+                    5,
+                    12
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_1",
+        "lang": "mr"
+    },
+    {
+        "text": "मी 2 साठी खोली कशी बुक करू शकतो?",
+        "intents": [
+            "how",
+            "make_open_apply_setup_get_activate",
+            "booking"
+        ],
+        "slots": {
+            "people": {
+                "text": "2",
+                "span": [
+                    3,
+                    4
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_2",
+        "lang": "mr"
+    },
+    {
+        "text": "सद्य स्थिती पाहता, पूलमध्ये असणाऱ्या लोकांच्या संख्येवर कोणतीही मर्यादा आहे का?",
+        "intents": [
+            "limits",
+            "swimming_pool",
+            "request_info"
+        ],
+        "uid": "hotel_1_3",
+        "lang": "mr"
+    },
+    {
+        "text": "ठीक आहे, माझे काम झाले आहे",
+        "intents": [
+            "acknowledge",
+            "end_call"
+        ],
+        "uid": "hotel_1_4",
+        "lang": "mr"
+    },
+    {
+        "text": "तुमचे म्हणणे मला नीट समजले नाही",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "hotel_1_5",
+        "lang": "mr"
+    },
+    {
+        "text": "नमस्कार, माझ्या हॉटेल बुकिंगमधील रात्रींच्या संख्येमध्ये मला बदल करायचा आहे",
+        "intents": [
+            "change",
+            "existing",
+            "booking",
+            "greet"
+        ],
+        "uid": "hotel_1_6",
+        "lang": "mr"
+    },
+    {
+        "text": "स्पा टीम प्लीज",
+        "intents": [
+            "handoff",
+            "spa"
+        ],
+        "uid": "hotel_1_7",
+        "lang": "mr"
+    },
+    {
+        "text": "४:२५ च्या आधी जिममध्ये जाता येऊ शकेल का",
+        "intents": [
+            "request_info",
+            "gym",
+            "less_lower_before"
+        ],
+        "slots": {
+            "time": {
+                "text": "४:२५",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": {
+                    "hour": 4,
+                    "minute": 25
+                }
+            }
+        },
+        "uid": "hotel_1_8",
+        "lang": "mr"
+    },
+    {
+        "text": "मी ५ वाजता चेक इन करू इच्छितो.",
+        "intents": [
+            "check_in"
+        ],
+        "slots": {
+            "time": {
+                "text": "५",
+                "span": [
+                    3,
+                    4
+                ],
+                "value": {
+                    "hour": 5,
+                    "minute": 0
+                }
+            }
+        },
+        "uid": "hotel_1_9",
+        "lang": "mr"
+    },
+    {
+        "text": "आम्ही अजून रुममध्ये आहोत, आम्ही नंतर निघणार आहोत",
+        "intents": [
+            "check_out",
+            "more_higher_after"
+        ],
+        "uid": "hotel_1_10",
+        "lang": "mr"
+    },
+    {
+        "text": "मंगळवारनंतर जकुझीसोबत कोणत्याही विनामूल्य रुम्स आहेत का?",
+        "intents": [
+            "room_ammenities",
+            "request_info",
+            "more_higher_after"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "मंगळवारनंतर",
+                "span": [
+                    0,
+                    11
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_11",
+        "lang": "mr"
+    },
+    {
+        "text": "वाह, खूपच छान",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "hotel_1_12",
+        "lang": "mr"
+    },
+    {
+        "text": "मी दोन आठवड्यांपूर्वी एक बुकिंग केलेली आहे, परंतु मी आता एक नवीन बुकिंग करू इच्छित आहे",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate",
+            "new"
+        ],
+        "slots": {
+            "time": {
+                "text": "आता",
+                "span": [
+                    53,
+                    56
+                ],
+                "value": {
+                    "hour": 9,
+                    "minute": 0
+                }
+            },
+            "date": {
+                "text": "दोन आठवड्यांपूर्वी",
+                "span": [
+                    3,
+                    21
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_13",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्याकडे दोन लहान कुत्रे आहेत, मी त्यांना आणू शकतो का",
+        "intents": [
+            "request_info",
+            "pets"
+        ],
+        "uid": "hotel_1_14",
+        "lang": "mr"
+    },
+    {
+        "text": "नाही, मला रुममध्ये शेगडीची गरज नाही.",
+        "intents": [
+            "deny",
+            "room_ammenities"
+        ],
+        "uid": "hotel_1_15",
+        "lang": "mr"
+    },
+    {
+        "text": "वायफाय सिग्नल खूप खराब आहे.",
+        "intents": [
+            "wifi",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "hotel_1_16",
+        "lang": "mr"
+    },
+    {
+        "text": "शॉवरमध्ये कोणताही शॅम्पू नाही, कृपया मला एक शॅम्पू पाठवा.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "make_open_apply_setup_get_activate",
+            "room_ammenities"
+        ],
+        "uid": "hotel_1_17",
+        "lang": "mr"
+    },
+    {
+        "text": "जिममध्ये एक्सरसाइझ बाइक आहे का",
+        "intents": [
+            "request_info",
+            "gym"
+        ],
+        "uid": "hotel_1_18",
+        "lang": "mr"
+    },
+    {
+        "text": "बॉडी ट्रीटमेन्ट्ससाठी किती खर्च येतो?",
+        "intents": [
+            "how_much",
+            "spa"
+        ],
+        "uid": "hotel_1_19",
+        "lang": "mr"
+    },
+    {
+        "text": "काहीच नाही",
+        "slots": {
+            "number": {
+                "text": "काहीच नाही",
+                "span": [
+                    0,
+                    10
+                ],
+                "value": 0
+            }
+        },
+        "uid": "hotel_1_20",
+        "lang": "mr"
+    },
+    {
+        "text": "माझी मुलगी टेडी बेअर खालीच सोडून आली होती, कोणी तो दिला का",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "hotel_1_21",
+        "lang": "mr"
+    },
+    {
+        "text": "मी माझी गाडी रात्रभर पार्किंगमध्ये ठेवू शकतो का",
+        "intents": [
+            "request_info",
+            "parking"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "रात्रभर",
+                "span": [
+                    13,
+                    20
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 6,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_1_22",
+        "lang": "mr"
+    },
+    {
+        "text": "शुक्रवार सकाळपर्यंत",
+        "slots": {
+            "date_to": {
+                "text": "शुक्रवार",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "time_period": {
+                "text": "सकाळपर्यंत",
+                "span": [
+                    9,
+                    19
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 0,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 12,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_1_23",
+        "lang": "mr"
+    },
+    {
+        "text": "सॅमिजो ओक्सच्या नावाने संध्याकाळी ६ ४५ साठी केलेले रेस्टॉरन्ट रिझर्व्हेशन रद्द करा",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "restaurant",
+            "booking"
+        ],
+        "slots": {
+            "time": {
+                "text": "संध्याकाळी ६ ४५ साठी",
+                "span": [
+                    23,
+                    43
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 45
+                }
+            },
+            "person_name": {
+                "text": "सॅमिजो ओक्सच्या",
+                "span": [
+                    0,
+                    15
+                ],
+                "value": "sammijo oaks"
+            }
+        },
+        "uid": "hotel_1_24",
+        "lang": "mr"
+    },
+    {
+        "text": "चॅरिस नावाने केलेल्या रुम बुकिंग अंतिम करा",
+        "intents": [
+            "existing",
+            "booking"
+        ],
+        "slots": {
+            "person_name": {
+                "text": "चॅरिस",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": "charis"
+            }
+        },
+        "uid": "hotel_1_25",
+        "lang": "mr"
+    },
+    {
+        "text": "तुम्ही व्हॅक्सिंगची सेवा देवा का?",
+        "intents": [
+            "request_info",
+            "spa"
+        ],
+        "uid": "hotel_1_26",
+        "lang": "mr"
+    },
+    {
+        "text": "मी येथे रेस्टॉरन्ट टेबल बुक करू शकतो का?",
+        "intents": [
+            "request_info",
+            "booking",
+            "restaurant",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "hotel_1_27",
+        "lang": "mr"
+    },
+    {
+        "text": "कृपया माझ्यासाठी हॅम सँडविच घेऊन या",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "room_service"
+        ],
+        "uid": "hotel_1_28",
+        "lang": "mr"
+    },
+    {
+        "text": "मी शनिवार ३ डिसेंबरसाठी एक रूम बुक केलेली आहे आणि मला चेक आउट तारीख बदलून ती १२ डिसेंबर करायची आहे",
+        "intents": [
+            "change",
+            "existing",
+            "booking"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "शनिवार ३ डिसेंबरसाठी",
+                "span": [
+                    3,
+                    23
+                ],
+                "value": {
+                    "day": 3,
+                    "month": 12,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "१२ डिसेंबर",
+                "span": [
+                    77,
+                    87
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 12,
+                    "year": 2022
+                }
+            },
+            "rooms": {
+                "text": "एक रूम",
+                "span": [
+                    24,
+                    30
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_1_29",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे रेस्टॉरन्ट रिझर्व्हेशन बदलून ते दुपारी ३ वाजून २५ मिनिटांचे करा",
+        "intents": [
+            "restaurant",
+            "booking",
+            "change"
+        ],
+        "slots": {
+            "time": {
+                "text": "दुपारी ३ वाजून २५ मिनिटांचे",
+                "span": [
+                    37,
+                    64
+                ],
+                "value": {
+                    "hour": 15,
+                    "minute": 25
+                }
+            }
+        },
+        "uid": "hotel_1_30",
+        "lang": "mr"
+    },
+    {
+        "text": "मी माझ्या वडिलांसोबत गुरुवारी, संध्याकाळी जवळपास ८ वाजता येत आहे",
+        "slots": {
+            "time": {
+                "text": "संध्याकाळी जवळपास ८",
+                "span": [
+                    31,
+                    50
+                ],
+                "value": {
+                    "hour": 20,
+                    "minute": 0
+                }
+            },
+            "date_from": {
+                "text": "गुरुवारी",
+                "span": [
+                    21,
+                    29
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "adults": {
+                "text": "मी माझ्या वडिलांसोबत",
+                "span": [
+                    0,
+                    20
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_31",
+        "lang": "mr"
+    },
+    {
+        "text": "मी रुम्सच्या संख्येमध्ये बदल करू इच्छित आहे",
+        "intents": [
+            "change"
+        ],
+        "uid": "hotel_1_32",
+        "lang": "mr"
+    },
+    {
+        "text": "१ व्यक्तीसाठी उद्यापासून शनिवारपर्यत एक रुम बुक करा",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "उद्यापासून",
+                "span": [
+                    14,
+                    24
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "शनिवारपर्यत",
+                "span": [
+                    25,
+                    36
+                ],
+                "value": {
+                    "day": 19,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "१",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 1
+            },
+            "rooms": {
+                "text": "एक रुम",
+                "span": [
+                    37,
+                    43
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_1_33",
+        "lang": "mr"
+    },
+    {
+        "text": "नववर्षाची संध्याकाळ २०२५",
+        "slots": {
+            "date": {
+                "text": "नववर्षाची संध्याकाळ २०२५",
+                "span": [
+                    0,
+                    24
+                ],
+                "value": {
+                    "day": 31,
+                    "month": 12,
+                    "year": 2025
+                }
+            }
+        },
+        "uid": "hotel_1_34",
+        "lang": "mr"
+    },
+    {
+        "text": "२४ जाने २०१६",
+        "slots": {
+            "date": {
+                "text": "२४ जाने २०१६",
+                "span": [
+                    0,
+                    12
+                ],
+                "value": {
+                    "day": 24,
+                    "month": 1,
+                    "year": 2016
+                }
+            }
+        },
+        "uid": "hotel_1_35",
+        "lang": "mr"
+    },
+    {
+        "text": "तीन प्रौढ व्यक्तींसाठी एक रुम.",
+        "slots": {
+            "adults": {
+                "text": "तीन",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": 3
+            },
+            "rooms": {
+                "text": "एक रुम",
+                "span": [
+                    23,
+                    29
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_1_36",
+        "lang": "mr"
+    },
+    {
+        "text": "मला आजपासून पंधरवड्यासाठी दोन रुम्स बुक करायच्या आहेत.",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "आजपासून पंधरवड्यासाठी",
+                "span": [
+                    4,
+                    25
+                ],
+                "value": {
+                    "day": 29,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "rooms": {
+                "text": "दोन रुम्स",
+                "span": [
+                    26,
+                    35
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_37",
+        "lang": "mr"
+    },
+    {
+        "text": "१८ ऑगस्ट ते २६ ऑगस्टपर्यंत बुक करा",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "१८ ऑगस्ट",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 8,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "२६ ऑगस्टपर्यंत",
+                "span": [
+                    12,
+                    26
+                ],
+                "value": {
+                    "day": 26,
+                    "month": 8,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_38",
+        "lang": "mr"
+    },
+    {
+        "text": "वीकेन्ड ब्रेकसाठी फॅमिली रुम",
+        "slots": {
+            "date_period": {
+                "text": "वीकेन्ड",
+                "span": [
+                    0,
+                    7
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            }
+        },
+        "uid": "hotel_1_39",
+        "lang": "mr"
+    },
+    {
+        "text": "मी व माझे पती शुक्रवारी ७ जानेवारीला येणार आहोत आणि तेथे ९ दिवस मुक्काम करण्याची आमची योजना आहे.",
+        "slots": {
+            "date_period": {
+                "text": "९ दिवस",
+                "span": [
+                    57,
+                    63
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 9
+                }
+            },
+            "date_from": {
+                "text": "शुक्रवारी ७ जानेवारीला",
+                "span": [
+                    14,
+                    36
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 1,
+                    "year": 2028
+                }
+            },
+            "adults": {
+                "text": "मी व माझे पती",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_40",
+        "lang": "mr"
+    },
+    {
+        "text": "सोमवारी येणार, गुरुवारी निघणार, २ प्रौढ व्यक्ती आणि एक मूल",
+        "slots": {
+            "date_from": {
+                "text": "सोमवारी",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 21,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "गुरुवारी",
+                "span": [
+                    15,
+                    23
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "kids": {
+                "text": "एक मूल",
+                "span": [
+                    52,
+                    58
+                ],
+                "value": 1
+            },
+            "adults": {
+                "text": "२ प्रौढ व्यक्ती",
+                "span": [
+                    32,
+                    47
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_41",
+        "lang": "mr"
+    },
+    {
+        "text": "एकूण ५ प्रौढ व्यक्ती आणि २ मुले",
+        "slots": {
+            "kids": {
+                "text": "२",
+                "span": [
+                    25,
+                    26
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "५",
+                "span": [
+                    5,
+                    6
+                ],
+                "value": 5
+            }
+        },
+        "uid": "hotel_1_42",
+        "lang": "mr"
+    },
+    {
+        "text": "आम्ही दोन प्रौढ व्यक्ती असून आमच्या ३ मुलांसह युरोपचा प्रवास करत आहोत.",
+        "slots": {
+            "kids": {
+                "text": "३",
+                "span": [
+                    36,
+                    37
+                ],
+                "value": 3
+            },
+            "adults": {
+                "text": "दोन",
+                "span": [
+                    6,
+                    9
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_1_43",
+        "lang": "mr"
+    },
+    {
+        "text": "१ प्रौढ व्यक्ती",
+        "slots": {
+            "adults": {
+                "text": "१ प्रौढ व्यक्ती",
+                "span": [
+                    0,
+                    15
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_1_44",
+        "lang": "mr"
+    },
+    {
+        "text": "शनिवारी येणार, बुधवारी निघणार",
+        "slots": {
+            "date_from": {
+                "text": "शनिवारी",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 19,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "बुधवारी",
+                "span": [
+                    15,
+                    22
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_45",
+        "lang": "mr"
+    },
+    {
+        "text": "१२ ऑक्टोबरला निघणार आहोत, गुरुवारी येणार आहोत",
+        "slots": {
+            "date_from": {
+                "text": "गुरुवारी",
+                "span": [
+                    26,
+                    34
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "१२ ऑक्टोबरला",
+                "span": [
+                    0,
+                    12
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 10,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_46",
+        "lang": "mr"
+    },
+    {
+        "text": "मी बुधवारी निघणार आहे",
+        "slots": {
+            "date_to": {
+                "text": "बुधवारी",
+                "span": [
+                    3,
+                    10
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_1_47",
+        "lang": "mr"
+    }
+]

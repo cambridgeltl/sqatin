@@ -1,0 +1,1743 @@
+[
+    {
+        "text": "¿cuánto tiempo tengo que esperar después de una transferencia para poder sacar dinero de un cajero automático?",
+        "intents": [
+            "transfer_payment_deposit",
+            "withdrawal",
+            "how_long",
+            "more_higher_after"
+        ],
+        "uid": "bank_4_0",
+        "lang": "es"
+    },
+    {
+        "text": "¿podríamos moverlo de las 12:20 a las 21:25?",
+        "intents": [
+            "change"
+        ],
+        "slots": {
+            "time_from": {
+                "text": "12:20",
+                "span": [
+                    26,
+                    31
+                ],
+                "value": {
+                    "hour": 12,
+                    "minute": 20
+                }
+            },
+            "time_to": {
+                "text": "21:25",
+                "span": [
+                    38,
+                    43
+                ],
+                "value": {
+                    "hour": 21,
+                    "minute": 25
+                }
+            }
+        },
+        "uid": "bank_4_1",
+        "lang": "es"
+    },
+    {
+        "text": "que sea a las 3",
+        "slots": {
+            "number": {
+                "text": "3",
+                "span": [
+                    14,
+                    15
+                ],
+                "value": 3
+            }
+        },
+        "uid": "bank_4_2",
+        "lang": "es"
+    },
+    {
+        "text": "No lo he comprobado en las últimas 12 horas",
+        "intents": [
+            "deny"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "últimas 12 horas",
+                "span": [
+                    27,
+                    43
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 21,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 9,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_4_3",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero hacer una reclamación sobre una transacción realizada hoy mismo.",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "hoy",
+                "span": [
+                    61,
+                    64
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_4",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una pregunta sobre mi cuenta comercial",
+        "intents": [
+            "account",
+            "business",
+            "request_info"
+        ],
+        "uid": "bank_4_5",
+        "lang": "es"
+    },
+    {
+        "text": "respecto a la orden permanente con Sztur Elektron, necesito cambiarla del 7 al 14",
+        "intents": [
+            "standing_order",
+            "change"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "del 7",
+                "span": [
+                    70,
+                    75
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "al 14",
+                "span": [
+                    76,
+                    81
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "Sztur Elektron",
+                "span": [
+                    35,
+                    49
+                ],
+                "value": "Sztur Elektron"
+            }
+        },
+        "uid": "bank_4_6",
+        "lang": "es"
+    },
+    {
+        "text": "Las órdenes permanentes las puse ayer.",
+        "intents": [
+            "standing_order"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    33,
+                    37
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_7",
+        "lang": "es"
+    },
+    {
+        "text": "parece que esto no está funcionando, lleguemos hasta acá",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "end_call"
+        ],
+        "uid": "bank_4_8",
+        "lang": "es"
+    },
+    {
+        "text": "Ok, otra cosa - ¿tengo que pagar extra para usar el cajero automático cuando estoy en el extranjero?",
+        "intents": [
+            "international",
+            "acknowledge",
+            "request_info",
+            "fees_interests",
+            "withdrawal"
+        ],
+        "uid": "bank_4_9",
+        "lang": "es"
+    },
+    {
+        "text": "Eso es genial, luego establezca  el débito directo de 210 libras esterlinas con Amazon Shopping, como se ha dicho",
+        "intents": [
+            "acknowledge",
+            "direct_debit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "210 libras esterlinas",
+                "span": [
+                    54,
+                    75
+                ],
+                "value": {
+                    "amount": 210.0,
+                    "currency": "GBP"
+                }
+            },
+            "company_name": {
+                "text": "Amazon Shopping",
+                "span": [
+                    80,
+                    95
+                ],
+                "value": "Amazon Shopping"
+            }
+        },
+        "uid": "bank_4_10",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo cobrar un cheque?",
+        "intents": [
+            "cheque",
+            "how",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_11",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, es un cheque.",
+        "intents": [
+            "cheque",
+            "affirm"
+        ],
+        "uid": "bank_4_12",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuándo llegaría a la cita que ha reservado para hablar de los sobregiros?",
+        "intents": [
+            "overdraft",
+            "appointment",
+            "arrival",
+            "when"
+        ],
+        "uid": "bank_4_13",
+        "lang": "es"
+    },
+    {
+        "text": "Espero que el reembolso de Waitrose llegue en los próximos días.",
+        "intents": [
+            "refund",
+            "arrival"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "próximos días",
+                "span": [
+                    50,
+                    63
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 16,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 19,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "Waitrose",
+                "span": [
+                    27,
+                    35
+                ],
+                "value": "Waitrose"
+            }
+        },
+        "uid": "bank_4_14",
+        "lang": "es"
+    },
+    {
+        "text": "No lo sé porque lo olvidé.",
+        "intents": [
+            "dont_know",
+            "lost_stolen"
+        ],
+        "uid": "bank_4_15",
+        "lang": "es"
+    },
+    {
+        "text": "He perdido mi tarjeta de débito",
+        "intents": [
+            "debit",
+            "lost_stolen",
+            "card"
+        ],
+        "uid": "bank_4_16",
+        "lang": "es"
+    },
+    {
+        "text": "por favor quiero hablar con un humano para que me reembolse el pago de mi crédito",
+        "intents": [
+            "refund",
+            "handoff",
+            "credit",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_17",
+        "lang": "es"
+    },
+    {
+        "text": "Es crédito, gracias",
+        "intents": [
+            "thank",
+            "credit"
+        ],
+        "uid": "bank_4_18",
+        "lang": "es"
+    },
+    {
+        "text": "muestre mis transacciones entre el 1 y el 7 de junio",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 1",
+                "span": [
+                    32,
+                    36
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "7 de junio",
+                "span": [
+                    42,
+                    52
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_19",
+        "lang": "es"
+    },
+    {
+        "text": "¿hay transferencias entre el 1 y el 7 de junio?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 1",
+                "span": [
+                    26,
+                    30
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "7 de junio",
+                "span": [
+                    36,
+                    46
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_20",
+        "lang": "es"
+    },
+    {
+        "text": "muestre mis transacciones desde el 1 hasta el 7 de junio",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 1",
+                "span": [
+                    32,
+                    36
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "7 de junio",
+                "span": [
+                    46,
+                    56
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_21",
+        "lang": "es"
+    },
+    {
+        "text": "¿hay transferencias desde el 1 hasta el 7 de junio?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 1",
+                "span": [
+                    26,
+                    30
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "7 de junio",
+                "span": [
+                    40,
+                    50
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_22",
+        "lang": "es"
+    },
+    {
+        "text": "¿hay transferencias entre el 1 y el 7 de junio?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 1",
+                "span": [
+                    26,
+                    30
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "7 de junio",
+                "span": [
+                    36,
+                    46
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_23",
+        "lang": "es"
+    },
+    {
+        "text": "Dígame la fecha exacta hasta la que dura mi contrato de préstamo.",
+        "intents": [
+            "when",
+            "loan"
+        ],
+        "uid": "bank_4_24",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuánto interés he ganado con mis ahorros desde el 25 de junio?",
+        "intents": [
+            "fees_interests",
+            "savings",
+            "how_much"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "25 de junio",
+                "span": [
+                    51,
+                    62
+                ],
+                "value": {
+                    "day": 25,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_25",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuánto gasté ayer en mi pelo?",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    14,
+                    18
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "pelo",
+                "span": [
+                    25,
+                    29
+                ],
+                "value": "hair"
+            }
+        },
+        "uid": "bank_4_26",
+        "lang": "es"
+    },
+    {
+        "text": "¿ofrecen algún tipo de análisis de gastos para bares y cosas similares?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "shopping_category": {
+                "text": "bares",
+                "span": [
+                    47,
+                    52
+                ],
+                "value": "pubs"
+            }
+        },
+        "uid": "bank_4_27",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuándo vence exactamente el próximo pago de mi hipoteca?",
+        "intents": [
+            "when",
+            "mortgage",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_28",
+        "lang": "es"
+    },
+    {
+        "text": "hola, necesito revisar mis cuentas",
+        "intents": [
+            "greet",
+            "request_info",
+            "account"
+        ],
+        "uid": "bank_4_29",
+        "lang": "es"
+    },
+    {
+        "text": "hola ¿podría verlo?",
+        "intents": [
+            "greet",
+            "request_info"
+        ],
+        "uid": "bank_4_30",
+        "lang": "es"
+    },
+    {
+        "text": "Olvidé mi contraseña, ¿qué debo hacer?",
+        "intents": [
+            "pin",
+            "dont_know",
+            "request_info"
+        ],
+        "uid": "bank_4_31",
+        "lang": "es"
+    },
+    {
+        "text": "he intentado cambiar mi PIN pero ahora vuelve a ser el anterior",
+        "intents": [
+            "pin",
+            "wrong_notworking_notshowing",
+            "change"
+        ],
+        "uid": "bank_4_32",
+        "lang": "es"
+    },
+    {
+        "text": "¡Muchas gracias!.",
+        "intents": [
+            "thank"
+        ],
+        "uid": "bank_4_33",
+        "lang": "es"
+    },
+    {
+        "text": "Es actual, gracias",
+        "intents": [
+            "thank",
+            "current"
+        ],
+        "uid": "bank_4_34",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, esa transacción se hizo con mi tarjeta de débito. ¿Puede ayudarme ahora con esa otra pregunta?",
+        "intents": [
+            "debit",
+            "affirm",
+            "card",
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_4_35",
+        "lang": "es"
+    },
+    {
+        "text": "Es de débito",
+        "intents": [
+            "debit"
+        ],
+        "uid": "bank_4_36",
+        "lang": "es"
+    },
+    {
+        "text": "Simplemente no puedo sacar dinero de los cajeros del Santander",
+        "intents": [
+            "withdrawal",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "del Santander",
+                "span": [
+                    49,
+                    62
+                ],
+                "value": "Santander's"
+            }
+        },
+        "uid": "bank_4_37",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero retirar todo mi dineroy",
+        "intents": [
+            "withdrawal",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_4_38",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo hacer una transferencia de 6.600 libras esterlinas a la oficina de pasaportes inmediatamente?",
+        "intents": [
+            "transfer_payment_deposit",
+            "how",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "6.600 libras esterlinas",
+                "span": [
+                    39,
+                    62
+                ],
+                "value": {
+                    "amount": 6600.0,
+                    "currency": "GBP"
+                }
+            },
+            "company_name": {
+                "text": "oficina de pasaportes",
+                "span": [
+                    68,
+                    89
+                ],
+                "value": "passport office"
+            }
+        },
+        "uid": "bank_4_39",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo enviar dinero a mi hermana en Canadá?",
+        "intents": [
+            "how",
+            "international",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_40",
+        "lang": "es"
+    },
+    {
+        "text": "¿He comprado en Godaddy este mes?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "este mes",
+                "span": [
+                    24,
+                    32
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "Godaddy",
+                "span": [
+                    16,
+                    23
+                ],
+                "value": "Godaddy"
+            }
+        },
+        "uid": "bank_4_41",
+        "lang": "es"
+    },
+    {
+        "text": "¿He comprado algo en Godaddy este mes?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "este mes",
+                "span": [
+                    29,
+                    37
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "Godaddy",
+                "span": [
+                    21,
+                    28
+                ],
+                "value": "Godaddy"
+            }
+        },
+        "uid": "bank_4_42",
+        "lang": "es"
+    },
+    {
+        "text": "¿todavía tengo un débito directo para ese negocio de zapatos?",
+        "intents": [
+            "direct_debit",
+            "request_info"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "ese negocio de zapatos",
+                "span": [
+                    38,
+                    60
+                ],
+                "value": "thats shoe business"
+            }
+        },
+        "uid": "bank_4_43",
+        "lang": "es"
+    },
+    {
+        "text": "realmente tengo que cerrar los débitos directos así que por favor muéstremelos",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "direct_debit",
+            "request_info"
+        ],
+        "uid": "bank_4_44",
+        "lang": "es"
+    },
+    {
+        "text": "la función sin contacto de mi tarjeta no funciona",
+        "intents": [
+            "contactless",
+            "card",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_4_45",
+        "lang": "es"
+    },
+    {
+        "text": "Mi tarjeta no funciona en modo sin contacto",
+        "intents": [
+            "card",
+            "contactless",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_4_46",
+        "lang": "es"
+    },
+    {
+        "text": "Yo quería disminuir eso ¿si es posible?",
+        "intents": [
+            "change",
+            "less_lower_before"
+        ],
+        "uid": "bank_4_47",
+        "lang": "es"
+    },
+    {
+        "text": "¿podemos hacerlo antes de las 14:05, es muy importante para mí?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "less_lower_before"
+        ],
+        "slots": {
+            "time": {
+                "text": "14:05",
+                "span": [
+                    30,
+                    35
+                ],
+                "value": {
+                    "hour": 14,
+                    "minute": 5
+                }
+            }
+        },
+        "uid": "bank_4_48",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero reducirlo.",
+        "intents": [
+            "change",
+            "less_lower_before"
+        ],
+        "uid": "bank_4_49",
+        "lang": "es"
+    },
+    {
+        "text": "no, la solicitud de reembolso real es mayor, fue de 201,97 libras esterlinas",
+        "intents": [
+            "refund",
+            "more_higher_after",
+            "deny"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "201,97 libras esterlinas",
+                "span": [
+                    52,
+                    76
+                ],
+                "value": {
+                    "amount": 201.97,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_4_50",
+        "lang": "es"
+    },
+    {
+        "text": "¡Quiero un reembolso ahora mismo! ¿Por qué estoy perdiendo el tiempo con una máquina?, déjeme hablar con una persona real",
+        "intents": [
+            "refund",
+            "handoff"
+        ],
+        "uid": "bank_4_51",
+        "lang": "es"
+    },
+    {
+        "text": "¿por qué es el interés más alto que el mes pasado?",
+        "intents": [
+            "fees_interests",
+            "why",
+            "more_higher_after"
+        ],
+        "slots": {
+            "date": {
+                "text": "el mes pasado",
+                "span": [
+                    36,
+                    49
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 2,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_52",
+        "lang": "es"
+    },
+    {
+        "text": "¿por qué mi límite es sólo de 6716 libras esterlinas?",
+        "intents": [
+            "why",
+            "limits"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "6716 libras esterlinas",
+                "span": [
+                    30,
+                    52
+                ],
+                "value": {
+                    "amount": 6716.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_4_53",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero programar una reunión con alguien en su sucursal cerca de la calle Grenville",
+        "intents": [
+            "appointment",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_4_54",
+        "lang": "es"
+    },
+    {
+        "text": "Me gustaría reprogramar la cita",
+        "intents": [
+            "change",
+            "appointment"
+        ],
+        "uid": "bank_4_55",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuál es la diferencia de intereses entre el préstamo y la hipoteca? Necesito alrededor de 15.724 libras",
+        "intents": [
+            "mortgage",
+            "loan",
+            "fees_interests",
+            "request_info"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "15.724 libras",
+                "span": [
+                    91,
+                    104
+                ],
+                "value": {
+                    "amount": 15724.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_4_56",
+        "lang": "es"
+    },
+    {
+        "text": "No, no es una hipoteca",
+        "intents": [
+            "mortgage",
+            "deny"
+        ],
+        "uid": "bank_4_57",
+        "lang": "es"
+    },
+    {
+        "text": "¿puedo prorrogar mi préstamo por un año",
+        "intents": [
+            "loan",
+            "change",
+            "more_higher_after"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "un año",
+                "span": [
+                    33,
+                    39
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 365
+                }
+            }
+        },
+        "uid": "bank_4_58",
+        "lang": "es"
+    },
+    {
+        "text": "¿podría ser el próximo mes?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "el próximo mes",
+                "span": [
+                    12,
+                    26
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 4,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 30,
+                        "month": 4,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_4_59",
+        "lang": "es"
+    },
+    {
+        "text": "¿Pueden decirme cuál es mi límite de sobregiro? Es posible que tenga que utilizar más dinero de lo habitual este mes",
+        "intents": [
+            "overdraft",
+            "limits",
+            "how_much"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "este mes",
+                "span": [
+                    108,
+                    116
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_4_60",
+        "lang": "es"
+    },
+    {
+        "text": "Cuando se trata de préstamos, prefiero hablar con un ser humano.",
+        "intents": [
+            "loan",
+            "handoff"
+        ],
+        "uid": "bank_4_61",
+        "lang": "es"
+    },
+    {
+        "text": "Debería hablar con otra persona ya que esta conversación no lleva a ninguna parte...",
+        "intents": [
+            "handoff"
+        ],
+        "uid": "bank_4_62",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero otra cosa, pero prefiero hablar con una persona real sobre ello",
+        "intents": [
+            "handoff"
+        ],
+        "uid": "bank_4_63",
+        "lang": "es"
+    },
+    {
+        "text": "¿qué es lo máximo que puedo conseguir?",
+        "intents": [
+            "limits",
+            "request_info",
+            "more_higher_after"
+        ],
+        "uid": "bank_4_64",
+        "lang": "es"
+    },
+    {
+        "text": "¿Obtengo mayores intereses por mis ahorros en otras monedas?",
+        "intents": [
+            "fees_interests",
+            "more_higher_after",
+            "savings",
+            "international",
+            "request_info"
+        ],
+        "uid": "bank_4_65",
+        "lang": "es"
+    },
+    {
+        "text": "¿mi límite de sobregiro es de unos 60 dólares ?",
+        "intents": [
+            "limits",
+            "overdraft",
+            "request_info"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "60 dólares",
+                "span": [
+                    35,
+                    45
+                ],
+                "value": {
+                    "amount": 60.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_4_66",
+        "lang": "es"
+    },
+    {
+        "text": "es una pregunta de sobregiro",
+        "intents": [
+            "overdraft"
+        ],
+        "uid": "bank_4_67",
+        "lang": "es"
+    },
+    {
+        "text": "¡Quiero cambiar la hora y la fecha de esa transacción!",
+        "intents": [
+            "change",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_68",
+        "lang": "es"
+    },
+    {
+        "text": "¿Qué tengo actualmente?",
+        "intents": [
+            "how_much"
+        ],
+        "uid": "bank_4_69",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuánto tenía en esa cuenta de ahorros hace 6 meses?",
+        "intents": [
+            "how_much",
+            "account",
+            "balance",
+            "savings"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 6 meses",
+                "span": [
+                    39,
+                    51
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 9,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_4_70",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, muéstreme el saldo en la aplicación",
+        "intents": [
+            "affirm",
+            "balance",
+            "request_info"
+        ],
+        "uid": "bank_4_71",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo consultar mi saldo en mi teléfono?",
+        "intents": [
+            "balance",
+            "request_info"
+        ],
+        "uid": "bank_4_72",
+        "lang": "es"
+    },
+    {
+        "text": "He intentado hacer una transferencia internacional de 350 euros pero no funcionó",
+        "intents": [
+            "international",
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "350 euros",
+                "span": [
+                    54,
+                    63
+                ],
+                "value": {
+                    "amount": 350.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_4_73",
+        "lang": "es"
+    },
+    {
+        "text": "hacer un pago de 3.880 euros un cuarto para las 7 pm pasado mañana",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "time": {
+                "text": "un cuarto para las 7 pm",
+                "span": [
+                    29,
+                    52
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 45
+                }
+            },
+            "date": {
+                "text": "pasado mañana",
+                "span": [
+                    53,
+                    66
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "3.880 euros",
+                "span": [
+                    17,
+                    28
+                ],
+                "value": {
+                    "amount": 3880.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_4_74",
+        "lang": "es"
+    },
+    {
+        "text": "ah, ayer se me olvidó hacer una transferencia a shinika olmeda",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    4,
+                    8
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "shinika olmeda",
+                "span": [
+                    48,
+                    62
+                ],
+                "value": "shinika olmeda"
+            }
+        },
+        "uid": "bank_4_75",
+        "lang": "es"
+    },
+    {
+        "text": "No, este no es el nombre correcto del beneficiario.",
+        "intents": [
+            "deny",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_4_76",
+        "lang": "es"
+    },
+    {
+        "text": "Es una cuenta de ahorro",
+        "intents": [
+            "savings",
+            "account"
+        ],
+        "uid": "bank_4_77",
+        "lang": "es"
+    },
+    {
+        "text": "¿ofrecen algún tipo de interés en la cuenta corriente?",
+        "intents": [
+            "request_info",
+            "fees_interests",
+            "current",
+            "account"
+        ],
+        "uid": "bank_4_78",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, las 7 y 20 ¿puede reservarla?",
+        "intents": [
+            "affirm",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "time": {
+                "text": "las 7 y 20",
+                "span": [
+                    4,
+                    14
+                ],
+                "value": {
+                    "hour": 7,
+                    "minute": 20
+                }
+            }
+        },
+        "uid": "bank_4_79",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo problemas con la transferencia de mis fondos de vuelta a la cuenta corriente, ya he monetizado mis fondos hace 1 día",
+        "intents": [
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing",
+            "account",
+            "current"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 1 día",
+                "span": [
+                    112,
+                    122
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_80",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo problemas para transferir mis fondos a la cuenta corriente, ya he monetizado mis fondos hace 1 día",
+        "intents": [
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing",
+            "account",
+            "current"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 1 día",
+                "span": [
+                    94,
+                    104
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_81",
+        "lang": "es"
+    },
+    {
+        "text": "Es una cuenta corriente existente",
+        "intents": [
+            "current",
+            "account",
+            "existing"
+        ],
+        "uid": "bank_4_82",
+        "lang": "es"
+    },
+    {
+        "text": "¡Congélenla hoy mismo, por favor!.",
+        "intents": [
+            "cancel_close_leave_freeze"
+        ],
+        "slots": {
+            "date": {
+                "text": "hoy",
+                "span": [
+                    12,
+                    15
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_83",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero dejarlo",
+        "intents": [
+            "cancel_close_leave_freeze"
+        ],
+        "uid": "bank_4_84",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, es una tarjeta internacional",
+        "intents": [
+            "affirm",
+            "international",
+            "card"
+        ],
+        "uid": "bank_4_85",
+        "lang": "es"
+    },
+    {
+        "text": "No puedo abrir la lista de transacciones recientes en mi cuenta FlexiPlus existente.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "account",
+            "transfer_payment_deposit",
+            "existing"
+        ],
+        "uid": "bank_4_86",
+        "lang": "es"
+    },
+    {
+        "text": "Esta es mi cuenta",
+        "intents": [
+            "account"
+        ],
+        "uid": "bank_4_87",
+        "lang": "es"
+    },
+    {
+        "text": "No tengo ni idea, lo siento",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_4_88",
+        "lang": "es"
+    },
+    {
+        "text": "No conozco esos datos",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_4_89",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero hacer una reclamación al seguro.",
+        "intents": [
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_4_90",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero activar mi tarjeta",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "card"
+        ],
+        "uid": "bank_4_91",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero una nueva tarjeta",
+        "intents": [
+            "card",
+            "make_open_apply_setup_get_activate",
+            "new"
+        ],
+        "uid": "bank_4_92",
+        "lang": "es"
+    },
+    {
+        "text": "No he pagado con tarjeta",
+        "intents": [
+            "deny",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_93",
+        "lang": "es"
+    },
+    {
+        "text": "No fue con tarjeta",
+        "intents": [
+            "card",
+            "deny"
+        ],
+        "uid": "bank_4_94",
+        "lang": "es"
+    },
+    {
+        "text": "¿qué tal el 7 de diciembre?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date": {
+                "text": "el 7 de diciembre",
+                "span": [
+                    9,
+                    26
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_95",
+        "lang": "es"
+    },
+    {
+        "text": "¿Qué ha pasado con mi pago de ayer?",
+        "intents": [
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    30,
+                    34
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_4_96",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, ese es mi número.",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_4_97",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, mis datos personales son correctos",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_4_98",
+        "lang": "es"
+    },
+    {
+        "text": "no es correcto",
+        "intents": [
+            "deny"
+        ],
+        "uid": "bank_4_99",
+        "lang": "es"
+    },
+    {
+        "text": "No, no he transferido dinero a nadie",
+        "intents": [
+            "transfer_payment_deposit",
+            "deny"
+        ],
+        "uid": "bank_4_100",
+        "lang": "es"
+    },
+    {
+        "text": "He enviado dinero a este beneficiario en el pasado",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_101",
+        "lang": "es"
+    },
+    {
+        "text": "Parece que no puedo pagar desde mi teléfono, aparece como rechazado",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_4_102",
+        "lang": "es"
+    },
+    {
+        "text": "¿Puede decirme mi número IBAN?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_4_103",
+        "lang": "es"
+    },
+    {
+        "text": "parece que fue revertido",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_4_104",
+        "lang": "es"
+    },
+    {
+        "text": "Fue revertido",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_4_105",
+        "lang": "es"
+    },
+    {
+        "text": "por favor",
+        "uid": "bank_4_106",
+        "lang": "es"
+    },
+    {
+        "text": "Es para un beneficiario existente",
+        "intents": [
+            "existing"
+        ],
+        "uid": "bank_4_107",
+        "lang": "es"
+    },
+    {
+        "text": "Quería preguntar otra cosa",
+        "uid": "bank_4_108",
+        "lang": "es"
+    }
+]

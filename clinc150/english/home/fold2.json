@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "i want to know the name of the song that's playing",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what am i hearing on the speakers now",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me the name of this song",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you look up the name of this song",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "which song is playing",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "name this song, please",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "do you know what song this is",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what band is this",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what's playing right now",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what is the title of this track",
+        "intents": [
+            "what_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i want to listen to music by the beatles",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "turn my drake playlist on",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what does x\u2019s music sound like",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "use my shower playlist",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "play songs by the beatles",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "please play the new lady gaga song",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "please play the song that goes like hey jude don't make it bad",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i want to hear beatles music",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "can x\u2019s music be played",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "play the song called guerrilla radio",
+        "intents": [
+            "play_music"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "will you put change the light bulbs on my list of things to do",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "put laundry on my to do list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "erase all items on my todo list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "add do laundry to my to do list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i don't want to do anything today so just clear the todo list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "delete everything on my todo list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "put dishes on to do list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "please add watering the plants to my current to do list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "put wash the counters down on my list of pending tasks",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please include feeding the fish on my to do list",
+        "intents": [
+            "todo_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "do i have any reminders to look up how to properly do a potato in my microwave",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i would like to hear you read my reminder list to me",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "on my list of reminders is what",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "please read all the items on my reminder list",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me all the reminders i have set on my reminder list",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what is now on my reminder list",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what did i ask to be reminded about",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what are the thing i told you to help me remember",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you list each item on my reminder list",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "read me my reminders list",
+        "intents": [
+            "reminder"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "remind me to call bob",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "remind me to call the vet tomorrow",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "remind me friday to call my mother",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "set a reminder for monday pay taxes",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please reminder for car meet",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "set a reminder for me to call my brother at 8 pm",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i need to be reminded to pray",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i would like a reminder",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "make a reminder to change the cat litter",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "remind me to call my mother saturday morning",
+        "intents": [
+            "reminder_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "make sure my calendar is clear for june 1",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need to delete an event from my calendar",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "add my dentist appointment to the calendar",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "please put taco night on the house calendar date of january 6",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please remove fishing from my calendar for soccer",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "put appointment on my calendar for tomorrow",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i got to remove fishing from my calendar for soccer",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i wanna remove fishing from my calendar for soccer",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please add lunch and catch up with lisa on friday to my calendar",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "schedule family dinner on my calendar on march 8",
+        "intents": [
+            "calendar_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please track my package",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "where's my package right now",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what's the status of the order i placed online last week with target",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "where is my delivery order",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you help me find my package",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "when will my order be delivered",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "can you give me a status update on my online order from amazon",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i need you to track my package",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need to know what the most recent update is on the status of my online purchase",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "check order number",
+        "intents": [
+            "order_status"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i wanna add this song to my rock playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please add roar by katy perry to my playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "let's add wonder by hillsong united to my playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "add american idiot by green day to my playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "god's plan will be my new song added to new playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "add body to my dance playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "transfer happy to my rb playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "add the next song to my playlist - broken by evanescence",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "add a song to my rock playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "put this song on my edm playlist",
+        "intents": [
+            "update_playlist"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i'd like to know what's on my shopping list",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "do you prefer peanut butter or cheese for your celery",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "give me all contents of my shopping list",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "do i have tomato on the shopping list",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what does my shopping list consist of",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what is available on the shopping list",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "read my entire shopping list to me",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "is tomato on my shopping list",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "tell me what my shopping list consists of",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me my shopping list items, please",
+        "intents": [
+            "shopping_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what am i supposed to be doing today",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me what my may 1st will be like according to my calendar",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "on the 26th what is on the table for my calendar",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what do i have to do on march 2 that's on my calendar",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "search my calendar for birthday party",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what is there on january 1st on my calendar",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i have what to do on wednesday",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "do i have anything on my calendar for may 3",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what do i have planned on my calendar for next sunday",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "does my calendar have anything for january 1st",
+        "intents": [
+            "calendar"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what's next on the list",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "play next on the playlist",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "play the next song",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "change the song to the next one",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "using this playlist, play next song",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "go to the next tune",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "play the next hit",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "play the next song on this list",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "go to the next song on the playlist",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "lets pass on this song and do the next",
+        "intents": [
+            "next_song"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i'm out of conditioner so will you order me some more",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i am currently out of q tips and need more ordered right away",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i'm making a purchase and need the help of ai",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "send the order for my entire shopping list",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i am needing you to buy me some shoes",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i am out of ice cream so will you order me some more",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i would like all of these things on my shopping list ordered",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please get everything on my shopping list",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "order me a new usb cable on amazon",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need more cat food, please order some",
+        "intents": [
+            "order"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "read my to-do list to me",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "did i jot down a time to see my accountant on my to do list",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me my to do list",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i need to hear my todo list",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "do i have anything on my todo list about shoveling snow",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need my todo list read",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "what do i have to do today",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "will an oil change be on my to-do list tomorrow",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "iterate the items on my todo list",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "can you please tell me what is on my to-do list",
+        "intents": [
+            "todo_list"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "add apples to my to do shopping list",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i want you to remove shampoo from my shopping list",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need for you to remove milk from my shopping list and add bread",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "can you add cherrios to my shopping list",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "x on the shopping list please",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i'm low on cherrios can you add that to the shopping list",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "i need you to add creamer to my shopping list",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "is bacon on my shopping list, add if it's not",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "do me a favor and put sharpies on my list for shopping",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "are bananas already on the list, if not go ahead and add them",
+        "intents": [
+            "shopping_list_update"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "are my doors locked right now",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what is my ac set to right now",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "tell me who is by the garage door",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "warm up my car for me",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "turn the fan on",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "turn on the fan",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "please get my car started before i go out to it",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "i need my furnace turned on",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 0
+    },
+    {
+        "text": "on the fan",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "switch tv",
+        "intents": [
+            "smart_home"
+        ],
+        "domain": "home",
+        "fold": 1
+    },
+    {
+        "text": "what's the average battery life of an android phone",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what other nations were involved in the chinese trade war",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i start my own marketing firm",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "which piano is best for classical",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what is the highest earning game on atari",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "is there overtime in college football",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how much money does radiohead earn a year",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i open an online line of credit",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when did camus die",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me something about the nfl",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

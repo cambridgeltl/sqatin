@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "tell me how long can i keep pizza in the freezer for before it goes bad",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long will chicken last in the freezer",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long can i keep pizza in the freezer for before it goes bad",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long can i keep fish in the freezer before it gets ruined",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long can i expect to keep steak in the freezer",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long until pork spoils in the fridge",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i've had these burger patties in the freezer since saturday, are they still fine to cook",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "so how long can pizza last in the fridge",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "will the chicken have gone bad if it's been in the fridge since monday",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "is the tofu i put in the fridge tuesday still edible today",
+        "intents": [
+            "food_last"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you verify that i have a reservation at o'reilly's for 9",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i need you to confirm my reservation for tomorrow at 3 pm",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can you please confirm that i have a 6:00 pm table reserved under michelle solomon at devon's",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can you assure me i have a table at taco bell at 7pm",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i would like to try and confirm that i have a reservation at the seven dwarves for peter",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can you confirm my reservation for lance at morton's",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "please confirm my reservation for april 1st at 9am",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you confirm my reservation for minnis at 4:00",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "please confirm my reservation for march 1st at 2pm",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "do i have reservations at o'neal's at 3 pm",
+        "intents": [
+            "confirm_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how busy will panera be at noon",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what's the typical time to eat at red lobster",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long will i have to wait if i want to eat at panera",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i would like to find out if macaroni grill will be busy around 7:00 pm",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long will it take me to be seated at ihop",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long is the wait at orchids",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "for toby's, is it busy around six",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how busy it that place for dinner",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long will it take to be seated at macaroni grill",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what's the wait for a table at olive garden right now",
+        "intents": [
+            "how_busy"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "show me the ingredients that i need for ceviche",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what ingredients are in antipasto salad",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what are the ingredients of spaghetti",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "give me a list of ingredients needed for pizza dough",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what ingredients do i need to make broccoli cheddar soup",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what do i need to make a cajun chili",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what ingredients are in sushi",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what ingredients are in coffee cakes",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what ingredients go in pizza",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what ingredients do i need to make spaghetti",
+        "intents": [
+            "ingredients_list"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how many calories does a big mac have",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how many calories are in cookies",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "one cup of almonds has how many calories",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how many calories are in chocolate ice cream",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what's the amount of calories in a cheesy omelette",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "look up the calories in an apple",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how many calories would i estimate for fettuccine alfredo",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how many calories in gum",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what about the calories for this chicken salad",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you provide me the calories in the smoothie",
+        "intents": [
+            "calories"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what's the nutritional info for potato skins",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i must know the nutritional info for grapes",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what's the nutrient make up of a plate of spaghetti",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "tell me how healthy mac and cheese is",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i would like to know how much fat is in tbsp of olive oil",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "nutritional information for celery",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "nutrition information for chicken nuggets, please",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what's the nutritional info for a banana",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what's the nutritional information of iceberg lettuce",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "do you know the nutritional info for macaroni and cheese",
+        "intents": [
+            "nutrition_info"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "give me a beef recipe",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i need you to find me a recipe for fried shrimp",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "please search for a chocolate fudge brownies recipe",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i want a good recipe that shows me how to bake chocolate chip cookies from scratch",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "find a chow mein recipe for me, please",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "is there a good website to teach me how to make sushi",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i am looking for a vegan friendly italian pasta recipe",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how do i make lassagna",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how do i make pumpkin pie",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you find me a recipe for cake",
+        "intents": [
+            "recipe"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "are the chili's reviews any good",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "is there any opinions on the sushi at yakamoto",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "does applebees have alright reviews",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "does buffalo wild wings have good reviews",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how are the reviews for spaghetti at the olive garden",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how are the reviews for la loconda",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what do people say about village inn",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how good are the ratings for olive garden",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "let me know how the outback steakhouse reviews are",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "are the pancakes at ihop any good",
+        "intents": [
+            "restaurant_reviews"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "please reserve me a table at hell's kitchen on may 3rd at 8 pm",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can you get me a table for 6 at lawry's at 7:30pm",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "please reserve a table for two at rouge for 7:00 pm",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you book a table at the restaurant for me and my husband",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you get me a table for two for 8:00 pm at parc",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "is it possible to get a table for 4 at the village inn around 10am",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "please make a reservation for us at joy bar for 4 adults",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "reserve a table for two for 7:30 pm at dibruno's under patrick donoghue",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "book a reservation for 3 at red lobster under the name steve",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "make a reservation at 5 pm today for 2 at olive garden",
+        "intents": [
+            "restaurant_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i need to cook, what should i make",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what's a good french meal",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "give me italian meal ideas",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i need dinner ideas",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "got any good dinner ideas",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you give me a vietnamese dinner suggestion",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "do you have any good recommendations for swiss cuisine",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how tasty is the pizza here",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "what would you suggest for dinner",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can you suggest any good meals from chicago",
+        "intents": [
+            "meal_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "any good pizza restaurants around here",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "what decent restaurants around here are italian",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "suggest some restaurants",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "is there any good place for vietnamese food on the east side of the island",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "are there any decent places to get seafood in seattle",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "are there any sushi restaurants in reno that have good reviews",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "tell me some good mexican restaurants in dallas",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "do you know of any good mexican restaurants in seattle",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "is there any good place for mexican food in hawaii",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "name a good restaurant near me",
+        "intents": [
+            "restaurant_suggestion"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "cancel my reservation for me",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "you can cancel my reservation",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "call the restaurant and cancel my reservation",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i'll have to cancel my reservation for tonight",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "cancel the reservation for joe and i right now for the zephers reservation we had booked",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "abandon the dinner reservation i made",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "cancel my reservation for 4 at red robin",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i need to put in a cancellation for the dinner plans tonight",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "just trash the reservation i made please",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "im not going to dinner tonight",
+        "intents": [
+            "cancel_reservation"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i don't have sour cream, can i use yogurt instead",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "proper to substitute cumin for tumeric",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can i use milk instead of cream",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can i substitute honey for sugar",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can i use mayonnaise instead of miracle whip",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "cumin may be substituted for tumeric",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "i need to sub sugar for salt",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "is almond milk an acceptable substitute for milk",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can yogurt be used for sour cream",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can i substitute oregano for basil",
+        "intents": [
+            "ingredient_substitution"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long does it take to cook roast beef",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "about how long should you cook a 10 pound turkey",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long do the brownies have to cook",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long should i cook a glazed ham",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long should i cook a steak for",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "how long to microwave a pizza",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "tell me how long i will need to spend preparing a meat loaf dish",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long should i cook the ham for",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long do you bake a cake",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "how long should i bake the brownies for",
+        "intents": [
+            "cook_time"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "does pho king in ceres take reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "does chillis take reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "does chili's take reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "please find out if napolis takes lunch reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "does ruby tuesday accept reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "i need to know if angelos takes reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "can applebees take any reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "can you let me if zeus accepts reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "do they take reservations at outback steakhouse",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 1
+    },
+    {
+        "text": "do you know if outback allows reservations",
+        "intents": [
+            "accept_reservations"
+        ],
+        "domain": "kitchen_and_dining",
+        "fold": 0
+    },
+    {
+        "text": "why do males want to be alpha",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "where did abraham lincoln live",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "are there any local stations covering the moral march in raleigh in februaryu",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "who formulated the theory of relativity",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what are some of picasso's most famous works",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when was the theory of evolution first considered",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "who was the first capcom character",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when is the next nintendo direct",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how much is an overdraft fee for bank",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what were some of ben franklin's notable accomplishments",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

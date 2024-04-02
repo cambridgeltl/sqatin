@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "make your speed a bit slower",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "can you change how fast you're talking to speak more slowly",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please slow down i can't understand you",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "you're speaking too fast, slow down",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "how do i speed up the speech of this ai",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please use a quicker rate of speech",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please increase the speed of your speech, it is too slow",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please make it so you say your words more slowly",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "where do i find instructions on how to speed up voice replies",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "can you talk a bit slower please",
+        "intents": [
+            "change_speed"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "what's the name that you have for me, please",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "call me by my name",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "what do you refer to me as",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "who do you think i am",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "tell me my designation",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "what is my name saved as in your system",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "do you have any idea what my name is",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "what would you like to call me",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "what do you think i am called",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you tell me what names you have for me",
+        "intents": [
+            "user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i decide to switch out of whisper mode",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "go back to whisper mode, please",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please shut off whisper mode for now",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "switch to your whispering voice please",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "whisper from here on out please",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "go to the whisper voice",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can you use the whisper voice",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please switch to whisper mode",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "let's start whispering",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you mind switching to whisper mode",
+        "intents": [
+            "whisper_mode"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i have to say affirmative on that one",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "it's indeed true",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i vote yes",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i think that's true",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "yes, that is it",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i believe what you just said is true",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "yes you are right",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "you got it",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "that is a yes",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "yes, that's correct",
+        "intents": [
+            "yes"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "can you turn this down",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "increase volume",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i want to increase your volume",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "the speaker volume needs to be increased",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "set the volume at 4 for me please",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "boost volume to 4",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please adjust your settings",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i need you to your volume",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i can't hear you",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "would you please increase your speaker volume",
+        "intents": [
+            "change_volume"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "sorry, that is not true",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "that is false",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "definitely not",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "not that",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i say no to that question",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "no that isn't it",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i don't believe that is possible, it is false",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "no, that's incorrect",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "that's not right",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "it seems not",
+        "intents": [
+            "no"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "start talking in spanish",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please speak to me in chinese",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "let\u2019s chat using spanish",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can i start talking to you in french",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "talk to me in italian",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "how can we start communicating in french rather than english",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can we talk in french",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "change language setting to english",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "change your language setting to chinese",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please change your language setting to spanish",
+        "intents": [
+            "change_language"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you repeat what you just said",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i didn't hear say it again please",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i missed what you said, please say it again",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i didn't hear what you just said, can you repeat it",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "one more time please",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i didnt understand what you just said, can you say it again",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i didn't get that, please repeat",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i need to know again",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you repeat that",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "what was that",
+        "intents": [
+            "repeat"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "switch over from female to the male voice",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "can i change the voice to male",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "go to the female voice",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can i get you to talk like a pouty english guy",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can you switch to the female voice",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "use female voice now instead",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i want your accent changed to the male british one",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you change your accent to the male british one",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please start using female voice",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "switch to british male accent",
+        "intents": [
+            "change_accent"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "quit what you are doing",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "abort the current action",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please refrain from carrying out the current task",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "shhhh",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i don't want you to speak any more for now",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "undo",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i want you to stop your present action",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "quit",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please cancel that last task",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "stop working on it, i need something else",
+        "intents": [
+            "cancel"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please begin pairing with my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i'd like you to disconnect from my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i want for you to connect to my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "are you able to get into my phone at the moment",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "my phone needs to be unsynced now",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "mind connecting to my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "desync from my iphone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i want you to disconnect from my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please link up to my cell",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "go ahead and connect to my phone",
+        "intents": [
+            "sync_device"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "you can call me alan",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "talk to me by calling me this name from now on",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i'm called tim",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "you can call me john",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "they call me john",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "would you call me mary",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "people call me gary",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please call me by this new name",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i need to change my username",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "please refer to me as sharon",
+        "intents": [
+            "change_user_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i am going to address you as my own name",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "let's change what you respond to",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i'd like to refer to you as my house from now on",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i need to change your name to ben",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "change the ai name to a new one",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i hereby rename you felix",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "can i change your name to buttercup",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "can i rename you",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i want to start calling you marie",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "x is what i am calling you now",
+        "intents": [
+            "change_ai_name"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "return to factory default",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "reset the factory settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "reset the factory settings now please",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "reset the factory settings if possible",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "get my back to factory settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i need to switch back to my factory settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "please revert to your factory settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "go ahead and reset your factory settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "reset to original settings",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "clear all settings in a reset",
+        "intents": [
+            "reset_settings"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i have no idea",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i think it could be both",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "maybe is what i am going to answer",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i can't answer that",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "no idea, sorry",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "i'm not sure which one because it could be either of them",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "well, i guess maybe",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "maybe one, maybe the other",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "i'm sure it could be either",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 0
+    },
+    {
+        "text": "sorry no idea",
+        "intents": [
+            "maybe"
+        ],
+        "domain": "meta",
+        "fold": 1
+    },
+    {
+        "text": "what's the average battery life of an android phone",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what other nations were involved in the chinese trade war",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i start my own marketing firm",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "which piano is best for classical",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what is the highest earning game on atari",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "is there overtime in college football",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how much money does radiohead earn a year",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how do i open an online line of credit",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when did camus die",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me something about the nfl",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

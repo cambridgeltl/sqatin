@@ -1,0 +1,1022 @@
+[
+    {
+        "text": "me iré tres días después a las 6:30 de la tarde",
+        "slots": {
+            "time_to": {
+                "text": "6:30 de la tarde",
+                "span": [
+                    31,
+                    47
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 30
+                }
+            }
+        },
+        "uid": "hotel_16_0",
+        "lang": "es"
+    },
+    {
+        "text": "Cancelé esas 2 habitaciones hace 5 días y aún no he recibido el reembolso de mi dinero.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "refund"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 5 días",
+                "span": [
+                    28,
+                    39
+                ],
+                "value": {
+                    "day": 10,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "rooms": {
+                "text": "2",
+                "span": [
+                    13,
+                    14
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_1",
+        "lang": "es"
+    },
+    {
+        "text": "¿cómo puedo reservar una mesa en el restaurante?",
+        "intents": [
+            "how",
+            "restaurant",
+            "booking"
+        ],
+        "uid": "hotel_16_2",
+        "lang": "es"
+    },
+    {
+        "text": "hola, ¿cuál es la hora más temprana a la que puedo llegar al hotel?",
+        "intents": [
+            "when",
+            "greet",
+            "limits",
+            "check_in",
+            "less_lower_before"
+        ],
+        "uid": "hotel_16_3",
+        "lang": "es"
+    },
+    {
+        "text": "vale, ¿me puedes repetir a qué hora es el check-in?",
+        "intents": [
+            "when",
+            "check_in",
+            "acknowledge"
+        ],
+        "uid": "hotel_16_4",
+        "lang": "es"
+    },
+    {
+        "text": "nos vemos en algunos días",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "hotel_16_5",
+        "lang": "es"
+    },
+    {
+        "text": "No entendí, ¿puedes repetir?",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "hotel_16_6",
+        "lang": "es"
+    },
+    {
+        "text": "por favor, transfiéreme al spa",
+        "intents": [
+            "handoff",
+            "spa"
+        ],
+        "uid": "hotel_16_7",
+        "lang": "es"
+    },
+    {
+        "text": "¿puedo cambiar la fecha de salida?",
+        "intents": [
+            "change",
+            "check_out"
+        ],
+        "uid": "hotel_16_8",
+        "lang": "es"
+    },
+    {
+        "text": "¿Las habitaciones que admiten perros son más costosas?",
+        "intents": [
+            "request_info",
+            "pets",
+            "more_higher_after"
+        ],
+        "uid": "hotel_16_9",
+        "lang": "es"
+    },
+    {
+        "text": "sí, me voy mañana en la noche",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "date_to": {
+                "text": "mañana",
+                "span": [
+                    11,
+                    17
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "time_period": {
+                "text": "noche",
+                "span": [
+                    24,
+                    29
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 0,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_16_10",
+        "lang": "es"
+    },
+    {
+        "text": "es una nueva",
+        "intents": [
+            "new"
+        ],
+        "uid": "hotel_16_11",
+        "lang": "es"
+    },
+    {
+        "text": "¿están permitidas las mascotas en la piscina?",
+        "intents": [
+            "request_info",
+            "pets",
+            "swimming_pool"
+        ],
+        "uid": "hotel_16_12",
+        "lang": "es"
+    },
+    {
+        "text": "No, no usaré el gimnasio para nada.",
+        "intents": [
+            "deny",
+            "gym"
+        ],
+        "uid": "hotel_16_13",
+        "lang": "es"
+    },
+    {
+        "text": "wifi",
+        "intents": [
+            "wifi"
+        ],
+        "uid": "hotel_16_14",
+        "lang": "es"
+    },
+    {
+        "text": "las caminadoras no funcionan",
+        "intents": [
+            "gym",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "hotel_16_15",
+        "lang": "es"
+    },
+    {
+        "text": "Una habitación con aire acondicionado.",
+        "intents": [
+            "room_ammenities"
+        ],
+        "slots": {
+            "rooms": {
+                "text": "Una habitación",
+                "span": [
+                    0,
+                    14
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_16_16",
+        "lang": "es"
+    },
+    {
+        "text": "¿El gimnasio también está abierto el fin de semana?",
+        "intents": [
+            "request_info",
+            "gym"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "fin de semana",
+                "span": [
+                    37,
+                    50
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            }
+        },
+        "uid": "hotel_16_17",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuánto cuesta el aparcamiento?",
+        "intents": [
+            "how_much",
+            "parking"
+        ],
+        "uid": "hotel_16_18",
+        "lang": "es"
+    },
+    {
+        "text": "3",
+        "slots": {
+            "number": {
+                "text": "3",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 3
+            }
+        },
+        "uid": "hotel_16_19",
+        "lang": "es"
+    },
+    {
+        "text": "Perdí mi bufanda",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "hotel_16_20",
+        "lang": "es"
+    },
+    {
+        "text": "Creo que robaron mi cartera en el restaurante.",
+        "intents": [
+            "lost_stolen",
+            "restaurant"
+        ],
+        "uid": "hotel_16_21",
+        "lang": "es"
+    },
+    {
+        "text": "estoy planeando pasar la noche, pero no sé qué hacer con mi coche",
+        "intents": [
+            "parking"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "noche",
+                "span": [
+                    25,
+                    30
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 0,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_16_22",
+        "lang": "es"
+    },
+    {
+        "text": "Me gustaría alojarme en la planta más alta de ser posible, 9 noches a partir del 9",
+        "slots": {
+            "date_from": {
+                "text": "el 9",
+                "span": [
+                    78,
+                    82
+                ],
+                "value": {
+                    "day": 9,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "time_period": {
+                "text": "9 noches",
+                "span": [
+                    59,
+                    67
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 0.0
+                }
+            }
+        },
+        "uid": "hotel_16_23",
+        "lang": "es"
+    },
+    {
+        "text": "¿Puedo cancelar una reserva de habitación que hice?",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "booking"
+        ],
+        "uid": "hotel_16_24",
+        "lang": "es"
+    },
+    {
+        "text": "estoy llamando para cancelar la reserva que hice ayer.",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "booking"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    49,
+                    53
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_25",
+        "lang": "es"
+    },
+    {
+        "text": "Creo que hay una mesa reservada para Lancer Glinski mañana a las 4 menos 20 de la tarde",
+        "intents": [
+            "existing",
+            "booking",
+            "restaurant"
+        ],
+        "slots": {
+            "time": {
+                "text": "4 menos 20 de la tarde",
+                "span": [
+                    65,
+                    87
+                ],
+                "value": {
+                    "hour": 15,
+                    "minute": 40
+                }
+            },
+            "date": {
+                "text": "mañana",
+                "span": [
+                    52,
+                    58
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "Lancer Glinski",
+                "span": [
+                    37,
+                    51
+                ],
+                "value": "lancer glinski"
+            }
+        },
+        "uid": "hotel_16_26",
+        "lang": "es"
+    },
+    {
+        "text": "por favor, transfiéreme al spa",
+        "intents": [
+            "spa"
+        ],
+        "uid": "hotel_16_27",
+        "lang": "es"
+    },
+    {
+        "text": "Creo que iré en la víspera de Año Nuevo, ¿me puedes decir cuál es la tarifa?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "la víspera de Año Nuevo",
+                "span": [
+                    16,
+                    39
+                ],
+                "value": {
+                    "day": 31,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_28",
+        "lang": "es"
+    },
+    {
+        "text": "¿nos podéis enviar el servicio de habitaciones, por favor?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "room_service"
+        ],
+        "uid": "hotel_16_29",
+        "lang": "es"
+    },
+    {
+        "text": "Me gustaría revisar una reserva, hice una supuestamente para el 17 de diciembre, pero nunca recibí el código de confirmación",
+        "intents": [
+            "existing",
+            "booking"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "17 de diciembre",
+                "span": [
+                    64,
+                    79
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_30",
+        "lang": "es"
+    },
+    {
+        "text": "una reserva de una mesa para la 1:50 de la tarde, somos una pareja y nuestro hijo",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "booking",
+            "restaurant"
+        ],
+        "slots": {
+            "time": {
+                "text": "1:50 de la tarde",
+                "span": [
+                    32,
+                    48
+                ],
+                "value": {
+                    "hour": 13,
+                    "minute": 50
+                }
+            },
+            "kids": {
+                "text": "nuestro hijo",
+                "span": [
+                    69,
+                    81
+                ],
+                "value": 1
+            },
+            "adults": {
+                "text": "una pareja",
+                "span": [
+                    56,
+                    66
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_31",
+        "lang": "es"
+    },
+    {
+        "text": "Es a las 6:55 de la tarde",
+        "slots": {
+            "time": {
+                "text": "6:55 de la tarde",
+                "span": [
+                    9,
+                    25
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 55
+                }
+            }
+        },
+        "uid": "hotel_16_32",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una reservación que necesito cancelar",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "uid": "hotel_16_33",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una reserva que necesito corregir",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "uid": "hotel_16_34",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una reserva que necesito modificar",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "uid": "hotel_16_35",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una reservación que necesito modificar",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "uid": "hotel_16_36",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo una reservación que necesito corregir",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "uid": "hotel_16_37",
+        "lang": "es"
+    },
+    {
+        "text": "Ayer hice una reservación para una persona por una semana completa, pero me gustaría cambiar un poco las fechas.",
+        "intents": [
+            "booking",
+            "change"
+        ],
+        "slots": {
+            "date": {
+                "text": "Ayer",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_period": {
+                "text": "una semana completa",
+                "span": [
+                    47,
+                    66
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 7
+                }
+            }
+        },
+        "uid": "hotel_16_38",
+        "lang": "es"
+    },
+    {
+        "text": "Una suite de luna de miel para 2 personas. Del 14 al 3",
+        "slots": {
+            "date_from": {
+                "text": "Del 14",
+                "span": [
+                    43,
+                    49
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "al 3",
+                "span": [
+                    50,
+                    54
+                ],
+                "value": {
+                    "day": 3,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "2 personas",
+                "span": [
+                    31,
+                    41
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "Una suite de luna de miel",
+                "span": [
+                    0,
+                    25
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_16_39",
+        "lang": "es"
+    },
+    {
+        "text": "Alojamiento por 3 noches para 3 personas, por favor.",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "3 noches",
+                "span": [
+                    16,
+                    24
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 3
+                }
+            },
+            "people": {
+                "text": "3",
+                "span": [
+                    30,
+                    31
+                ],
+                "value": 3
+            }
+        },
+        "uid": "hotel_16_40",
+        "lang": "es"
+    },
+    {
+        "text": "domingo",
+        "slots": {
+            "date": {
+                "text": "domingo",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 20,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_41",
+        "lang": "es"
+    },
+    {
+        "text": "2 adultos buscan una habitación doble por 7 noches",
+        "slots": {
+            "date_period": {
+                "text": "7 noches",
+                "span": [
+                    42,
+                    50
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 7
+                }
+            },
+            "adults": {
+                "text": "2",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "una habitación doble",
+                "span": [
+                    17,
+                    37
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_16_42",
+        "lang": "es"
+    },
+    {
+        "text": "Necesito una habitación para 2 adultos y 2 niños",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "kids": {
+                "text": "2",
+                "span": [
+                    41,
+                    42
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "2",
+                "span": [
+                    29,
+                    30
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "una habitación",
+                "span": [
+                    9,
+                    23
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_16_43",
+        "lang": "es"
+    },
+    {
+        "text": "se necesita suite familiar para alojar a 2 adultos y un niño Nos gustaría tener desayuno incluido, nos alojaríamos 2 noches y llegaríamos mañana, de ser posible",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "booking"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "2 noches",
+                "span": [
+                    115,
+                    123
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            },
+            "date_from": {
+                "text": "mañana",
+                "span": [
+                    138,
+                    144
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "kids": {
+                "text": "un",
+                "span": [
+                    53,
+                    55
+                ],
+                "value": 1
+            },
+            "adults": {
+                "text": "2",
+                "span": [
+                    41,
+                    42
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_44",
+        "lang": "es"
+    },
+    {
+        "text": "reservar unas vacaciones",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "booking"
+        ],
+        "uid": "hotel_16_45",
+        "lang": "es"
+    },
+    {
+        "text": "yo, mi esposa y nuestros 2 hijos, para alojarnos por una semana",
+        "slots": {
+            "date_period": {
+                "text": "una semana",
+                "span": [
+                    53,
+                    63
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 7
+                }
+            },
+            "kids": {
+                "text": "2 hijos",
+                "span": [
+                    25,
+                    32
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "yo, mi esposa",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_46",
+        "lang": "es"
+    },
+    {
+        "text": "Planeo alojarme el fin de semana del 13",
+        "slots": {
+            "date_period": {
+                "text": "el fin de semana",
+                "span": [
+                    16,
+                    32
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            },
+            "date_from": {
+                "text": "el 13",
+                "span": [
+                    34,
+                    39
+                ],
+                "value": {
+                    "day": 13,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_47",
+        "lang": "es"
+    },
+    {
+        "text": "2 adultos y 5 bebés",
+        "slots": {
+            "kids": {
+                "text": "5",
+                "span": [
+                    12,
+                    13
+                ],
+                "value": 5
+            },
+            "adults": {
+                "text": "2",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_48",
+        "lang": "es"
+    },
+    {
+        "text": "mi esposa y yo iremos con nuestros gemelos",
+        "slots": {
+            "kids": {
+                "text": "gemelos",
+                "span": [
+                    35,
+                    42
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "mi esposa y yo",
+                "span": [
+                    0,
+                    14
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_49",
+        "lang": "es"
+    },
+    {
+        "text": "solo 2 adultos",
+        "slots": {
+            "adults": {
+                "text": "2",
+                "span": [
+                    5,
+                    6
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_16_50",
+        "lang": "es"
+    },
+    {
+        "text": "Queremos alojarnos del 1 al 12",
+        "slots": {
+            "date_from": {
+                "text": "del 1",
+                "span": [
+                    19,
+                    24
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "al 12",
+                "span": [
+                    25,
+                    30
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_51",
+        "lang": "es"
+    },
+    {
+        "text": "Llegaré el jueves",
+        "slots": {
+            "date_from": {
+                "text": "jueves",
+                "span": [
+                    11,
+                    17
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_16_52",
+        "lang": "es"
+    }
+]

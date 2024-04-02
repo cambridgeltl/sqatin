@@ -1,0 +1,11 @@
+{
+    "intents": {
+        "none_none_none": "SENTENCE\nDid the user intend QUESTION?\n",
+        "usersaid_QUESTION_none": "The user says: SENTENCE\nQuestion: did the user intend QUESTION?\n"
+    },
+    "slots": {
+        "none_none_none": "SENTENCE\nQUESTION\n",
+        "usersaid_QUESTION_none": "The user says: SENTENCE\nQuestion: QUESTION\n",
+        "xtremeuplike": "Tag the slot values in the sentence as SLOT_LIST. Use $$ as a delimiter.\nSentence: SENTENCE\nSlot values:"
+    }
+}

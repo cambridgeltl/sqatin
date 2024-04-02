@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "what's the weekend forecast",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell me today's weather forecast",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you give me info on miami weather",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what's it doing outside right now",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what kind of weather does miami have",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "weather in costa mesa",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "is it raining in sparks",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "whats the forecast for the weather",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell me how the weather is",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how many of inches of snow did my hometown get last year",
+        "intents": [
+            "weather"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i need an alarm to go off tomorrow at five fifteen",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i need an alarm set please",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "set an alarm for lunch and another for dinner",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "set alarm for 6am",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "have an alarm set for three in the morning",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "make a new alarm for 6 in the morning",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please create one alarm for 330 pm and one for 8 pm",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "please set two alarms, one at 12 pm and the next at 1 pm",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please create an alarm for 12 noon",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "set an alarm for 6am, please",
+        "intents": [
+            "alarm"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "when will it be in 10 days",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "in 2 days, what date will it be",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "give me the date today",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what day will it be 373 days from now",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "do you have the date",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is the full date after today",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is tomorrow's date, please",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what's today's date",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what will the date be 100 days from now",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i need to know what the date is today",
+        "intents": [
+            "date"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "find out where my phone is",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "misplaced my phone",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you call my cellphone",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "locate my phone for me",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i don't know where my phone is",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "find my phone",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "my phone is lost - can you help me find it",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell me where my phone is",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how can i find my phone",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "find my cellphone",
+        "intents": [
+            "find_phone"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "let bill and craig know where i am",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "send my current location to my superior",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i need to send my current location to sean",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "let barbara know where i'm at",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell brady where my location is",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "share my gps coordinates with my dad",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you share my location with my girlfriends",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "post my gps coordinates to my facebook friends",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you share my current location with amy",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "share my location with ben and jerry",
+        "intents": [
+            "share_location"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please set a timer for",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "set a one minute timer",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i really need to set a timer",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "set a new timer for ten seconds",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "set a six minute timer",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i need to set the timer for two minutes",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "lets set a timer for me",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you set a timer for me",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "set a five minute timer please",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "create a timer for me",
+        "intents": [
+            "timer"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "call mark",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you call mary",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i must call roderick",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "it is important that i call katie",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you please call nata",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "call work",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "immediately call tom",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "call my best friend",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "start a phone call with kathy",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you call mom",
+        "intents": [
+            "make_call"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is 213 times 3",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is 250 times 118 times 9",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is the sum of 8 + 3",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is the square root of 10500",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is 4 + 7",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what's ten times eight",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is 20 times 20 times 30",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is 8 factorial",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me what 80 divided buy 4 is",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is 20+ 5",
+        "intents": [
+            "calculator"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "let's hear the definition of iridium",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is the meaning of supercede",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "read me a definition for qat",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is the definition of succumb",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "definition of zesty",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what is the meaning of flange",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "definition of affiliate is what",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "find what the word diaphanous mean please",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "define qat for me",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "define ataraxy",
+        "intents": [
+            "definition"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "convert cm to inch",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how do i change inches to centimeters",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how many miles is five kilometers",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "convert inch to cm",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how many centimeters are in 4 inches",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how many cups make a gallon",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how many kilos are in 20 pounds",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how many teaspoons are in a half a cup",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "whats 5 feet in inches",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "how many weeks are in 3 months",
+        "intents": [
+            "measurement_conversion"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "do a coin toss",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i call tails for a coin flip you need to do right now",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "heads or tails i choose tails",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "filp a coin, i call heads",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "take a coin and flip it and i call tails",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i need to have a coin flipped",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "hey, flip me a coin i call tails",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "flip a coin if you will",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you get a coin and flip it",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "do heads or tails",
+        "intents": [
+            "flip_coin"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you spell hamburger",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how many es are in receiving",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is the correct spelling for antipathy",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what is the correct spelling of judgment",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell how many a's are in the word happiness",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you give me a spelling for antipathy",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "tell me how many a's are in magical",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what's the right way to spell miscellaneous",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how do i spell ambitious",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "how is water spelled",
+        "intents": [
+            "spelling"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "look up the time in california",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "what time is it in daniel boone national forest timezone",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what time is it in the mountain standard timezone",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what time is it right now in paris",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "in the central timezone, what time is it",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i want to know what time it is",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "let me know the current time in the central timezone",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "what time is it in the alaska standard timezone",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i would like to know the time",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "can you give me the time",
+        "intents": [
+            "time"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "roll a pair of six sided dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "roll the dice!",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "roll the die!",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "give the dice a roll",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "go ahead and roll the dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i'd like to know how much you get when you roll a ten sided dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "please roll a 7 sided die",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "roll dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please roll the 5 sided dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please roll dice",
+        "intents": [
+            "roll_dice"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "i want to send a text message to",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you send a text to someone",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "send a text to lisa and ask her to call me when she gets home",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "can you text marissa and tell them to stop calling me",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i want to text natalie",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "text roderick and tell him im running late",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "i need you to send a text",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "text my dad for me and tell them i love you",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "text my coworker for me and tell them the due date",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 1
+    },
+    {
+        "text": "please send a text message to natalie for me",
+        "intents": [
+            "text"
+        ],
+        "domain": "utility",
+        "fold": 0
+    },
+    {
+        "text": "who is the scariest character in start trek",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "where was john denver born",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when's the next movie starring thor set to come out",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "are you able to answer algebra equations",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "any headlines from my area",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "who's toledo's starting point guard for the next game",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what is the formula for the circumference of a circle",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "who are some notable alumni of ucsd",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you list me tiger wood's stats",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how many oscars did star wars films win",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

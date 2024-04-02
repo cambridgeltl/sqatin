@@ -1,0 +1,1544 @@
+[
+    {
+        "text": "ለብድሬ ወለድ መክፈል ያለብኝ ለምን ያህል ጊዜ ነው?",
+        "intents": [
+            "how_long",
+            "make_open_apply_setup_get_activate",
+            "loan",
+            "fees_interests"
+        ],
+        "uid": "bank_11_0",
+        "lang": "am"
+    },
+    {
+        "text": "ነሐሴ 5 ላይ ከሰዓት 11፡45 እስከ ማታ 2፡10 ሒሳቤ ላይ የተደረገውን እንቅስቃሴ በዝርዝር ግለፁልኝ",
+        "intents": [
+            "request_info",
+            "account",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "ነሐሴ 5",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": {
+                    "day": 5,
+                    "month": 8,
+                    "year": 2022
+                }
+            },
+            "time_from": {
+                "text": "ከሰዓት 11፡45",
+                "span": [
+                    9,
+                    19
+                ],
+                "value": {
+                    "hour": 17,
+                    "minute": 45
+                }
+            },
+            "time_to": {
+                "text": "ማታ 2፡10",
+                "span": [
+                    24,
+                    31
+                ],
+                "value": {
+                    "hour": 20,
+                    "minute": 10
+                }
+            }
+        },
+        "uid": "bank_11_1",
+        "lang": "am"
+    },
+    {
+        "text": "6 ይሆናል",
+        "slots": {
+            "number": {
+                "text": "6",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 6
+            }
+        },
+        "uid": "bank_11_2",
+        "lang": "am"
+    },
+    {
+        "text": "ዛሬ ጠዋት ያዘጋጀሁትን ጊዜ ጠብቆ የሚደረግ ክፍያን ሰርዙት",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "standing_order"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "ጠዋት",
+                "span": [
+                    3,
+                    6
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 0,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 12,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_11_3",
+        "lang": "am"
+    },
+    {
+        "text": "ዛሬ ጠዋት ያዘጋጀሁትን ጊዜ ጠብቆ የሚደረግ ክፍያን ሰርዙት",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "standing_order"
+        ],
+        "slots": {
+            "date": {
+                "text": "ዛሬ ጠዋት",
+                "span": [
+                    0,
+                    6
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_4",
+        "lang": "am"
+    },
+    {
+        "text": "ካርዴ ላለፉት 8 ሰዓታት እየሰራ አይደለም",
+        "intents": [
+            "card",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "8 ሰዓታት",
+                "span": [
+                    9,
+                    15
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 480.0
+                }
+            }
+        },
+        "uid": "bank_11_5",
+        "lang": "am"
+    },
+    {
+        "text": "የናንተን መተግበሪያ ተጠቅሜ የቢዝነስ አካውንት መክፈት አልቻልኩም",
+        "intents": [
+            "account",
+            "make_open_apply_setup_get_activate",
+            "business",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_11_6",
+        "lang": "am"
+    },
+    {
+        "text": "ለምንድነው የ ስናፒ ስናፕስ ጊዜ ጠብቆ መከፈል የነበረበት ክፍያ እስካሁን ላለፉት 2 ቀናት ያልተከፈለው",
+        "intents": [
+            "standing_order",
+            "wrong_notworking_notshowing",
+            "why"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "2 ቀናት",
+                "span": [
+                    52,
+                    57
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            },
+            "company_name": {
+                "text": "ስናፒ ስናፕስ",
+                "span": [
+                    9,
+                    17
+                ],
+                "value": "Snappy Snaps"
+            }
+        },
+        "uid": "bank_11_7",
+        "lang": "am"
+    },
+    {
+        "text": "ይህን ነው የምፈልገው፣ አመሰግናለሁ",
+        "intents": [
+            "end_call",
+            "thank"
+        ],
+        "uid": "bank_11_8",
+        "lang": "am"
+    },
+    {
+        "text": "ሌላ ተጨማሪ ማውራት የምፈልገው ነገር የለም፣ ቻው።",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_11_9",
+        "lang": "am"
+    },
+    {
+        "text": "እሺ፣ ሐምሌ 18 ይሁና",
+        "intents": [
+            "acknowledge"
+        ],
+        "slots": {
+            "date": {
+                "text": "ሐምሌ 18",
+                "span": [
+                    4,
+                    10
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 7,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_10",
+        "lang": "am"
+    },
+    {
+        "text": "ገብቶኛል፣ ነገር ግን 158.16 አማዞን ፕራይም ላይ ያወጣሁበትን ጊዜ ልትነግሩኝ ትችላላችሁ",
+        "intents": [
+            "acknowledge",
+            "transfer_payment_deposit",
+            "when"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "158.16",
+                "span": [
+                    14,
+                    20
+                ],
+                "value": {
+                    "amount": 158.16,
+                    "currency": "ambiguous"
+                }
+            },
+            "company_name": {
+                "text": "አማዞን ፕራይም",
+                "span": [
+                    21,
+                    30
+                ],
+                "value": "amazon prime"
+            }
+        },
+        "uid": "bank_11_11",
+        "lang": "am"
+    },
+    {
+        "text": "ሌላ ሀገር በሚገኝ ባንክ ቼክ መመንዘር እችላለሁ?",
+        "intents": [
+            "cheque",
+            "international",
+            "request_info",
+            "transfer_payment_deposit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_11_12",
+        "lang": "am"
+    },
+    {
+        "text": "ቼክ ነው",
+        "intents": [
+            "cheque"
+        ],
+        "uid": "bank_11_13",
+        "lang": "am"
+    },
+    {
+        "text": "መቼ ነው ቤቴ የሚደርሰው?",
+        "intents": [
+            "arrival",
+            "when"
+        ],
+        "uid": "bank_11_14",
+        "lang": "am"
+    },
+    {
+        "text": "ተመላሽ የተደረገልኝ ብር ወደ አካውንቴ የሚገባልኝ መቼ ነው?",
+        "intents": [
+            "when",
+            "refund",
+            "arrival",
+            "account"
+        ],
+        "uid": "bank_11_15",
+        "lang": "am"
+    },
+    {
+        "text": "የሆነ ሰው የኔን ማንነት ሰርቆታል",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "bank_11_16",
+        "lang": "am"
+    },
+    {
+        "text": "ተሰርቆ ይሆናል",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "bank_11_17",
+        "lang": "am"
+    },
+    {
+        "text": "በ ክሬዲት ካርዴ ላይ ያለውን ጣሪያ ወደ 700 ብር ከፍ ማድረግ እችላለው",
+        "intents": [
+            "credit",
+            "change",
+            "card",
+            "more_higher_after",
+            "limits"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "700 ብር",
+                "span": [
+                    26,
+                    32
+                ],
+                "value": {
+                    "amount": 700.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_11_18",
+        "lang": "am"
+    },
+    {
+        "text": "ካልተሳሳትኩኝ ክሬዲት ነው",
+        "intents": [
+            "credit"
+        ],
+        "uid": "bank_11_19",
+        "lang": "am"
+    },
+    {
+        "text": "ከ የካቲት 17 እስከ መጋቢት 4 4763 ብር እንደተጠቀምኩ ነው የሚያሳየው፣ የሆነ የተሳሳተ ነገር አለ",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "የካቲት 17",
+                "span": [
+                    2,
+                    9
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 2,
+                    "year": 2023
+                }
+            },
+            "date_to": {
+                "text": "መጋቢት 4",
+                "span": [
+                    14,
+                    20
+                ],
+                "value": {
+                    "day": 4,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "4763 ብር",
+                "span": [
+                    21,
+                    28
+                ],
+                "value": {
+                    "amount": 4763.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_11_20",
+        "lang": "am"
+    },
+    {
+        "text": "እስከ ሰኔ 6 ድረስ ኤ ቲ ኤም ካርዴን ከስራ ውጪ ማድረግ እችላለው",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "debit",
+            "card"
+        ],
+        "slots": {
+            "date_to": {
+                "text": "ሰኔ 6",
+                "span": [
+                    4,
+                    8
+                ],
+                "value": {
+                    "day": 6,
+                    "month": 6,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_21",
+        "lang": "am"
+    },
+    {
+        "text": "አዎን፣ ማለቴ ግንቦት 7 2013 ነው መጀመር ያለበት",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "ግንቦት 7 2013",
+                "span": [
+                    9,
+                    20
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 5,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_11_22",
+        "lang": "am"
+    },
+    {
+        "text": "ባለፈው አመት ባይስክል ለመከራየት ያነሰ ወጪ ያወጣሁት የትኛው ወር ላይ ነበር",
+        "intents": [
+            "when",
+            "less_lower_before",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "ባለፈው አመት",
+                "span": [
+                    0,
+                    8
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2021
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 12,
+                        "year": 2021
+                    }
+                }
+            },
+            "shopping_category": {
+                "text": "ባይስክል ለመከራየት",
+                "span": [
+                    9,
+                    21
+                ],
+                "value": "rental bikes"
+            }
+        },
+        "uid": "bank_11_23",
+        "lang": "am"
+    },
+    {
+        "text": "ባለፉት ጥቂት ወራት ውስጥ የዜና ወጪዬ ቀንሷል?",
+        "intents": [
+            "transfer_payment_deposit",
+            "request_info",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "ባለፉት ጥቂት ወራት",
+                "span": [
+                    0,
+                    12
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 12,
+                        "year": 2021
+                    },
+                    "to": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "shopping_category": {
+                "text": "የዜና",
+                "span": [
+                    17,
+                    20
+                ],
+                "value": "news"
+            }
+        },
+        "uid": "bank_11_24",
+        "lang": "am"
+    },
+    {
+        "text": "የብድር ወለዴ በትክክል የሚጀምረው መቼ ነው?",
+        "intents": [
+            "mortgage",
+            "when"
+        ],
+        "uid": "bank_11_25",
+        "lang": "am"
+    },
+    {
+        "text": "እንደምን አደሩ ስለ ካርዴ ጥያቄ ልጠይቅ እችላለሁ?",
+        "intents": [
+            "greet",
+            "card",
+            "request_info"
+        ],
+        "uid": "bank_11_26",
+        "lang": "am"
+    },
+    {
+        "text": "ሰላም በአቅራቢያችን ካለው ቅርንጫፍ ቢሮ ጋር ቀጠሮ ለማሲያዝ ፈሊጌ ነበር",
+        "intents": [
+            "appointment",
+            "make_open_apply_setup_get_activate",
+            "greet"
+        ],
+        "uid": "bank_11_27",
+        "lang": "am"
+    },
+    {
+        "text": "የፒን ኮዴን ማስታወስ አልቻልኩም ።",
+        "intents": [
+            "pin",
+            "dont_know"
+        ],
+        "uid": "bank_11_28",
+        "lang": "am"
+    },
+    {
+        "text": "የይለፍ ቃሌ",
+        "intents": [
+            "pin"
+        ],
+        "uid": "bank_11_29",
+        "lang": "am"
+    },
+    {
+        "text": "በጣም አመሰግናለሁ",
+        "intents": [
+            "thank"
+        ],
+        "uid": "bank_11_30",
+        "lang": "am"
+    },
+    {
+        "text": "አመሰግናለሁ ፣ ቀጠሮውን በጉጉት እጠባበቃለሁ",
+        "intents": [
+            "appointment",
+            "thank"
+        ],
+        "uid": "bank_11_31",
+        "lang": "am"
+    },
+    {
+        "text": "ይህን 41.55 ብር ተመላሽ ወደ ኤ ቲ ኤም ካርዴ ሒሳብ ላኩልኝ ።",
+        "intents": [
+            "debit",
+            "refund",
+            "make_open_apply_setup_get_activate",
+            "card"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "41.55 ብር",
+                "span": [
+                    4,
+                    12
+                ],
+                "value": {
+                    "amount": 41.55,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_11_32",
+        "lang": "am"
+    },
+    {
+        "text": "እዳ ነው",
+        "intents": [
+            "debit"
+        ],
+        "uid": "bank_11_33",
+        "lang": "am"
+    },
+    {
+        "text": "ከኤ ቲ ኤም 220 ብር ወሰድኩ",
+        "intents": [
+            "withdrawal"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "220 ብር",
+                "span": [
+                    8,
+                    14
+                ],
+                "value": {
+                    "amount": 220.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_11_34",
+        "lang": "am"
+    },
+    {
+        "text": "በቀን ውስጥ ከኤቲኤም ማውጣት የምችለውን መጠን ማሳደግ የምችለው እንዴት ነው?",
+        "intents": [
+            "how",
+            "change",
+            "more_higher_after",
+            "withdrawal",
+            "limits"
+        ],
+        "uid": "bank_11_35",
+        "lang": "am"
+    },
+    {
+        "text": "እናንተ ጋር አዲስ ሒሳብ ለመክፈት ምን ማድረግ ይኖርብኛል?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "account",
+            "how",
+            "new"
+        ],
+        "uid": "bank_11_36",
+        "lang": "am"
+    },
+    {
+        "text": "ከቅርንጫፍ ቢሮው ሥራ አስኪያጅ ጋር ቀጠሮ ማስያዝ የምችለው እንዴት ነው?",
+        "intents": [
+            "how",
+            "appointment",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_11_37",
+        "lang": "am"
+    },
+    {
+        "text": "ባለፈው ማክሰኞ በቺፖሌ ስንት ብር ነው ያወጣሁት",
+        "intents": [
+            "how_much"
+        ],
+        "slots": {
+            "date": {
+                "text": "ባለፈው ማክሰኞ",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 8,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "በቺፖሌ",
+                "span": [
+                    10,
+                    14
+                ],
+                "value": "chipotle"
+            }
+        },
+        "uid": "bank_11_38",
+        "lang": "am"
+    },
+    {
+        "text": "ወደ ላ ቪኤን ኪችን የሚደረገው ቀጥታ ክፍይዬን ሰርዝ",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "direct_debit"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "ላ ቪኤን ኪችን",
+                "span": [
+                    3,
+                    12
+                ],
+                "value": "LA VN Kitchen"
+            }
+        },
+        "uid": "bank_11_39",
+        "lang": "am"
+    },
+    {
+        "text": "አሁኑኑ ለ ዋይልድ ስለ አበባ ግዥ የሚደረገውን ክፍያ እንድታቆሙት እፈልጋለሁ!",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "ዋይልድ ስለ አበባ",
+                "span": [
+                    7,
+                    18
+                ],
+                "value": "wild about flowers"
+            }
+        },
+        "uid": "bank_11_40",
+        "lang": "am"
+    },
+    {
+        "text": "አንድ መቀየር የምፈልገው ቀጥታ ተቀናሽ እየሆነ ያለ ነገር አለ",
+        "intents": [
+            "direct_debit",
+            "change",
+            "existing"
+        ],
+        "uid": "bank_11_41",
+        "lang": "am"
+    },
+    {
+        "text": "በቀጥታ የዕዳ ክፍያ የሚከፈለውን ሰው ይለውጡ",
+        "intents": [
+            "change",
+            "direct_debit"
+        ],
+        "uid": "bank_11_42",
+        "lang": "am"
+    },
+    {
+        "text": "ታዲያ ይህ መደብር ገንዘብ መክፈል የሚፈቅደው በጥሬ ገንዘብ ብቻ ነው ወይስ በካርድም ጭምር ወይስ እንደውም በሚሻለው ኮንታክት ለስ?",
+        "intents": [
+            "contactless",
+            "card",
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_11_43",
+        "lang": "am"
+    },
+    {
+        "text": "ኮንታክት ለስ ነው",
+        "intents": [
+            "contactless"
+        ],
+        "uid": "bank_11_44",
+        "lang": "am"
+    },
+    {
+        "text": "ከ 1 ሰዓት በፊት ማድረግ ከቻሉ",
+        "intents": [
+            "less_lower_before"
+        ],
+        "slots": {
+            "time": {
+                "text": "1",
+                "span": [
+                    2,
+                    3
+                ],
+                "value": {
+                    "hour": 7,
+                    "minute": 0
+                }
+            }
+        },
+        "uid": "bank_11_45",
+        "lang": "am"
+    },
+    {
+        "text": "ከነገ በፊት",
+        "intents": [
+            "less_lower_before"
+        ],
+        "slots": {
+            "date": {
+                "text": "ከነገ",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_46",
+        "lang": "am"
+    },
+    {
+        "text": "አሁንም 86.69 € ዕዳ አለባቸው",
+        "intents": [
+            "refund"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "86.69 €",
+                "span": [
+                    5,
+                    12
+                ],
+                "value": {
+                    "amount": 86.69,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_11_47",
+        "lang": "am"
+    },
+    {
+        "text": "አዎን ፣ ገንዘቤ ተመላሽ እንዲደረግ እፈልጋለው፣ መክፈል የሌለብኝን አንዳንድ ክፍያዎች እንድከፍል ተደርጌያለው",
+        "intents": [
+            "refund",
+            "affirm",
+            "fees_interests",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_11_48",
+        "lang": "am"
+    },
+    {
+        "text": "ለምንድን ነው ለማስተላለፍ የሞከርኩት ያልተሳካው?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit",
+            "why"
+        ],
+        "uid": "bank_11_49",
+        "lang": "am"
+    },
+    {
+        "text": "ከ 3 ቀን በኋላ አሁንም እየተላለፈ ያልሆነው ለምንድን ነው?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "why",
+            "more_higher_after"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "3 ቀን",
+                "span": [
+                    2,
+                    6
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 3
+                }
+            }
+        },
+        "uid": "bank_11_50",
+        "lang": "am"
+    },
+    {
+        "text": "የሚቀጥለው ቀጠሮዬ የት ነው? 2 ቀጠሮ ኢስዤ ግራ ተጋባሁ",
+        "intents": [
+            "appointment",
+            "request_info"
+        ],
+        "uid": "bank_11_51",
+        "lang": "am"
+    },
+    {
+        "text": "ስለ ብድሬ ስብሰባ ማዘጋጀት አያስፈልገኝም",
+        "intents": [
+            "appointment",
+            "mortgage",
+            "deny"
+        ],
+        "uid": "bank_11_52",
+        "lang": "am"
+    },
+    {
+        "text": "ስለ ክፍያዎቻችሁ እና ስለ ብድር አሰጣጣችሁ ከእውነተኛ ሰው ጋር መነጋገር እፈልጋለው ።",
+        "intents": [
+            "handoff",
+            "mortgage",
+            "fees_interests"
+        ],
+        "uid": "bank_11_53",
+        "lang": "am"
+    },
+    {
+        "text": "ብድሬን ልሰርዝ እችላለሁ?",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "mortgage",
+            "request_info"
+        ],
+        "uid": "bank_11_54",
+        "lang": "am"
+    },
+    {
+        "text": "ባለፉት ሁለት ቀናት ምንም ክፍያ መፈጸም አልቻልኩም ሁሉም ውድቅ ሆነዋል",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "ባለፉት ሁለት ቀናት",
+                "span": [
+                    0,
+                    12
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 13,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 15,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_11_55",
+        "lang": "am"
+    },
+    {
+        "text": "ከ5 ወር በፊት የቁጠባ ሒሳቤ ውስጥ ስንት ብር ነበረ?",
+        "intents": [
+            "how_much",
+            "balance",
+            "savings",
+            "account"
+        ],
+        "slots": {
+            "date": {
+                "text": "ከ5 ወር በፊት",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 10,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_11_56",
+        "lang": "am"
+    },
+    {
+        "text": "ለአዲስ ብድር መጠየቅ እንዳለብኝ እርግጠኛ አይደለሁም",
+        "intents": [
+            "loan",
+            "dont_know",
+            "make_open_apply_setup_get_activate",
+            "new"
+        ],
+        "uid": "bank_11_57",
+        "lang": "am"
+    },
+    {
+        "text": "ብድር ለማግኘት ማመልከቻ ማስገባት እፈልጋለው መጀመሪያ ግን የምታቀርቡትን የብድር አይነቶች ማወቅ እፈልጋለሁ",
+        "intents": [
+            "loan",
+            "make_open_apply_setup_get_activate",
+            "request_info"
+        ],
+        "uid": "bank_11_58",
+        "lang": "am"
+    },
+    {
+        "text": "ስለምትናገረው ነገር ምንም የማውቀው ነገር የለም ፤ እናም ከ ትክክከኛ ሰው ጋር ለመነጋገርም እፈልጋለሁ",
+        "intents": [
+            "dont_know",
+            "handoff"
+        ],
+        "uid": "bank_11_59",
+        "lang": "am"
+    },
+    {
+        "text": "ብቻ አይሰራም ፣ የሚረዳኝ ሰው ልታገናኘኝ ትችላለህ?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "handoff"
+        ],
+        "uid": "bank_11_60",
+        "lang": "am"
+    },
+    {
+        "text": "ከ2 ወር በፊት ብዙ ያስከፈለኝ ምን ነበር?",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "ከ2 ወር በፊት",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 1,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_61",
+        "lang": "am"
+    },
+    {
+        "text": "አይደለም ፣ በእርግጠኝነት ከ 800 አይበልጡም",
+        "intents": [
+            "deny",
+            "more_higher_after"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "800",
+                "span": [
+                    19,
+                    22
+                ],
+                "value": {
+                    "amount": 800.0,
+                    "currency": "ambiguous"
+                }
+            }
+        },
+        "uid": "bank_11_62",
+        "lang": "am"
+    },
+    {
+        "text": "አሁን ባለኝ ሒሳብ ላይ ከመጠኔ በላይ እንዲጠቀም የተጣለውን ገደብ መለወጥ ይቻላል?",
+        "intents": [
+            "overdraft",
+            "account",
+            "change",
+            "current",
+            "limits",
+            "request_info"
+        ],
+        "uid": "bank_11_63",
+        "lang": "am"
+    },
+    {
+        "text": "ፕላስ ሂሳቤ ላይ አሁን የተጣለው ካለኝ ብር በላይ የመጠቀም መጠኑ ምንድን ነው?",
+        "intents": [
+            "overdraft",
+            "account",
+            "how_much"
+        ],
+        "uid": "bank_11_64",
+        "lang": "am"
+    },
+    {
+        "text": "ሒሳቤ ውስጥ ያለው እንደሚያሳየው ካለኝ የብር መጠን የበለጠ እንደተጠቀምኩ ነው",
+        "intents": [
+            "overdraft",
+            "balance"
+        ],
+        "uid": "bank_11_65",
+        "lang": "am"
+    },
+    {
+        "text": "ከዛ ከአሁኑ ሒሳቤ ጋር የተገናኘውን አድራሻ ማስተካከል ይችላሉ?",
+        "intents": [
+            "change",
+            "account",
+            "current"
+        ],
+        "uid": "bank_11_66",
+        "lang": "am"
+    },
+    {
+        "text": "ባለፈው ሐሙስ አካውንቴ ውስጥ የቀረውን የብር መጠን እዩልኝ",
+        "intents": [
+            "how_much",
+            "balance"
+        ],
+        "slots": {
+            "date": {
+                "text": "ባለፈው ሐሙስ",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 10,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_67",
+        "lang": "am"
+    },
+    {
+        "text": "ከ11 ወራት በፊት በዚህ የባንክ ሒሳብ ውስጥ ምን ያህል ገንዘብ ነበረኝ?",
+        "intents": [
+            "how_much",
+            "account",
+            "balance"
+        ],
+        "slots": {
+            "date": {
+                "text": "ከ11 ወራት በፊት",
+                "span": [
+                    0,
+                    11
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 4,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_11_68",
+        "lang": "am"
+    },
+    {
+        "text": "አዎን ፣ የቀረኝን ገንዘብ ማወቅ እፈልጋለው",
+        "intents": [
+            "affirm",
+            "balance",
+            "request_info"
+        ],
+        "uid": "bank_11_69",
+        "lang": "am"
+    },
+    {
+        "text": "እባክዎ ከቁጠባ ሒሳስቤ ውስጥ 6000 $ በቀጥታ ወደ ማሻንዳ ሙይር አዘዋውሩልኝ",
+        "intents": [
+            "transfer_payment_deposit",
+            "savings",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "6000 $",
+                "span": [
+                    19,
+                    25
+                ],
+                "value": {
+                    "amount": 6000.0,
+                    "currency": "USD"
+                }
+            },
+            "person_name": {
+                "text": "ማሻንዳ ሙይር",
+                "span": [
+                    34,
+                    42
+                ],
+                "value": "mashanda muir"
+            }
+        },
+        "uid": "bank_11_70",
+        "lang": "am"
+    },
+    {
+        "text": "አንድ አይነት መጠን ነው፣ ልክ ነህ ።",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_11_71",
+        "lang": "am"
+    },
+    {
+        "text": "ከ7 ቀን በፊት የተወሰነ ገንዘብ ወደ ውጭ አገር አዘዋውሬ ነበር ፤ ቸርችል ግን አላገኘውም!",
+        "intents": [
+            "transfer_payment_deposit",
+            "international",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date": {
+                "text": "ከ7 ቀን በፊት",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 8,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "ቸርችል",
+                "span": [
+                    43,
+                    47
+                ],
+                "value": "churchill"
+            }
+        },
+        "uid": "bank_11_72",
+        "lang": "am"
+    },
+    {
+        "text": "በዚህ ዓመት መጨረሻ ላይ ከከፈትኩት በአዲሱ የቁጠባ ሂሳብ ከድሮው ጋር ተመሳሳይ የወለድ መጠን ይኖረኛል?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "fees_interests",
+            "account",
+            "savings",
+            "request_info",
+            "new"
+        ],
+        "slots": {
+            "date": {
+                "text": "በዚህ ዓመት መጨረሻ",
+                "span": [
+                    0,
+                    12
+                ],
+                "value": {
+                    "day": 31,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_73",
+        "lang": "am"
+    },
+    {
+        "text": "ከዚህ ጋር ተያይዞ የሚቀርቡት ክፍያዎች ምንድን ናቸው? በ4 የእናንተ ድርረገፅ ገጾች ላይ ነበርኩ እና አሁንም ድረስ አላወኩም",
+        "intents": [
+            "request_info",
+            "fees_interests"
+        ],
+        "uid": "bank_11_74",
+        "lang": "am"
+    },
+    {
+        "text": "6፡50",
+        "slots": {
+            "time": {
+                "text": "6፡50",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": {
+                    "hour": 12,
+                    "minute": 50
+                }
+            }
+        },
+        "uid": "bank_11_75",
+        "lang": "am"
+    },
+    {
+        "text": "በ 12 ያለውን ክፍት ቦታ እንጠቀም",
+        "slots": {
+            "time": {
+                "text": "12",
+                "span": [
+                    2,
+                    4
+                ],
+                "value": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            }
+        },
+        "uid": "bank_11_76",
+        "lang": "am"
+    },
+    {
+        "text": "ከተንቀሳቃሽ ሒሳቤ ላይ ክፈለው",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit",
+            "current",
+            "account"
+        ],
+        "uid": "bank_11_77",
+        "lang": "am"
+    },
+    {
+        "text": "ይህ ከቀጠለ ፣ ሁሉንም ሒሳቦቼ እንዲዘጉልኝ እጠይቃለሁ ።",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "account"
+        ],
+        "uid": "bank_11_78",
+        "lang": "am"
+    },
+    {
+        "text": "ከእንግሊዝ ወደ ቡልጋሪያ በ ስዊፍት ዝውውር ማድረግ እችላለሁ?",
+        "intents": [
+            "international",
+            "transfer_payment_deposit",
+            "request_info",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_11_79",
+        "lang": "am"
+    },
+    {
+        "text": "አዎ ፣ ውጭ አገር ነኝ",
+        "intents": [
+            "affirm",
+            "international"
+        ],
+        "uid": "bank_11_80",
+        "lang": "am"
+    },
+    {
+        "text": "አይደለም ፣ ይህ የባንክ ሒሳብ አይደለም",
+        "intents": [
+            "deny",
+            "account"
+        ],
+        "uid": "bank_11_81",
+        "lang": "am"
+    },
+    {
+        "text": "መከልከሉን እርግጠኛ አይደለሁም",
+        "intents": [
+            "dont_know",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_11_82",
+        "lang": "am"
+    },
+    {
+        "text": "ለሚያዚያ 7 ቀን 2014 ቢሆን ደስ ይለኛል",
+        "intents": [
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date": {
+                "text": "ለሚያዚያ 7 ቀን 2014",
+                "span": [
+                    0,
+                    15
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 4,
+                    "year": 2014
+                }
+            }
+        },
+        "uid": "bank_11_83",
+        "lang": "am"
+    },
+    {
+        "text": "እባክዎ ሒሳቦን ይሙሉ",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_11_84",
+        "lang": "am"
+    },
+    {
+        "text": "በካርድ ግብይት እየፈፀምኩ የነበረ ቢሆንም አልሰራልኝም",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_11_85",
+        "lang": "am"
+    },
+    {
+        "text": "ምን ዓይነት ካርዶች ለአገልግሎት እንደምታቀርቡ ልትነግሩኝ ትችላላችሁ?",
+        "intents": [
+            "request_info",
+            "card"
+        ],
+        "uid": "bank_11_86",
+        "lang": "am"
+    },
+    {
+        "text": "ታህሳስ 1",
+        "slots": {
+            "date": {
+                "text": "ታህሳስ 1",
+                "span": [
+                    0,
+                    6
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_11_87",
+        "lang": "am"
+    },
+    {
+        "text": "ጥቅምት 15 2013 በማክሰኞ",
+        "slots": {
+            "date": {
+                "text": "ጥቅምት 15 2013 በማክሰኞ",
+                "span": [
+                    0,
+                    18
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 10,
+                    "year": 2013
+                }
+            }
+        },
+        "uid": "bank_11_88",
+        "lang": "am"
+    },
+    {
+        "text": "በጣም የሚያስደንቅ ነው ቀጥሉ!",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_11_89",
+        "lang": "am"
+    },
+    {
+        "text": "አዎ ፣ ሌላ ነገር መጠየቅ እፈልጋለው",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_11_90",
+        "lang": "am"
+    },
+    {
+        "text": "አይደለም ፣ በዝርዝሩ ውስጥ አይደለም",
+        "intents": [
+            "deny",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_11_91",
+        "lang": "am"
+    },
+    {
+        "text": "አታድርግ/ጊ",
+        "intents": [
+            "deny"
+        ],
+        "uid": "bank_11_92",
+        "lang": "am"
+    },
+    {
+        "text": "በጥሬ ገንዘብ አልከፈልኩም",
+        "intents": [
+            "transfer_payment_deposit",
+            "deny"
+        ],
+        "uid": "bank_11_93",
+        "lang": "am"
+    },
+    {
+        "text": "ስልኬን ተጠቅሚ ነው የከፈልኩት",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_11_94",
+        "lang": "am"
+    },
+    {
+        "text": "ገንዘቡን አስቀድሜ አስተላልፌያለሁ",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_11_95",
+        "lang": "am"
+    },
+    {
+        "text": "ስለጡረታ ተጨማሪ ለማወቅ እፈልጋለሁ",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_11_96",
+        "lang": "am"
+    },
+    {
+        "text": "ስለ ምርቶቻችሁን የበለጠ መረጃ መስጠት ከቻላችሁ ይህ በጣም ጠቃሚ ነው ።",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_11_97",
+        "lang": "am"
+    },
+    {
+        "text": "እንደተመለሰ ያሳያል",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_11_98",
+        "lang": "am"
+    },
+    {
+        "text": "ስልኬ ላይ እየሠራሁት ነው",
+        "uid": "bank_11_99",
+        "lang": "am"
+    },
+    {
+        "text": "ስለዚህ እነዚህ ዝርዝሮቼ ናቸው",
+        "uid": "bank_11_100",
+        "lang": "am"
+    }
+]

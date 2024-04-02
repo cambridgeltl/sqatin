@@ -1,0 +1,1645 @@
+[
+    {
+        "text": "Tekrar söyleyebilir misiniz?",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "bank_16_0",
+        "lang": "tr"
+    },
+    {
+        "text": "o zaman toplamda kaç saat",
+        "intents": [
+            "how_long"
+        ],
+        "uid": "bank_16_1",
+        "lang": "tr"
+    },
+    {
+        "text": "Yani, kartımı gece 9 10 ile gelecek Perşembe 16'yı çeyrek geçeye kadar kullanamayacağımı söylüyorsunuz?",
+        "intents": [
+            "card",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date": {
+                "text": "gelecek Perşembe",
+                "span": [
+                    28,
+                    44
+                ],
+                "value": {
+                    "day": 24,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "time_from": {
+                "text": "gece 9 10",
+                "span": [
+                    14,
+                    23
+                ],
+                "value": {
+                    "hour": 21,
+                    "minute": 10
+                }
+            },
+            "time_to": {
+                "text": "16'yı çeyrek geçeye",
+                "span": [
+                    45,
+                    64
+                ],
+                "value": {
+                    "hour": 16,
+                    "minute": 15
+                }
+            }
+        },
+        "uid": "bank_16_2",
+        "lang": "tr"
+    },
+    {
+        "text": "İkinci vadeli hesabımda şu anda ne kadar pound var?",
+        "intents": [
+            "how_much",
+            "savings",
+            "account",
+            "balance"
+        ],
+        "slots": {
+            "number": {
+                "text": "İkinci",
+                "span": [
+                    0,
+                    6
+                ],
+                "value": 2
+            }
+        },
+        "uid": "bank_16_3",
+        "lang": "tr"
+    },
+    {
+        "text": "Sanırım kartımı son üç saattir bulamadığım için bloke ettirdim",
+        "intents": [
+            "card",
+            "cancel_close_leave_freeze",
+            "lost_stolen"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "son üç saattir",
+                "span": [
+                    16,
+                    30
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 6,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 9,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_16_4",
+        "lang": "tr"
+    },
+    {
+        "text": "Sanırım iş kartı",
+        "intents": [
+            "business"
+        ],
+        "uid": "bank_16_5",
+        "lang": "tr"
+    },
+    {
+        "text": "bruce engler için düzenlediğim 718 bekleyen ödeme emrini iptal edebilir misiniz",
+        "intents": [
+            "standing_order",
+            "cancel_close_leave_freeze"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "718",
+                "span": [
+                    31,
+                    34
+                ],
+                "value": {
+                    "amount": 718.0,
+                    "currency": "ambiguous"
+                }
+            },
+            "person_name": {
+                "text": "bruce engler",
+                "span": [
+                    0,
+                    12
+                ],
+                "value": "bruce engler"
+            }
+        },
+        "uid": "bank_16_6",
+        "lang": "tr"
+    },
+    {
+        "text": "bekleyen ödeme emri tutarlarında herhangi bir limit var?",
+        "intents": [
+            "limits",
+            "standing_order",
+            "request_info"
+        ],
+        "uid": "bank_16_7",
+        "lang": "tr"
+    },
+    {
+        "text": "hoşça kalın, görüşmek üzere",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_16_8",
+        "lang": "tr"
+    },
+    {
+        "text": "hoşça kalın, görüşürüz",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_16_9",
+        "lang": "tr"
+    },
+    {
+        "text": "güle güle, görüşmek üzere",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_16_10",
+        "lang": "tr"
+    },
+    {
+        "text": "güle güle, görüşürüz",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_16_11",
+        "lang": "tr"
+    },
+    {
+        "text": "Şimdilik hoşça kalın",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_16_12",
+        "lang": "tr"
+    },
+    {
+        "text": "harika, 5'i olur",
+        "intents": [
+            "acknowledge"
+        ],
+        "slots": {
+            "date": {
+                "text": "5'i",
+                "span": [
+                    8,
+                    11
+                ],
+                "value": {
+                    "day": 5,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_13",
+        "lang": "tr"
+    },
+    {
+        "text": "adıma bir çek var ama adresi yanlış",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_16_14",
+        "lang": "tr"
+    },
+    {
+        "text": "bir çeki bozdurmayı denedim ve para hesabımda görülüyordu ancak daha sonra kayboldu",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing",
+            "account",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_16_15",
+        "lang": "tr"
+    },
+    {
+        "text": "temasız kartım ne zaman ulaşacak?",
+        "intents": [
+            "arrival",
+            "contactless",
+            "card",
+            "when"
+        ],
+        "uid": "bank_16_16",
+        "lang": "tr"
+    },
+    {
+        "text": "yeni banka kartım bana söylediğinizden çok sonra ulaştı.",
+        "intents": [
+            "debit",
+            "card",
+            "more_higher_after",
+            "arrival",
+            "new"
+        ],
+        "uid": "bank_16_17",
+        "lang": "tr"
+    },
+    {
+        "text": "Birisi bu sabah 6'ya çeyrek kala gibi Leicester civarında çaldı, nasıl bloke edebilirim?",
+        "intents": [
+            "lost_stolen",
+            "cancel_close_leave_freeze",
+            "card",
+            "international",
+            "how"
+        ],
+        "slots": {
+            "time": {
+                "text": "sabah 6'ya çeyrek kala",
+                "span": [
+                    10,
+                    32
+                ],
+                "value": {
+                    "hour": 5,
+                    "minute": 45
+                }
+            },
+            "date": {
+                "text": "bu sabah",
+                "span": [
+                    7,
+                    15
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_18",
+        "lang": "tr"
+    },
+    {
+        "text": "Kartım çalındı!",
+        "intents": [
+            "lost_stolen",
+            "card"
+        ],
+        "uid": "bank_16_19",
+        "lang": "tr"
+    },
+    {
+        "text": "Kredi kartımda geçen yıl veya öncesinde reddedilen tüm işlemlerin listesini bana verebilir misiniz?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "request_info",
+            "credit",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "geçen yıl",
+                "span": [
+                    15,
+                    24
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2021
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 12,
+                        "year": 2021
+                    }
+                }
+            }
+        },
+        "uid": "bank_16_20",
+        "lang": "tr"
+    },
+    {
+        "text": "İkisinin de kredi olduğunu söyledim",
+        "intents": [
+            "credit"
+        ],
+        "uid": "bank_16_21",
+        "lang": "tr"
+    },
+    {
+        "text": "3 ile 22 Ocak arasında maaşın normal tutarından daha mı az harcadım",
+        "intents": [
+            "request_info",
+            "less_lower_before",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "3",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": {
+                    "day": 3,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "22 Ocak",
+                "span": [
+                    6,
+                    13
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 1,
+                    "year": 2023
+                }
+            },
+            "shopping_category": {
+                "text": "maaşın",
+                "span": [
+                    23,
+                    29
+                ],
+                "value": "pay check"
+            }
+        },
+        "uid": "bank_16_22",
+        "lang": "tr"
+    },
+    {
+        "text": "18 Temmuz ve 2 Ağustos arasında ödeme almak için harcamalarım ne",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "18 Temmuz",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 7,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "2 Ağustos",
+                "span": [
+                    13,
+                    22
+                ],
+                "value": {
+                    "day": 2,
+                    "month": 8,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "ödeme almak",
+                "span": [
+                    32,
+                    43
+                ],
+                "value": "get paid"
+            }
+        },
+        "uid": "bank_16_23",
+        "lang": "tr"
+    },
+    {
+        "text": "Vadeli hesabımı kapatabilir miyim? 17 Kasımdan bu yana kullanmadım",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "savings",
+            "account"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "17 Kasımdan",
+                "span": [
+                    35,
+                    46
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 11,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_24",
+        "lang": "tr"
+    },
+    {
+        "text": "Giyim için daha mı az harcıyorum",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit",
+            "less_lower_before"
+        ],
+        "slots": {
+            "shopping_category": {
+                "text": "Giyim",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": "clothing"
+            }
+        },
+        "uid": "bank_16_25",
+        "lang": "tr"
+    },
+    {
+        "text": "Giyim için daha mı az harcıyorum?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit",
+            "less_lower_before"
+        ],
+        "slots": {
+            "shopping_category": {
+                "text": "Giyim",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": "clothing"
+            }
+        },
+        "uid": "bank_16_26",
+        "lang": "tr"
+    },
+    {
+        "text": "Köpek için 5 ay önce ne kadar harcadığımı lütfen söyleyebilir misiniz?",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "5 ay önce",
+                "span": [
+                    11,
+                    20
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 10,
+                    "year": 2021
+                }
+            },
+            "shopping_category": {
+                "text": "Köpek",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": "dog"
+            }
+        },
+        "uid": "bank_16_27",
+        "lang": "tr"
+    },
+    {
+        "text": "blues kitchen shor için bir sonraki otomatik ödemem ne zaman?",
+        "intents": [
+            "direct_debit",
+            "transfer_payment_deposit",
+            "when"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "blues kitchen shor",
+                "span": [
+                    0,
+                    18
+                ],
+                "value": "the blues kitchen shor"
+            }
+        },
+        "uid": "bank_16_28",
+        "lang": "tr"
+    },
+    {
+        "text": "yeni faiz oranlarını ne zaman uygulayacaksınız?",
+        "intents": [
+            "when",
+            "fees_interests",
+            "new"
+        ],
+        "uid": "bank_16_29",
+        "lang": "tr"
+    },
+    {
+        "text": "merhaba, dün gün boyunca banka kartımla sorun yaşadım",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card",
+            "greet",
+            "debit"
+        ],
+        "slots": {
+            "date": {
+                "text": "dün",
+                "span": [
+                    9,
+                    12
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_30",
+        "lang": "tr"
+    },
+    {
+        "text": "Merhaba, ek hesabımla ilgili arıyorum",
+        "intents": [
+            "overdraft",
+            "greet"
+        ],
+        "uid": "bank_16_31",
+        "lang": "tr"
+    },
+    {
+        "text": "kartımı bana verdiğiniz pin kodunu kullanarak etkinleştirmeye çalışıyorum, kod 836745 ama çalışmıyor",
+        "intents": [
+            "pin",
+            "make_open_apply_setup_get_activate",
+            "card",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_16_32",
+        "lang": "tr"
+    },
+    {
+        "text": "Hesabımın pin kodu",
+        "intents": [
+            "pin",
+            "account"
+        ],
+        "uid": "bank_16_33",
+        "lang": "tr"
+    },
+    {
+        "text": "çok teşekkürler, peki 29,32£ tutarındaki hyatt hediye ödemesini iptal edebilir misiniz?",
+        "intents": [
+            "transfer_payment_deposit",
+            "cancel_close_leave_freeze",
+            "thank"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "29,32£ tutarındaki",
+                "span": [
+                    22,
+                    40
+                ],
+                "value": {
+                    "amount": 29.32,
+                    "currency": "GBP"
+                }
+            },
+            "company_name": {
+                "text": "hyatt hediye",
+                "span": [
+                    41,
+                    53
+                ],
+                "value": "hyatt gift"
+            }
+        },
+        "uid": "bank_16_34",
+        "lang": "tr"
+    },
+    {
+        "text": "Teşekkür ederim ama gerçek bir kişiyle konuşmak istiyorum",
+        "intents": [
+            "thank",
+            "handoff"
+        ],
+        "uid": "bank_16_35",
+        "lang": "tr"
+    },
+    {
+        "text": "Yurtdışından para almak için standart banka kartımı neden kullanamıyorum?",
+        "intents": [
+            "withdrawal",
+            "card",
+            "debit",
+            "international",
+            "why",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_16_36",
+        "lang": "tr"
+    },
+    {
+        "text": "bir banka kartı",
+        "intents": [
+            "debit",
+            "card"
+        ],
+        "uid": "bank_16_37",
+        "lang": "tr"
+    },
+    {
+        "text": "tatildeydim ve orada biraz para çektim, bunlar için ne kadar ücret ödedim?",
+        "intents": [
+            "international",
+            "request_info",
+            "withdrawal",
+            "how_much"
+        ],
+        "uid": "bank_16_38",
+        "lang": "tr"
+    },
+    {
+        "text": "Hiç para çekemiyorum",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "withdrawal"
+        ],
+        "uid": "bank_16_39",
+        "lang": "tr"
+    },
+    {
+        "text": "adresimi nasıl değiştirebilirim?",
+        "intents": [
+            "change",
+            "how"
+        ],
+        "uid": "bank_16_40",
+        "lang": "tr"
+    },
+    {
+        "text": "aman tanrım, bunu nasıl yaparım?",
+        "intents": [
+            "how"
+        ],
+        "uid": "bank_16_41",
+        "lang": "tr"
+    },
+    {
+        "text": "elia yunan restoranı dün kartımı reddetti.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card"
+        ],
+        "slots": {
+            "date": {
+                "text": "dün",
+                "span": [
+                    21,
+                    24
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "elia yunan restoranı",
+                "span": [
+                    0,
+                    20
+                ],
+                "value": "elia greek restaurant"
+            }
+        },
+        "uid": "bank_16_42",
+        "lang": "tr"
+    },
+    {
+        "text": "bu ay oldukça fazla harcadım, ne oldu? Elektrona muhtemelen 6 defa gittim ama halen",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "bu ay",
+                "span": [
+                    0,
+                    5
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "Elektrona",
+                "span": [
+                    39,
+                    48
+                ],
+                "value": "Elektron"
+            }
+        },
+        "uid": "bank_16_43",
+        "lang": "tr"
+    },
+    {
+        "text": "otomatik ödemeyle ödeyebilir miyim?",
+        "intents": [
+            "direct_debit",
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_16_44",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, otomatik ödemem gerçekleşmedi",
+        "intents": [
+            "affirm",
+            "wrong_notworking_notshowing",
+            "direct_debit"
+        ],
+        "uid": "bank_16_45",
+        "lang": "tr"
+    },
+    {
+        "text": "Uygulamaya giriş yapamıyorum ve adres eksik olduğu için hiçbir şeyi temassız ödeyemiyorum.",
+        "intents": [
+            "contactless",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_16_46",
+        "lang": "tr"
+    },
+    {
+        "text": "temassız çalışan bir kart",
+        "intents": [
+            "contactless",
+            "card"
+        ],
+        "uid": "bank_16_47",
+        "lang": "tr"
+    },
+    {
+        "text": "akşam 18 55'den önce yapabilir miyiz?",
+        "intents": [
+            "less_lower_before",
+            "make_open_apply_setup_get_activate",
+            "request_info"
+        ],
+        "slots": {
+            "time": {
+                "text": "akşam 18 55'den",
+                "span": [
+                    0,
+                    15
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 55
+                }
+            }
+        },
+        "uid": "bank_16_48",
+        "lang": "tr"
+    },
+    {
+        "text": "Mart maaşımdan önceki mevduat hesabı bakiyem neydi?",
+        "intents": [
+            "how_much",
+            "balance",
+            "current",
+            "account",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date": {
+                "text": "Mart",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_49",
+        "lang": "tr"
+    },
+    {
+        "text": "Hesabımda 13,8 pound olmasını bekliyorum",
+        "intents": [
+            "refund",
+            "account"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "13,8 pound",
+                "span": [
+                    10,
+                    20
+                ],
+                "value": {
+                    "amount": 13.8,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_16_50",
+        "lang": "tr"
+    },
+    {
+        "text": "bana para iadesi yapın",
+        "intents": [
+            "refund",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_16_51",
+        "lang": "tr"
+    },
+    {
+        "text": "Geçen hafta yaptığım SWIFT transferi için neden benden 7,5 $ ücret aldınız?",
+        "intents": [
+            "why",
+            "transfer_payment_deposit",
+            "fees_interests",
+            "international"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "Geçen hafta",
+                "span": [
+                    0,
+                    11
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 7,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 13,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "amount_of_money": {
+                "text": "7,5 $ ücret",
+                "span": [
+                    55,
+                    66
+                ],
+                "value": {
+                    "amount": 7.5,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_16_52",
+        "lang": "tr"
+    },
+    {
+        "text": "28 Nisan tarihli arletta yarborough ödemem ile ilgili sorun ne?",
+        "intents": [
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing",
+            "why"
+        ],
+        "slots": {
+            "date": {
+                "text": "28 Nisan",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 28,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "arletta yarborough",
+                "span": [
+                    17,
+                    35
+                ],
+                "value": "arletta yarborough"
+            }
+        },
+        "uid": "bank_16_53",
+        "lang": "tr"
+    },
+    {
+        "text": "Sonraki randevum nerede?",
+        "intents": [
+            "appointment",
+            "request_info"
+        ],
+        "uid": "bank_16_54",
+        "lang": "tr"
+    },
+    {
+        "text": "evet, 26 Ekim Cumartesi tarihli o randevuyu rezerve edin",
+        "intents": [
+            "appointment",
+            "make_open_apply_setup_get_activate",
+            "affirm"
+        ],
+        "slots": {
+            "date": {
+                "text": "26 Ekim Cumartesi",
+                "span": [
+                    6,
+                    23
+                ],
+                "value": {
+                    "day": 26,
+                    "month": 10,
+                    "year": 2024
+                }
+            }
+        },
+        "uid": "bank_16_55",
+        "lang": "tr"
+    },
+    {
+        "text": "konut kredisi veriyor musunuz?",
+        "intents": [
+            "request_info",
+            "mortgage"
+        ],
+        "uid": "bank_16_56",
+        "lang": "tr"
+    },
+    {
+        "text": "konut kredim hakkında arıyorum",
+        "intents": [
+            "mortgage"
+        ],
+        "uid": "bank_16_57",
+        "lang": "tr"
+    },
+    {
+        "text": "bu yıl hangi vadeli hesapları sunuyorsunuz?",
+        "intents": [
+            "request_info",
+            "savings",
+            "account"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "bu yıl",
+                "span": [
+                    0,
+                    6
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 12,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_16_58",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu ay ne kadar kazandım",
+        "intents": [
+            "how_much"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "Bu ay",
+                "span": [
+                    0,
+                    5
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_16_59",
+        "lang": "tr"
+    },
+    {
+        "text": "ne tür kredi sunuyorsunuz?",
+        "intents": [
+            "request_info",
+            "loan"
+        ],
+        "uid": "bank_16_60",
+        "lang": "tr"
+    },
+    {
+        "text": "bir kredi hakkında",
+        "intents": [
+            "loan"
+        ],
+        "uid": "bank_16_61",
+        "lang": "tr"
+    },
+    {
+        "text": "Hayır, beni operatöre aktarmayın",
+        "intents": [
+            "deny",
+            "handoff"
+        ],
+        "uid": "bank_16_62",
+        "lang": "tr"
+    },
+    {
+        "text": "gerçek bir kişiyle konuşmak mümkün mü?",
+        "intents": [
+            "handoff",
+            "request_info"
+        ],
+        "uid": "bank_16_63",
+        "lang": "tr"
+    },
+    {
+        "text": "mevduat hesabımdan 22.000£ üzerinde transfer edebilir miyim?",
+        "intents": [
+            "current",
+            "transfer_payment_deposit",
+            "account",
+            "more_higher_after"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "22.000£ üzerinde",
+                "span": [
+                    19,
+                    35
+                ],
+                "value": {
+                    "amount": 22000.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_16_64",
+        "lang": "tr"
+    },
+    {
+        "text": "lütfen hesabımda 100 dolardan fazla olduğunu söyler misiniz?",
+        "intents": [
+            "account",
+            "balance",
+            "request_info",
+            "more_higher_after"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "100 dolardan",
+                "span": [
+                    17,
+                    29
+                ],
+                "value": {
+                    "amount": 100.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_16_65",
+        "lang": "tr"
+    },
+    {
+        "text": "ne kadar para transfer edebileceğime dair herhangi bir limit var mı?",
+        "intents": [
+            "limits",
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_16_66",
+        "lang": "tr"
+    },
+    {
+        "text": "Limitlerim ne?",
+        "intents": [
+            "request_info",
+            "limits"
+        ],
+        "uid": "bank_16_67",
+        "lang": "tr"
+    },
+    {
+        "text": "Ek hesap maliyetleriniz değişiyor mu? 3 bin dolar için ne kadar ücret alıyorsunuz?",
+        "intents": [
+            "overdraft",
+            "how_much",
+            "fees_interests"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "3 bin dolar",
+                "span": [
+                    38,
+                    49
+                ],
+                "value": {
+                    "amount": 3000.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_16_68",
+        "lang": "tr"
+    },
+    {
+        "text": "Yeni bir ek hesap açmak istiyorum",
+        "intents": [
+            "overdraft",
+            "make_open_apply_setup_get_activate",
+            "new"
+        ],
+        "uid": "bank_16_69",
+        "lang": "tr"
+    },
+    {
+        "text": "lütfen 800$ olarak değiştirin",
+        "intents": [
+            "change"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "800$ olarak",
+                "span": [
+                    7,
+                    18
+                ],
+                "value": {
+                    "amount": 800.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_16_70",
+        "lang": "tr"
+    },
+    {
+        "text": "Chancery Lane 6 adresimi N59LS olarak değiştirin.",
+        "intents": [
+            "change"
+        ],
+        "uid": "bank_16_71",
+        "lang": "tr"
+    },
+    {
+        "text": "Hesabımda ane byerley için yapılan o işlemden sonra ne kadar kaldı?",
+        "intents": [
+            "balance",
+            "account",
+            "transfer_payment_deposit",
+            "how_much"
+        ],
+        "slots": {
+            "person_name": {
+                "text": "ane byerley",
+                "span": [
+                    10,
+                    21
+                ],
+                "value": "ane byerley"
+            }
+        },
+        "uid": "bank_16_72",
+        "lang": "tr"
+    },
+    {
+        "text": "Kart bakiyemi göremiyorum",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "balance",
+            "card"
+        ],
+        "uid": "bank_16_73",
+        "lang": "tr"
+    },
+    {
+        "text": "muhamed theriot'e 24 Haziranda 4816$ transfer edebilir miyim?",
+        "intents": [
+            "transfer_payment_deposit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date": {
+                "text": "24 Haziranda",
+                "span": [
+                    18,
+                    30
+                ],
+                "value": {
+                    "day": 24,
+                    "month": 6,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "4816$ transfer",
+                "span": [
+                    31,
+                    45
+                ],
+                "value": {
+                    "amount": 4816.0,
+                    "currency": "USD"
+                }
+            },
+            "person_name": {
+                "text": "muhamed theriot'e",
+                "span": [
+                    0,
+                    17
+                ],
+                "value": "muhamed theriot"
+            }
+        },
+        "uid": "bank_16_74",
+        "lang": "tr"
+    },
+    {
+        "text": "Bankanızda kamaal waibel adına başka bir mevduat hesabı açabilir miyim?",
+        "intents": [
+            "current",
+            "make_open_apply_setup_get_activate",
+            "account"
+        ],
+        "slots": {
+            "person_name": {
+                "text": "kamaal waibel",
+                "span": [
+                    11,
+                    24
+                ],
+                "value": "kamaal waibel"
+            }
+        },
+        "uid": "bank_16_75",
+        "lang": "tr"
+    },
+    {
+        "text": "para biriktirmek için kullandığım hesabı kapatabilir misiniz",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "savings",
+            "account"
+        ],
+        "uid": "bank_16_76",
+        "lang": "tr"
+    },
+    {
+        "text": "O hesabı şimdi açarsam eski hesabımla aynı faiz oranını kullanacak mı?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "fees_interests",
+            "account"
+        ],
+        "uid": "bank_16_77",
+        "lang": "tr"
+    },
+    {
+        "text": "kartla ödersem herhangi bir ücret var mı?",
+        "intents": [
+            "fees_interests",
+            "card",
+            "request_info"
+        ],
+        "uid": "bank_16_78",
+        "lang": "tr"
+    },
+    {
+        "text": "hayır, bu doğru zaman değil",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "deny"
+        ],
+        "uid": "bank_16_79",
+        "lang": "tr"
+    },
+    {
+        "text": "mevduat hesabıma yapılan transfer iade edildi",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "current",
+            "transfer_payment_deposit",
+            "account"
+        ],
+        "uid": "bank_16_80",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu yerden sıkıldım. Hemen şimdi ayrılmak istiyorum",
+        "intents": [
+            "cancel_close_leave_freeze"
+        ],
+        "uid": "bank_16_81",
+        "lang": "tr"
+    },
+    {
+        "text": "Aslında uluslararası bir ödeme",
+        "intents": [
+            "international",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_16_82",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu bahsettiğim hesap değil",
+        "intents": [
+            "deny",
+            "account"
+        ],
+        "uid": "bank_16_83",
+        "lang": "tr"
+    },
+    {
+        "text": "Bunun ne olduğunu bilmiyorum",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_16_84",
+        "lang": "tr"
+    },
+    {
+        "text": "Bilmiyorum",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_16_85",
+        "lang": "tr"
+    },
+    {
+        "text": "lütfen yükleyin",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_16_86",
+        "lang": "tr"
+    },
+    {
+        "text": "Sahip olduğum kartın süresi yakında dolduğu için yeni bir karta ihtiyacım var",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "card",
+            "new"
+        ],
+        "uid": "bank_16_87",
+        "lang": "tr"
+    },
+    {
+        "text": "Yükleme yapmak istiyorum",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_16_88",
+        "lang": "tr"
+    },
+    {
+        "text": "Kartımı kullanmayı düşünüyordum",
+        "intents": [
+            "card"
+        ],
+        "uid": "bank_16_89",
+        "lang": "tr"
+    },
+    {
+        "text": "kartla herhangi bir adreste ödeyebilir miyim?",
+        "intents": [
+            "card",
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_16_90",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, 12 Mayıs",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "date": {
+                "text": "12 Mayıs",
+                "span": [
+                    6,
+                    14
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 5,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_91",
+        "lang": "tr"
+    },
+    {
+        "text": "28 Eylülde",
+        "slots": {
+            "date": {
+                "text": "28 Eylülde",
+                "span": [
+                    0,
+                    10
+                ],
+                "value": {
+                    "day": 28,
+                    "month": 9,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_92",
+        "lang": "tr"
+    },
+    {
+        "text": "Cumartesi gelemem",
+        "intents": [
+            "deny"
+        ],
+        "slots": {
+            "date": {
+                "text": "Cumartesi",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 19,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_16_93",
+        "lang": "tr"
+    },
+    {
+        "text": "evet konuşmak istediğim başka bir şey var",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_16_94",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, halen beklemede görünüyor",
+        "intents": [
+            "affirm",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_16_95",
+        "lang": "tr"
+    },
+    {
+        "text": "Çok isterim ama cevap ne yazık ki hayır",
+        "intents": [
+            "deny"
+        ],
+        "uid": "bank_16_96",
+        "lang": "tr"
+    },
+    {
+        "text": "Hayır, iade edilmedi",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "deny"
+        ],
+        "uid": "bank_16_97",
+        "lang": "tr"
+    },
+    {
+        "text": "Taksit param alındı mı?",
+        "intents": [
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_16_98",
+        "lang": "tr"
+    },
+    {
+        "text": "Mevcut bir alıcıya para gönderdim ama gitmedi",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit",
+            "existing"
+        ],
+        "uid": "bank_16_99",
+        "lang": "tr"
+    },
+    {
+        "text": "İşe gidip gelmediğim için para tasarruf ediyor muyum?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_16_100",
+        "lang": "tr"
+    },
+    {
+        "text": "Nerede?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_16_101",
+        "lang": "tr"
+    },
+    {
+        "text": "Yaptım ama henüz tamamlanmamış görünüyor",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_16_102",
+        "lang": "tr"
+    },
+    {
+        "text": "Mevcut bir alıcı hakkında",
+        "intents": [
+            "existing"
+        ],
+        "uid": "bank_16_103",
+        "lang": "tr"
+    },
+    {
+        "text": "Telefonumdan yaptım",
+        "uid": "bank_16_104",
+        "lang": "tr"
+    }
+]

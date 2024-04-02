@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "would i need to buy a plug converter when in rome",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "are socket converters necessary in england",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "should i buy a specific plug type when in china",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "inform me as to the plug type of the country",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "is there an outlet plug adapter",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "which type of plugs do they use in scotland",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "would it be smart to get a plug converter when i visit israel",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what plug type does spain use",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "does england have a different plug type and if so what is it",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "do i need a socket converter if i'm going to be in ohio",
+        "intents": [
+            "plug_type"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "inform my bank that i'll be going to europe",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i need to let my bank know i am traveling to la",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "since i am traveling to asia, i need to inform the bank",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "tell the bank i'm traveling between denver and la",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you tell my bank that i'll be travelling internationally soon",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "inform my bank i will travel to brazil from june 1st to july 1st",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "im going to be in jamaica from october 4th until october 8th",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "notify my bank i'll be in rome from the 1st to the 17th",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "tell the bank i will be traveling internationally soon",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "tell my bank i am taking a trip to brazil from june 1st to july 1st",
+        "intents": [
+            "travel_notification"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how do they say hello in brazil",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how do they say hello in germany",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "how do you say i'm hungry in french",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how would i say love in french",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i wanna know a phrase in spanish",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what is the way to say thank you in spanish",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how would i say hello if i were swedish",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you translate where's the bar into irish for me",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "please translate grocery into french for me",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how do you say cat in spanish",
+        "intents": [
+            "translate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "whats the status of my singapore flight",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me what time this flight is going to land",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i gotta know when my flight will land",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "is flight dl123 on time",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what is the eta of my flight",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "whats the most recent status for my virgin air flight",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need to know the status of my alaska air flight",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "tell me when my flight scheduled to board",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i would like to know when my flight scheduled to board",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what time is my flight supposed to board",
+        "intents": [
+            "flight_status"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "do i need a visa to spain",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "do i need an international visa to go to hong kong",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "does mexico require me to have a visa to travel there",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "do i need a visa for canada",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i'm going to be going to canada soon, do they require a visa for entry",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "is a visa required to visit cancun",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "should i get a travel visa for spain",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i want to see paris will i need an international visa",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "do i need an international visa to go to south korea",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "will i have to apply for a visa if i want to visit mexico",
+        "intents": [
+            "international_visa"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "las vegas timezone please",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me denver's timezone",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what timezone is russia in",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what's the current timezone in barcelona",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what timezone does lisbon have",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i wanna know what timezone spain is in",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i would like information on france's timezone",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "does phoenix have a different timezone",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "if you're in melbourne, what timezone are you in",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what timezone is lima in",
+        "intents": [
+            "timezone"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "usd to the euro exchanges at what right now",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "tell me the exchange rate between rubles and dollars",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i must know five dollars in yen and rubles",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "whats euros kroner in 25",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i need to know five dollars in yen and rubles",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "how does 10 pounds convert to euros",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "convert krugerrands to saudi riyal",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "tell me the exchange rate between dollars and pesos",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "whats pesos australian dollars in 20",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "how many canadian dollars can i exchange for 200 yen",
+        "intents": [
+            "exchange_rate"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "where is the best winery in the south of france",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "where should i spend my time off",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "name the five star attractions in gatlinburg",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what are some interesting things to do in dc",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "is there anything neat to do in boston",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what are some fun things to do in sweden",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what are some activities to do in chicago",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what are some suggestions for places to travel",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what are some fun things i can partake in in atlanta",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "if i go to evans, what should i do",
+        "intents": [
+            "travel_suggestion"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "is traveling to dublin safe (will dublin be safe)",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "does a travel alert exist for that country",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i am going to be traveling in turkey, are there any alerts",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "would it be safe to go to columbia",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "search for any travel alerts for canada",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "will i be safe while traveling to lyon (will you be safe)",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "have there been any travel alerts issued for france",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "does germany have any travel alerts i should be aware of",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "is it safe to travel to china",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "are there any travel alerts for china",
+        "intents": [
+            "travel_alert"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what are common illnesses i should be vaccinated against when leaving the united states",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "tell me what vaccinations i need to get into france",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "traveling to the uk am i going to need any specific shots",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "would i need any immunization if i go to thailand",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "is it recommended to get any specific shots before i travel to canada",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what shots do i need before heading to france",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me which vaccines i need to take before mexico",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "do i need a vaccination to go to greece",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "is it recommended to get any specific shots before i travel to argentina",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "do i need vaccinations to travel overseas",
+        "intents": [
+            "vaccines"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what is the best way to deal with my lost luggage",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you please help me locate my luggage",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i lost my luggage coming from new york city on american flight ab123",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "it seems my luggage was lost",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i don't know where my luggage is",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "where are my bags, not here at the airport",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i can't locate my luggage, i was on jetblue flight ab123 out of detroit",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "where is my luggage, i was on delta flight ab123 out of dc",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need my luggage that your airline lost it was flight abc123 and now it\u2019s suddenly missing",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "can you check where my luggage is off jetblue flight ab123 out of buffalo",
+        "intents": [
+            "lost_luggage"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "buy delta ticket madison to atlanta",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "compare fares for al italia from bucharest to tampa returning before thanksgiving",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "compare prices for flights from recife to miami leaving may 20 returning june 5",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "find me a flight from nyc to la on march 1, returning on march 5",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "could you check and let me know roundtrip flights from dallas to houston for march 7 and march 20",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "i need a flight to be booked from san diego to boston through frontier",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i'm looking for a roundtrip flight from oma to sps august 1st, 2019 to august 2nd, 2019",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "find me a flight out of la to chicago on march 3rd for under $500",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "book me a flight from o'hare to las vegas on deltacom",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "find me a roundtrip flight from dallas to los angeles from march 2 to march 10",
+        "intents": [
+            "book_flight"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need lodging in lizton near the ice cream parlor from may 3rd until the 8th",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "create a reservation novemeber 11 to 15 in cali",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "please book me a room in austin from tomorrow to the 2nd",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "can you find me a decent hotel in denver",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i'm inquiring about the availability of a room that fits 10 people from monday to tuesday in manhattan",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need a place in pittsburgh to stay from monday to friday, can you help",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i will be in lakewood from monday to wednesday and i need a hotel room for 4 people",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "find a hotel with great reviews in san francisco",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "look up hotels with positive reviews in new york city",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "can i book a hotel in new york city near times square from 3/1 until 3/5",
+        "intents": [
+            "book_hotel"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "what are the rules regarding carry-on baggage for flights on virgin airlines",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what are the carry-on restrictions for singapore airlines",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "on a flight with jin air to jeju, how many carry ons are allowed",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "does jet blue have any carry-on restrictions",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how many carry ons does spirit allow when flying to dallas",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "am i allowed carry ons for my flight with westjet to edmonton",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "from a flight from muscat to qatar, how many carry ons can i take",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "if i fly internationally, do brittish airwaiys have carry-on limitations",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "does united airlines allow more than one carry on",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what are the carry-on restrictions for southwest airlines",
+        "intents": [
+            "carry_on"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "could i rent a car from tuesday to thursday out of lax",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "please check if i can do a car rental from charlotte douglas airport from monday to wednesday",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "what places in chicago will allow me to rent a car from monday to friday",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "show me how to rent a car in las vegas",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "will car rentals be available in boston from march 2 to march 4",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "rent me a car in aiken on may 12 to may 16",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need to book a car rental in boston",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "i need to rent a car in boston",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 1
+    },
+    {
+        "text": "will you help me rent a car from march 2 to 6th in dallas i want a bmw suv, if possible",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "how can i rent a car in boston",
+        "intents": [
+            "car_rental"
+        ],
+        "domain": "travel",
+        "fold": 0
+    },
+    {
+        "text": "when was kobe bryant born",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what trees change color in autumn",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how is glue made",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how fast does an airplane travel",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "where is the dipstick",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how many sides are in a hexagon",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what years has korea been at war",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what animals have alpha males",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "is k-12 education required outside of the united states",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "get me dwight howard shooting average",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

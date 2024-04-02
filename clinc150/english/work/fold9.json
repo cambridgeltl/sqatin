@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "have they recieved my vacation request and approved it",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "has my vacation been ok'd",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i want to know what the latest is on my vacation request i submitted",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to know the status of my day off request",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "has my request for vacation time been okayed",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "give me the status of my vacation request",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i'm i okayed for vacation time",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "is walmart going to let me take the vacation time i asked for",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "has my vacation request been acknowledged",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "did you hear back about my day off request",
+        "intents": [
+            "pto_request_status"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "when will the day off be",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i need to know when my next day off is",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "tell me what holiday is comming up next",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i need to know how long until my next vacation day",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "to what extent until the following three day weekend",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "when is the next office holiday",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what's the closest holiday after today",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "when don't i have to work next",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "is the next day off coming up",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what day is our next free day, please",
+        "intents": [
+            "next_holiday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need a new house insurance plan",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i want to start a new aaa insurance plan",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "new insurance is obtainable how",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what rental insurance policy do you recommend",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how can i find out about new insurance",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i want a new policy with long-term care insurance",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to make changes to my insurance policy",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "help me make changes to my insurance policy",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to find new insurance",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need new insurance but dont know how to get it",
+        "intents": [
+            "insurance_change"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "list insurance benefits",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what are my insurance assets",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what health plan do i have",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "my insurance gives me what benefits",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can i obtain health benefits",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me the name of the insurance plan i'm a member of",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "tell me my health plan",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what was my health plan again",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "my insurance benefits are what",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what do my benefits look like",
+        "intents": [
+            "insurance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "share my meeting schedule with me",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "are any meetings scheduled for today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "do i have any meetings scheduled for today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "do i have any meetings with michael today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "tell me what my day looks like today in terms of meetings",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to know if i have any meetings scheduled for today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "are there any meetings i have today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "do i have any meetings coming up today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "is a meeting with ruth on my schedule today",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i wanna know when my meeting is with dan",
+        "intents": [
+            "meeting_schedule"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what is the date i get paid",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me when i'm supposed to get paid",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what day do i get paid next",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "tell me when my next paycheck is set to arrive",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what date do i get my next paycheck",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how many days until my next payday",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "when is my next paycheck",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what time is my next paycheck coming",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what day do i get my paycheck",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "when will my next paycheck be",
+        "intents": [
+            "payday"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what amount do i have to pay in taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what is the amount of money that i have to pay in taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you calculate my tax",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "let me know my tax rate",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "help me figure out my state taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i would like to know how much i pay in taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what do i currently pay in taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how much will i have to pay in colorado taxes",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how much are taxes on this",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how much am i expected to pay in tax",
+        "intents": [
+            "taxes"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me my current salary",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what's my pay for this week",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "tell me my income",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need you to tell me my salary",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can i have more information about my income",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "give me my income",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what're my wages for the week",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "tell me my salary please",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what is my yearly salary",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what is my income",
+        "intents": [
+            "income"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i need to rollover my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you explain to me how to rollover my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i have a new job, help me with my 401k rollover",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i just started this new job and need help with my 401k rollover",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what are the steps for transfering my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what's the process for rolling over my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i switched companies and need to rollover my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what's up with my 401k and will it roll over",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i have to transfer my 401k but i don't know how to do it",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "help me roll over my 401k",
+        "intents": [
+            "rollover_401k"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how many vacation days do i have remaining",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "do i have enough vacation to take a european trip",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "would you provide the number of vacation days i have",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how many days of vacation have i saved",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how many vacation days do i have",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how much time off do i have left",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "do i still have any pto days left, and if so, how many",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i want to know how many vacation days i can use",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "do i have enough pto to take time off",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what's the current amount of vacation owed to me",
+        "intents": [
+            "pto_balance"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "request pto from march 8th until march 11th",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "please put in a pto request for june 5th and 6th",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what do i do to request a vacation",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to put in a pto request for march 4 to march 6",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i want you to make me a pto request for me for april twenty through may two",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "please tell me how to go about asking for a vacation",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "would it be possible to make a pto request for january 15th and 16th",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "please request pto for me from march 3rd to march 7th",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you put in a pto request for me for july second and third",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "is it possible for me to take a pto for two days, starting february 7",
+        "intents": [
+            "pto_request"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "have i been sent my w-2 in my email",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "can you locate my w-2",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "where can i get the employment document that i need to do my taxes, please",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i need to do taxes and have to get a w2",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "where can i get a w2 form from",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "where do i find the irs form that tells me the amount of money i owe them",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "where can i get a w2 form",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "where do i get the form i need for taxes",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "where is my w-2",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me what the form is employers are supposed to send you for taxes and where i get it",
+        "intents": [
+            "w2"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i want to find out how do i schedule a meeting",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "can you hook me up with a meeting room on saturday morning at 10am",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "meeting room availability from 8:00 please",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i need to set a meeting with tom at 6pm",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to schedule a meeting with mae at 5pm",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "please find out if rooms are free from 1 to 2",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "a meeting needs to be schedule and i need to know how",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "check if meeting rooms are free from 6 to 7",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "could you please schedule a meeting with carrie and lisa",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "are there meeting rooms available between 10-11",
+        "intents": [
+            "schedule_meeting"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "i would like to set up a direct deposit, please tell me how",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i would like to set up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i need to set up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "assist me to set up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i'd like to set up a direct deposit for my paycheck",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "can you walk me through setting up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "info on setting up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "i want to set direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "onpay gives you two convenient ways to pay your employees",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "please help me set up direct deposit",
+        "intents": [
+            "direct_deposit"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how many of my sick days have i gone through",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "tell me how much pto i've used",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what kind of vacation days have i used so far",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how many of my paid days off have i used",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how much paid time off do i have left",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "how many vacation days have i used so far",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "what amount of pto have i taken",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "up to this point, how much of my pto have i used",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "about how many vacation days have i taken",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 1
+    },
+    {
+        "text": "how many days have i taken off so far",
+        "intents": [
+            "pto_used"
+        ],
+        "domain": "work",
+        "fold": 0
+    },
+    {
+        "text": "what is saas marketing",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you help me study for a history exam",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what does it mean to be an alpha male",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how long do wire transfers take",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when was toyota created",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how can i become an aerospace engineer",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what does my personality mean",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when do classes start",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what time does the louvre open",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when do the utah jazz play next",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

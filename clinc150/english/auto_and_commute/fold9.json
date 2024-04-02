@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "where am i located",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me my location",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i need to find out how i know my location right now",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what country and city am i in",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "where are we located",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "can you locate me on a map",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "please tell me my present gps coordinates",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "in the place i am what are my gps coordinates",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "where exactly am i",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "please tell me my location using gps",
+        "intents": [
+            "current_location"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when do cars need their oil changed",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "in how many miles do i need to schedule my oil change",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when do i need to change my oil again",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how often should you get an oil change",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how often should the oil get changed",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when is my oil due to be changed",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "the next time i change my oil, when should it be",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how many miles can i drive before changing my oil",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "about how long before i need another oil change",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "when is my next oil change",
+        "intents": [
+            "oil_change_when"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i want to change my oil if you can tell me what to do, and what kind do i get",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i can't change my oil and don't know what kind i need",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me the procedure for changing oil in a car",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what is the way i can change my oil",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i don't know how to change my oil or what type i need",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "give me instruction mannual on how to change oil",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need step by step instructions on how to change the oil in my car",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me what to do to change the oil in a subaru",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what do i need to change my oil",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i want to learn to change oil",
+        "intents": [
+            "oil_change_how"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "get an uber to take me to my brother's house in mineola",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "am i able to get an uber to the movies",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "book a 6 person uber to the movies",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "find an uber xl to take me to the kroger near me",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i need an uber to the sears tower",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "schedule an uber for 3 to go to the airport",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i'm going to need an uber to take 4 people to the mall",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "call an uber to mcdonalds",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "schedule me an uber to my job",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i'm going to the movies book an uber for 6 people",
+        "intents": [
+            "uber"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "is there traffic to work",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "is traffic bad on the way to chicago",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need to know what traffic will be like in temp",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "give me an idea of traffic on the way to the doctors office at 6",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how will traffic be at 7am on the way to my job",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how's highway traffic today",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "is the expressway slow this morning",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me the traffic in tempe",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "is there traffic on my way to work today",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i gotta know what the traffic is like on the way to phoenix",
+        "intents": [
+            "traffic"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "is my tire pressure in the correct range",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "should i air up the tires",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "is the air pressure on my tires low",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "are my tires ok on pressure",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how is the air level in my tires",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "the cars riding funny, does the tire pressure feel low to you",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "would it be smart to put air in my tires",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "are my tires low",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what's my car's tire pressure",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "can you tell me the tire pressure in my car",
+        "intents": [
+            "tire_pressure"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need an appointment to get my oil changed",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "look for auto companies that do scheduled maintenance on my vehicle",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "find me a mechanic",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need to schedule a car repair",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "schedule an appointment to get my oil changed",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i got to schedule somewhere get my tires checked out",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how i do schedule car maintenance",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i have to schedule some car maintenance",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "can i please get an appointment to get my oil changed",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "can someone look at my car cause the check engine light is on",
+        "intents": [
+            "schedule_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "can i make it to tampa without needing to get more gas",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i'd like to know how much gas is left",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what is my current fuel level",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what do i have left in the gas tank",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "where can i get gas to get to sioux falls",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "am i running low on gas",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how much gas do i currently have",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what does my gas meter say",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how many miles is there left to get to sioux falls",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i'd just like to know how much gas is in my vehicle",
+        "intents": [
+            "gas"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what's the non-city mpg for this car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how does this car do with mpg in the city",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what is the city mpg for this car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "can you tell me the miles per gallon rate of my car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "do you know the fuel economy of this car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what's this car guzzle in gas when driving in town",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how's the mpg for this on the freeway",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what's my car's gas mileage",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how expensive is it to fuel this car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how many miles per gallon do i get in my car",
+        "intents": [
+            "mpg"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "utilizing an automobile known as a bus, how long will it take to get to detroit",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how long will a bus ride take if i'm going to the capitol building",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how long to get to the airport in la",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "estimated time to airport from current location, la",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how long does it take to get to the sky harbor airport",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what amount of time would it take me to reach the university by bus",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how long can i expect a bus ride to the liberty bell to take",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how long is the ride to phoenix",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "if i'm trying to get to heinz field, how long would it take by bus",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how far is the grand canyon from my current location in phoenix, az",
+        "intents": [
+            "distance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "is it possible to take the bus to the brooklyn bridge",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "direct me to the closest starbucks near home",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how do i get to the hotel by bus",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how to i get to the mall on foot",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what are the directions to get to olympia by bus",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "is a bar close to my church",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "let me know how to get to the starbucks nearby",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "please tell me the subway station nearest to madison square garden in new york",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i want to get directions to the closest atm",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "where can i find the mall closest to here",
+        "intents": [
+            "directions"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "check my calendar for the date that my care was last serviced",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what date did i last take my car in",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how long ago was my car last in the shop",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "find out the last time i had my car checked",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "when did i last have my vehicle serviced",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me when my car last had its oil changed",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need to know when was the last time i had my car checked out for a tune up",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i need you to look up the date of my car's last visit to the shop",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how long has it been since my car was last in the shop",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how long ago did my car get looked at",
+        "intents": [
+            "last_maintenance"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me what type of fuel i need to use for this car",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "so what kind of gas does my car need",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "will using a different type of gas matter for this car",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what kind of fuel should i use to fill the car",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i need to know what kind of fuel this car needs",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "which fuel does my car take",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what type of gas do i need for this car",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what kind of gas does my car take",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what kind of gas should i use to fill the car",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what kind of fuel does my vehicle run on",
+        "intents": [
+            "gas_type"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when are my tires due to be changed",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when should i go in and have my tires changed",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "tell me the status of my tires and when i need to replace them",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when do you think i should replace my tires because i replaced them on 12/21/17",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how much longer until i have to change my tires",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when should i get new tires",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "i replaced my tires in december, when should i replace them again",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "are my tires due to be changed",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "when do i need to change my tires",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how long can i go before i need to change my tires",
+        "intents": [
+            "tire_change"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what are some ways to jump start a car",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what is the procedure to jump start a car",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "how do you go about jump starting a car battery",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what should i do if my car battery is dead",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "i don't know how to jump start my car",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what do i do if i think my car battery's dead",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "my car is dead can you tell me how to jump start it",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "what will i need to jump start a dead car",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 0
+    },
+    {
+        "text": "my car battery has died what should i do now",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "how do you jump a car with a dead battery",
+        "intents": [
+            "jump_start"
+        ],
+        "domain": "auto_and_commute",
+        "fold": 1
+    },
+    {
+        "text": "what is saas marketing",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "can you help me study for a history exam",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what does it mean to be an alpha male",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how long do wire transfers take",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when was toyota created",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how can i become an aerospace engineer",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what does my personality mean",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when do classes start",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what time does the louvre open",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "when do the utah jazz play next",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

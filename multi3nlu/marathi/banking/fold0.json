@@ -1,0 +1,1508 @@
+[
+    {
+        "text": "नव्या पिनसाठी साधारणपणे किती वेळ लागतो?",
+        "intents": [
+            "how_long",
+            "pin",
+            "arrival",
+            "new"
+        ],
+        "uid": "bank_0_0",
+        "lang": "mr"
+    },
+    {
+        "text": "ओके, मला पुढच्या आठवड्यात सकाळी 9 05 ते 25 संध्याकाळी 7 पर्यंत कोणत्याही दिवशी चालेल.",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "acknowledge"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "पुढच्या आठवड्यात",
+                "span": [
+                    9,
+                    25
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 21,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 27,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "time_from": {
+                "text": "सकाळी 9 05",
+                "span": [
+                    26,
+                    36
+                ],
+                "value": {
+                    "hour": 9,
+                    "minute": 5
+                }
+            },
+            "time_to": {
+                "text": "25 संध्याकाळी 7",
+                "span": [
+                    40,
+                    55
+                ],
+                "value": {
+                    "hour": 18,
+                    "minute": 35
+                }
+            }
+        },
+        "uid": "bank_0_1",
+        "lang": "mr"
+    },
+    {
+        "text": "हो, 25 नंतर 23 ला",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "time_from": {
+                "text": "25 नंतर 23 ला",
+                "span": [
+                    4,
+                    17
+                ],
+                "value": {
+                    "hour": 23,
+                    "minute": 25
+                }
+            }
+        },
+        "uid": "bank_0_2",
+        "lang": "mr"
+    },
+    {
+        "text": "6 नव्या स्टँडिंग ऑर्डर तयार करा.",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "standing_order",
+            "new"
+        ],
+        "slots": {
+            "number": {
+                "text": "6",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 6
+            }
+        },
+        "uid": "bank_0_3",
+        "lang": "mr"
+    },
+    {
+        "text": "गेले 3 तास माझं कार्ड सापडत नसल्याने ते ब्लॉक करा.",
+        "intents": [
+            "card",
+            "cancel_close_leave_freeze",
+            "lost_stolen"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "गेले 3 तास",
+                "span": [
+                    0,
+                    10
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 6,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 9,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_0_4",
+        "lang": "mr"
+    },
+    {
+        "text": "बिझनेस वन उघडा.",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "business"
+        ],
+        "uid": "bank_0_5",
+        "lang": "mr"
+    },
+    {
+        "text": "रिकेल कावामोटोला दर महिन्याच्या 4 तारखेला ही स्टँडिंग ऑर्डर द्या",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "standing_order"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "दर महिन्याच्या 4 तारखेला",
+                "span": [
+                    17,
+                    41
+                ],
+                "values": {
+                    "type": "periodic"
+                }
+            },
+            "person_name": {
+                "text": "रिकेल कावामोटोला",
+                "span": [
+                    0,
+                    16
+                ],
+                "value": "rickelle kawamoto"
+            }
+        },
+        "uid": "bank_0_6",
+        "lang": "mr"
+    },
+    {
+        "text": "गुडबाय",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_0_7",
+        "lang": "mr"
+    },
+    {
+        "text": "ऍडिओस, आपण आता थांबले पाहिजे",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_0_8",
+        "lang": "mr"
+    },
+    {
+        "text": "ओके 20 ते 2 चालेल",
+        "intents": [
+            "acknowledge"
+        ],
+        "slots": {
+            "time": {
+                "text": "20 ते 2",
+                "span": [
+                    4,
+                    11
+                ],
+                "value": {
+                    "hour": 1,
+                    "minute": 40
+                }
+            }
+        },
+        "uid": "bank_0_9",
+        "lang": "mr"
+    },
+    {
+        "text": "ठीक, माझे चेक पेमेंट अजून का झाले नाहीए?",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit",
+            "why"
+        ],
+        "uid": "bank_0_10",
+        "lang": "mr"
+    },
+    {
+        "text": "दुसऱ्या कोणाच्या नावे चेक दिला तर चालेल का?",
+        "intents": [
+            "request_info",
+            "cheque",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_11",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माहितीपत्रक कधी मिळेल?",
+        "intents": [
+            "arrival",
+            "when"
+        ],
+        "uid": "bank_0_12",
+        "lang": "mr"
+    },
+    {
+        "text": "हो, आभार, आत्ताच आलं.",
+        "intents": [
+            "thank",
+            "affirm",
+            "arrival"
+        ],
+        "uid": "bank_0_13",
+        "lang": "mr"
+    },
+    {
+        "text": "माझं कॉन्टॅक्टलेस कार्ड ब्लॉक करता येईल का तुम्हाला? ज्या वॉलेटमध्ये ते होतं ते काल रात्रीपासून गायब आहे.",
+        "intents": [
+            "contactless",
+            "lost_stolen",
+            "cancel_close_leave_freeze",
+            "card"
+        ],
+        "slots": {
+            "date": {
+                "text": "काल रात्रीपासून",
+                "span": [
+                    80,
+                    95
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_14",
+        "lang": "mr"
+    },
+    {
+        "text": "नाही, ते हरवलं नाहीए",
+        "intents": [
+            "lost_stolen",
+            "deny"
+        ],
+        "uid": "bank_0_15",
+        "lang": "mr"
+    },
+    {
+        "text": "माझं दुसऱ्या देशातलं क्रेडिट कार्ड मला वापरता येईल का?",
+        "intents": [
+            "card",
+            "international",
+            "credit",
+            "request_info"
+        ],
+        "uid": "bank_0_16",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्या क्रेडिट कार्डची अधिकतम मर्यादा मी ओलांडली आहे का?",
+        "intents": [
+            "card",
+            "credit",
+            "overdraft",
+            "limits",
+            "request_info"
+        ],
+        "uid": "bank_0_17",
+        "lang": "mr"
+    },
+    {
+        "text": "मला 16 ते 22 एप्रिल दाखवा.",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "16",
+                "span": [
+                    4,
+                    6
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "22 एप्रिल",
+                "span": [
+                    10,
+                    19
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_18",
+        "lang": "mr"
+    },
+    {
+        "text": "बरोबर, 20 जुलै 1992 पर्यंत, आभार",
+        "intents": [
+            "thank",
+            "affirm"
+        ],
+        "slots": {
+            "date_to": {
+                "text": "20 जुलै 1992",
+                "span": [
+                    7,
+                    19
+                ],
+                "value": {
+                    "day": 20,
+                    "month": 7,
+                    "year": 1992
+                }
+            }
+        },
+        "uid": "bank_0_19",
+        "lang": "mr"
+    },
+    {
+        "text": "गेल्या आठवड्यापासून मी किती पैसे काढले आहेत?",
+        "intents": [
+            "how_much",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "गेल्या आठवड्यापासून",
+                "span": [
+                    0,
+                    19
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 2,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "काढले",
+                "span": [
+                    33,
+                    38
+                ],
+                "value": "take out"
+            }
+        },
+        "uid": "bank_0_20",
+        "lang": "mr"
+    },
+    {
+        "text": "8 आठवड्यांपूर्वी औषधांसाठी मी किती खर्च केला?",
+        "intents": [
+            "how_much"
+        ],
+        "slots": {
+            "date": {
+                "text": "8 आठवड्यांपूर्वी",
+                "span": [
+                    0,
+                    16
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 1,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "औषधांसाठी",
+                "span": [
+                    17,
+                    26
+                ],
+                "value": "pharmacy"
+            }
+        },
+        "uid": "bank_0_21",
+        "lang": "mr"
+    },
+    {
+        "text": "मला वाटतंय LA VN ला मी 5 वेळा भेटी दिल्या आहेत आत्ताच्या आत्ता, मी किराणावर 400 पेक्षा अधिक तर उडवले नाहीत ना?",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "आत्ताच्या आत्ता",
+                "span": [
+                    47,
+                    62
+                ],
+                "values": {
+                    "type": "ambiguous"
+                }
+            },
+            "amount_of_money": {
+                "text": "400",
+                "span": [
+                    76,
+                    79
+                ],
+                "value": {
+                    "amount": 400.0,
+                    "currency": "ambiguous"
+                }
+            },
+            "company_name": {
+                "text": "LA VN",
+                "span": [
+                    11,
+                    16
+                ],
+                "value": "LA VN"
+            },
+            "shopping_category": {
+                "text": "किराणावर",
+                "span": [
+                    67,
+                    75
+                ],
+                "value": "groceries"
+            }
+        },
+        "uid": "bank_0_22",
+        "lang": "mr"
+    },
+    {
+        "text": "माझं भांडवल मला कधी मिळेल?",
+        "intents": [
+            "mortgage",
+            "when"
+        ],
+        "uid": "bank_0_23",
+        "lang": "mr"
+    },
+    {
+        "text": "माझी जमा रक्कम मला पुन्हा कधी बघता येईल?",
+        "intents": [
+            "balance",
+            "when"
+        ],
+        "uid": "bank_0_24",
+        "lang": "mr"
+    },
+    {
+        "text": "हॅलो, मी आपल्याला फोन करीत आहे कारण आपण 15 मिनिटांपूर्वी केलेली चर्चा अगदी बरोबर आहे.",
+        "intents": [
+            "affirm",
+            "greet"
+        ],
+        "slots": {
+            "time": {
+                "text": "15 मिनिटांपूर्वी",
+                "span": [
+                    40,
+                    56
+                ],
+                "value": {
+                    "hour": 8,
+                    "minute": 45
+                }
+            }
+        },
+        "uid": "bank_0_25",
+        "lang": "mr"
+    },
+    {
+        "text": "हॅलो, आणि आभार!",
+        "intents": [
+            "thank",
+            "greet"
+        ],
+        "uid": "bank_0_26",
+        "lang": "mr"
+    },
+    {
+        "text": "हा बरोबर पिन आहे पण मला ह्याने आत घुसता येत नाही...",
+        "intents": [
+            "pin",
+            "affirm",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_0_27",
+        "lang": "mr"
+    },
+    {
+        "text": "ऍपमध्ये लॉगिन होण्यासाठी मी वापरत असलेला नंबर",
+        "intents": [
+            "pin"
+        ],
+        "uid": "bank_0_28",
+        "lang": "mr"
+    },
+    {
+        "text": "आभार! मला एक अपॉईनमेंट हवी",
+        "intents": [
+            "appointment",
+            "thank",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_0_29",
+        "lang": "mr"
+    },
+    {
+        "text": "आभार! माझ्या नेहमीच्या पत्त्यावर डेबिट कार्ड पाठवा.",
+        "intents": [
+            "debit",
+            "thank",
+            "card"
+        ],
+        "uid": "bank_0_30",
+        "lang": "mr"
+    },
+    {
+        "text": "मी हे डेबिट कार्ड वापरले त तुम्ही थेट माझ्या करंट खात्याला वळते करता का?",
+        "intents": [
+            "current",
+            "card",
+            "request_info",
+            "account",
+            "debit",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_31",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माहित नाही नक्की हे डेबिट आहे का",
+        "intents": [
+            "debit",
+            "dont_know"
+        ],
+        "uid": "bank_0_32",
+        "lang": "mr"
+    },
+    {
+        "text": "मला 73 पौंड कार्डने काढायचे आहेत",
+        "intents": [
+            "withdrawal",
+            "card",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "73 पौंड",
+                "span": [
+                    4,
+                    11
+                ],
+                "value": {
+                    "amount": 73.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_0_33",
+        "lang": "mr"
+    },
+    {
+        "text": "तुमच्या atms मधून कॉन्टॅक्टलेस पैसे काढता येतात का?",
+        "intents": [
+            "withdrawal",
+            "contactless",
+            "card",
+            "request_info"
+        ],
+        "uid": "bank_0_34",
+        "lang": "mr"
+    },
+    {
+        "text": "मला atm मधून माझ्या कार्डने रोख रक्कम काढता येत नाहीए",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card",
+            "withdrawal"
+        ],
+        "uid": "bank_0_35",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्या सेव्हिंग्स खात्याशी संलग्न कार्ड मला कसे मिळेल?",
+        "intents": [
+            "savings",
+            "account",
+            "how",
+            "card",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_0_36",
+        "lang": "mr"
+    },
+    {
+        "text": "Amazon Prime Video कडून मी रिफंड कसा मागू?",
+        "intents": [
+            "refund",
+            "make_open_apply_setup_get_activate",
+            "how"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "Amazon Prime Video",
+                "span": [
+                    0,
+                    18
+                ],
+                "value": "Amazon Prime Video"
+            }
+        },
+        "uid": "bank_0_37",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्या व्हिसा कार्डने पोस्ट ऑफिसात युटिलिटी बिल्स भरता येतील का?",
+        "intents": [
+            "card",
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "पोस्ट ऑफिसात",
+                "span": [
+                    22,
+                    34
+                ],
+                "value": "post office"
+            }
+        },
+        "uid": "bank_0_38",
+        "lang": "mr"
+    },
+    {
+        "text": "नाही, हे M&S मध्ये थेट डेबिट आधी नव्हतेच.",
+        "intents": [
+            "direct_debit",
+            "deny"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "M&S",
+                "span": [
+                    9,
+                    12
+                ],
+                "value": "M&S"
+            }
+        },
+        "uid": "bank_0_39",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्या करंट अकाऊंटमधील जमा रक्कम आणि थेट डेबिट ह्यांचा काय संबध आहे?",
+        "intents": [
+            "balance",
+            "direct_debit",
+            "request_info"
+        ],
+        "uid": "bank_0_40",
+        "lang": "mr"
+    },
+    {
+        "text": "थेट डेबिट कार्ड पेमेंट्सवर काय बंधने आहेत?",
+        "intents": [
+            "request_info",
+            "direct_debit",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_41",
+        "lang": "mr"
+    },
+    {
+        "text": "कॉन्टॅक्टलेस खर्चाची मासिक मर्यादा काय आहे?",
+        "intents": [
+            "contactless",
+            "limits",
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "मासिक",
+                "span": [
+                    21,
+                    26
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 30
+                }
+            }
+        },
+        "uid": "bank_0_42",
+        "lang": "mr"
+    },
+    {
+        "text": "ते कॉन्टॅक्टलेस होते की नाही मला आठवत नाही.",
+        "intents": [
+            "dont_know",
+            "contactless"
+        ],
+        "uid": "bank_0_43",
+        "lang": "mr"
+    },
+    {
+        "text": "पण मी कमी खात आहे.",
+        "intents": [
+            "less_lower_before"
+        ],
+        "uid": "bank_0_44",
+        "lang": "mr"
+    },
+    {
+        "text": "मग, मी माझा ओव्हरड्राफ्ट कमी करू का ?",
+        "intents": [
+            "overdraft",
+            "change",
+            "request_info",
+            "dont_know",
+            "less_lower_before"
+        ],
+        "uid": "bank_0_45",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माहित आहे रक्कम क्षुल्लक आहे, तरीही मला माझे 40€ परत हवेत!",
+        "intents": [
+            "refund"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "40€",
+                "span": [
+                    49,
+                    52
+                ],
+                "value": {
+                    "amount": 40.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_0_46",
+        "lang": "mr"
+    },
+    {
+        "text": "मी आता खूप दिवसांपासून प्रतिपूर्तीची वाट पाहत आहे.",
+        "intents": [
+            "refund",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_0_47",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे कर्ज का नाकारले गेले ते कृपया मला सांगाल का?",
+        "intents": [
+            "loan",
+            "wrong_notworking_notshowing",
+            "why"
+        ],
+        "uid": "bank_0_48",
+        "lang": "mr"
+    },
+    {
+        "text": "nan",
+        "intents": [
+            "fees_interests",
+            "request_info",
+            "more_higher_after",
+            "loan",
+            "why"
+        ],
+        "uid": "bank_0_49",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माझ्या मॉर्टगेजविषयी बोलण्यासाठी उद्या रात्री ९ वाजून १० मिनिटांना असणारी मीटिंग रद्द करावी लागेल",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "appointment",
+            "mortgage"
+        ],
+        "slots": {
+            "time": {
+                "text": "रात्री ९ वाजून १० मिनिटांना",
+                "span": [
+                    43,
+                    70
+                ],
+                "value": {
+                    "hour": 21,
+                    "minute": 10
+                }
+            },
+            "date": {
+                "text": "उद्या",
+                "span": [
+                    37,
+                    42
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_50",
+        "lang": "mr"
+    },
+    {
+        "text": "मी अपॉइंटमेन्ट बुक करू इच्छित आहे",
+        "intents": [
+            "appointment",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_0_51",
+        "lang": "mr"
+    },
+    {
+        "text": "हे माझे पहिलेच मॉर्टगेज आहे म्हणून मला शुल्काविषयी अधिक महिती दिल्यास बरे होईल",
+        "intents": [
+            "mortgage",
+            "request_info",
+            "fees_interests"
+        ],
+        "uid": "bank_0_52",
+        "lang": "mr"
+    },
+    {
+        "text": "मॉर्टगेजसाठी कसा अर्ज करावा याविषयी मी अधिक जाणून घेऊ इच्छित आहे",
+        "intents": [
+            "mortgage",
+            "make_open_apply_setup_get_activate",
+            "request_info"
+        ],
+        "uid": "bank_0_53",
+        "lang": "mr"
+    },
+    {
+        "text": "या आठवड्यामध्ये माझा सर्वाधिक खर्च कशावर झाला",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "या आठवड्यामध्ये",
+                "span": [
+                    0,
+                    15
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 14,
+                        "month": 3,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 20,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_0_54",
+        "lang": "mr"
+    },
+    {
+        "text": "या तिमाहीत माझ्या व्याज दरांची काय स्थिती होती?",
+        "intents": [
+            "fees_interests",
+            "request_info"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "या तिमाहीत",
+                "span": [
+                    0,
+                    10
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_0_55",
+        "lang": "mr"
+    },
+    {
+        "text": "तुमचे कर्ज दर व शुल्क याविषयी मला अधिक माहिती हवी आहे",
+        "intents": [
+            "loan",
+            "request_info",
+            "fees_interests"
+        ],
+        "uid": "bank_0_56",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माझे कर्ज रद्द करायचे आहे",
+        "intents": [
+            "loan",
+            "cancel_close_leave_freeze"
+        ],
+        "uid": "bank_0_57",
+        "lang": "mr"
+    },
+    {
+        "text": "थोडा वेळ थांबा आणि मी वास्तविक व्यक्तीशी बोलून घेतो",
+        "intents": [
+            "handoff"
+        ],
+        "uid": "bank_0_58",
+        "lang": "mr"
+    },
+    {
+        "text": "नाही, मी हस्तांतरण करू इच्छित नाही, कृपया मला दुसऱ्या एखाद्या व्यक्तीशी बोलू द्या",
+        "intents": [
+            "deny",
+            "transfer_payment_deposit",
+            "handoff"
+        ],
+        "uid": "bank_0_59",
+        "lang": "mr"
+    },
+    {
+        "text": "मला माझी टॉप अप मर्यादा वाढवायची आहे, मला बुधवारपर्यंत पैसे हवे आहेत!",
+        "intents": [
+            "change",
+            "limits",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "बुधवारपर्यंत",
+                "span": [
+                    42,
+                    54
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_60",
+        "lang": "mr"
+    },
+    {
+        "text": "नक्कीच ते यापेक्षा अधिक आहे",
+        "intents": [
+            "more_higher_after"
+        ],
+        "uid": "bank_0_61",
+        "lang": "mr"
+    },
+    {
+        "text": "तुमच्या एक्सफ्लेक्स बचत खात्यासाठी ठेवींवर मासिक मर्यादा किती आहे?",
+        "intents": [
+            "how_much",
+            "limits",
+            "savings",
+            "account",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_62",
+        "lang": "mr"
+    },
+    {
+        "text": "माझा ओव्हरड्राफ्ट रद्द करण्यासाठी मी पेमेन्ट केलेले आहे परंतु ते अद्याप प्रलंबित आहे, हे अनुचित आहे, आता मी कोणतेही शुल्क भरणार नाही",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit",
+            "overdraft",
+            "fees_interests"
+        ],
+        "uid": "bank_0_63",
+        "lang": "mr"
+    },
+    {
+        "text": "मी वेळेमध्ये बदल करू इच्छित आहे",
+        "intents": [
+            "change"
+        ],
+        "uid": "bank_0_64",
+        "lang": "mr"
+    },
+    {
+        "text": "कृपया थोडा अधिक वाढवा",
+        "intents": [
+            "change"
+        ],
+        "uid": "bank_0_65",
+        "lang": "mr"
+    },
+    {
+        "text": "सध्याची शिल्लक",
+        "intents": [
+            "how_much",
+            "balance"
+        ],
+        "uid": "bank_0_66",
+        "lang": "mr"
+    },
+    {
+        "text": "सध्याची एकूण शिल्लक",
+        "intents": [
+            "how_much",
+            "balance"
+        ],
+        "uid": "bank_0_67",
+        "lang": "mr"
+    },
+    {
+        "text": "ईयू देशामध्ये ५६.७९ पाउंड्स हस्तांतरीत करण्यासाठी तुम्ही किती प्रभार आकाराल?",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit",
+            "fees_interests",
+            "international"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "५६.७९ पाउंड्स",
+                "span": [
+                    14,
+                    27
+                ],
+                "value": {
+                    "amount": 56.79,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_0_68",
+        "lang": "mr"
+    },
+    {
+        "text": "मी माझी शिल्लक कशी तपासावी?",
+        "intents": [
+            "balance",
+            "request_info"
+        ],
+        "uid": "bank_0_69",
+        "lang": "mr"
+    },
+    {
+        "text": "मी ७ दिवसांमध्ये गाय केफर्टला ७००£ हस्तांतरीत करू शकतो का",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "७ दिवसांमध्ये",
+                "span": [
+                    3,
+                    16
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "७००£",
+                "span": [
+                    30,
+                    34
+                ],
+                "value": {
+                    "amount": 700.0,
+                    "currency": "GBP"
+                }
+            },
+            "person_name": {
+                "text": "गाय केफर्टला",
+                "span": [
+                    17,
+                    29
+                ],
+                "value": "guy kephart"
+            }
+        },
+        "uid": "bank_0_70",
+        "lang": "mr"
+    },
+    {
+        "text": "मला खरेच माहीत नाही, परंतु मला वाटते रक्कम जवळपास ३८०० पाउंड्स इतकी होती",
+        "intents": [
+            "dont_know"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "३८०० पाउंड्स",
+                "span": [
+                    50,
+                    62
+                ],
+                "value": {
+                    "amount": 3800.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_0_71",
+        "lang": "mr"
+    },
+    {
+        "text": "जोडी बियानेमीसाठी",
+        "slots": {
+            "person_name": {
+                "text": "जोडी बियानेमीसाठी",
+                "span": [
+                    0,
+                    17
+                ],
+                "value": "jodie bienaime"
+            }
+        },
+        "uid": "bank_0_72",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे नाव कॉपेज आहे",
+        "slots": {
+            "person_name": {
+                "text": "कॉपेज",
+                "span": [
+                    9,
+                    14
+                ],
+                "value": "coppedge"
+            }
+        },
+        "uid": "bank_0_73",
+        "lang": "mr"
+    },
+    {
+        "text": "तुमच्या बचत खात्यांमधील व्याज दरांमध्ये काही फरक आहे का?",
+        "intents": [
+            "request_info",
+            "fees_interests",
+            "savings",
+            "account"
+        ],
+        "uid": "bank_0_74",
+        "lang": "mr"
+    },
+    {
+        "text": "शुल्क व व्याज यांच्याविषयी एक शंका",
+        "intents": [
+            "fees_interests"
+        ],
+        "uid": "bank_0_75",
+        "lang": "mr"
+    },
+    {
+        "text": "आम्ही अर्ध्या तासामध्ये येऊ शकतो का?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_0_76",
+        "lang": "mr"
+    },
+    {
+        "text": "माझ्या चालू खात्यासाठी व माझ्या सुविधा देयकांसाठी समान पत्ता असणे महत्त्वाचे आहे का?",
+        "intents": [
+            "current",
+            "account",
+            "request_info"
+        ],
+        "uid": "bank_0_77",
+        "lang": "mr"
+    },
+    {
+        "text": "एक चालू खाते",
+        "intents": [
+            "current",
+            "account"
+        ],
+        "uid": "bank_0_78",
+        "lang": "mr"
+    },
+    {
+        "text": "मला यापुढे खात्याची गरज नाही म्हणून तुम्ही उद्यापासून कधीही ते बंद करू शकता.",
+        "intents": [
+            "account",
+            "cancel_close_leave_freeze"
+        ],
+        "slots": {
+            "date": {
+                "text": "उद्यापासून",
+                "span": [
+                    43,
+                    53
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_79",
+        "lang": "mr"
+    },
+    {
+        "text": "मी काही रक्कम परदेशी पाठवू शकतो का?",
+        "intents": [
+            "international",
+            "transfer_payment_deposit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_0_80",
+        "lang": "mr"
+    },
+    {
+        "text": "माझा पत्ता परदेशातील असेल तर चालेल का?",
+        "intents": [
+            "international",
+            "request_info"
+        ],
+        "uid": "bank_0_81",
+        "lang": "mr"
+    },
+    {
+        "text": "नवीन बँक खाते उघडण्यासाठी माझ्या कोणत्या कागदपत्रांची गरज आहे?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "request_info",
+            "account",
+            "new"
+        ],
+        "uid": "bank_0_82",
+        "lang": "mr"
+    },
+    {
+        "text": "मी माझ्या विद्यमान खात्यामध्ये हस्तांतरण करू इच्छित आहे",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit",
+            "account",
+            "existing"
+        ],
+        "uid": "bank_0_83",
+        "lang": "mr"
+    },
+    {
+        "text": "मी सांगू शकत नाही",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_0_84",
+        "lang": "mr"
+    },
+    {
+        "text": "गुरुवारी करा",
+        "intents": [
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date": {
+                "text": "गुरुवारी",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_85",
+        "lang": "mr"
+    },
+    {
+        "text": "टॉप अप करा",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_86",
+        "lang": "mr"
+    },
+    {
+        "text": "कार्डसह करा",
+        "intents": [
+            "card"
+        ],
+        "uid": "bank_0_87",
+        "lang": "mr"
+    },
+    {
+        "text": "मी माझे कार्ड टॉप अप केलेले आहे परंतु असे वाटते की प्रक्रिया अद्याप पूर्ण झालेली नाही",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_88",
+        "lang": "mr"
+    },
+    {
+        "text": "आज",
+        "slots": {
+            "date": {
+                "text": "आज",
+                "span": [
+                    0,
+                    2
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_0_89",
+        "lang": "mr"
+    },
+    {
+        "text": "कृपया १९ जानेवारी",
+        "slots": {
+            "date": {
+                "text": "१९ जानेवारी",
+                "span": [
+                    6,
+                    17
+                ],
+                "value": {
+                    "day": 19,
+                    "month": 1,
+                    "year": 2023
+                }
+            }
+        },
+        "uid": "bank_0_90",
+        "lang": "mr"
+    },
+    {
+        "text": "होय, ते पूर्णतः ठीक आहे.",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_0_91",
+        "lang": "mr"
+    },
+    {
+        "text": "होय, मी रोख पैसे दिले",
+        "intents": [
+            "affirm",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_92",
+        "lang": "mr"
+    },
+    {
+        "text": "मी रोख पैसे दिले नाहीत",
+        "intents": [
+            "deny",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_93",
+        "lang": "mr"
+    },
+    {
+        "text": "नाही!",
+        "intents": [
+            "deny"
+        ],
+        "uid": "bank_0_94",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे पैसे पोच झाले का?",
+        "intents": [
+            "transfer_payment_deposit",
+            "request_info"
+        ],
+        "uid": "bank_0_95",
+        "lang": "mr"
+    },
+    {
+        "text": "माझे टॉप अप दिसत नाही",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_0_96",
+        "lang": "mr"
+    },
+    {
+        "text": "कृपया मला ते मोठ्याने वाचून दाखवा",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_0_97",
+        "lang": "mr"
+    },
+    {
+        "text": "हे पूर्णतः चुकीचे आहे",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_0_98",
+        "lang": "mr"
+    },
+    {
+        "text": "ते पूर्ववत करण्यात आले होते",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_0_99",
+        "lang": "mr"
+    },
+    {
+        "text": "माझी फसवणूक झाली होती",
+        "uid": "bank_0_100",
+        "lang": "mr"
+    },
+    {
+        "text": "माझी फसवणूक झाली होती असे मला वाटते",
+        "uid": "bank_0_101",
+        "lang": "mr"
+    },
+    {
+        "text": "मला या संभाषणाच्या मूळ विषयाविषयी अधिक जाणून घ्यायला आवडेल",
+        "uid": "bank_0_102",
+        "lang": "mr"
+    },
+    {
+        "text": "माझा अदाता",
+        "uid": "bank_0_103",
+        "lang": "mr"
+    }
+]

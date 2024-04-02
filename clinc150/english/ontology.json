@@ -1,0 +1,904 @@
+{
+    "intents": {
+        "maybe": {
+            "description": "is the intent to express doubt or say I don't know?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "freeze_account": {
+            "description": "is the intent to freeze an account?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "routing": {
+            "description": "is the intent to find out the routing number for an account?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "pin_change": {
+            "description": "is the intent to change pin code?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "bill_due": {
+            "description": "is the intent to learn when a bill is due or should be paid?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "pay_bill": {
+            "description": "is the intent to pay the bill?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "account_blocked": {
+            "description": "is the intent to find out why the account was blocked?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "interest_rate": {
+            "description": "is the intent to learn what the interest rate is?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "min_payment": {
+            "description": "is the intent to ask about the minimum payment?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "bill_balance": {
+            "description": "is the intent to know the total balance of a bill?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "transfer": {
+            "description": "is the intent to make a transfer from one account to the other?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "order_checks": {
+            "description": "is the intent to order checks?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "balance": {
+            "description": "is the intent to know the balance of an account?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "spending_history": {
+            "description": "is the intent to ask about recent transactions or spending history?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "transactions": {
+            "description": "is the intent to ask about recent transactions or purchases?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "report_fraud": {
+            "description": "is the intent to ask about fraudulent activity?",
+            "domain": [
+                "banking"
+            ]
+        },
+        "replacement_card_duration": {
+            "description": "is the intent to learn delivery time of a replacement card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "expiration_date": {
+            "description": "is the intent to ask about expiration date of the credit card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "damaged_card": {
+            "description": "is the intent to report a damaged card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "improve_credit_score": {
+            "description": "is the intent to ask about ways to improve credit score?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "report_lost_card": {
+            "description": "is the intent to report a lost card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "card_declined": {
+            "description": "is the intent to ask why the credit card was declined? ",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "credit_limit_change": {
+            "description": "is the intent to increase or decrease credit limit?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "apr": {
+            "description": "is the intent to learn the apr of the card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "redeem_rewards": {
+            "description": "is the intent to redeem the credit card rewards points?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "credit_limit": {
+            "description": "is the intent to find the credit or spending limit?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "rewards_balance": {
+            "description": "is the intent to learn what is the rewards balance ",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "application_status": {
+            "description": "is the intent to ask about the status of the credit card application?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "credit_score": {
+            "description": "is the intent to find out one's credit score?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "new_card": {
+            "description": "is the intent to ask about application for a new card?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "international_fees": {
+            "description": "is the intent to ask about fees when using the card internationally?",
+            "domain": [
+                "credit_cards"
+            ]
+        },
+        "food_last": {
+            "description": "is the intent to find out when a product will expire?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "confirm_reservation": {
+            "description": "is the intent to confirm a reservation at a restaurant?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "how_busy": {
+            "description": "is the intent to find out how busy a restaurant will be?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "ingredients_list": {
+            "description": "is the intent to learn about ingredients of a dish?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "calories": {
+            "description": "is the intent to find out how many calories there are in a food or product?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "nutrition_info": {
+            "description": "is the intent to learn nutrition info or ingredients of a food?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "recipe": {
+            "description": "is the intent to ask for a recipe for a dish?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "restaurant_reviews": {
+            "description": "is the intent to ask about the reviews for a restaurant?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "restaurant_reservation": {
+            "description": "is the intent to make a restaurant reservation?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "meal_suggestion": {
+            "description": "is the intent to ask for meal suggestion?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "restaurant_suggestion": {
+            "description": "is the intent  to ask for restaurant suggestion?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "cancel_reservation": {
+            "description": "is the intent to cancel a restaurant reservation?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "ingredient_substitution": {
+            "description": "is the intent to ask about swapping one food for another?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "cook_time": {
+            "description": "is the intent to ask how long it will take to cook a food?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "accept_reservations": {
+            "description": "is the intent to ask wether a restaurant takes reservations?",
+            "domain": [
+                "kitchen_and_dining"
+            ]
+        },
+        "what_song": {
+            "description": "is the intent to ask about the name of a song?",
+            "domain": [
+                "home"
+            ]
+        },
+        "play_music": {
+            "description": "is the intent to ask to play music?",
+            "domain": [
+                "home"
+            ]
+        },
+        "todo_list_update": {
+            "description": "is the intent to add something to a todo list?",
+            "domain": [
+                "home"
+            ]
+        },
+        "reminder": {
+            "description": "is the intent to list all the reminders on the todo list?",
+            "domain": [
+                "home"
+            ]
+        },
+        "reminder_update": {
+            "description": "is the intent to create a reminder?",
+            "domain": [
+                "home"
+            ]
+        },
+        "calendar_update": {
+            "description": "is the intent to update an event on calendar?",
+            "domain": [
+                "home"
+            ]
+        },
+        "order_status": {
+            "description": "is the intent to find out what is the status of an online order?",
+            "domain": [
+                "home"
+            ]
+        },
+        "update_playlist": {
+            "description": "is the intent to update a music playlist?",
+            "domain": [
+                "home"
+            ]
+        },
+        "shopping_list": {
+            "description": "is the intent to learn what is on the shopping list?",
+            "domain": [
+                "home"
+            ]
+        },
+        "calendar": {
+            "description": "is the intent to learn what is on the calendar?",
+            "domain": [
+                "home"
+            ]
+        },
+        "next_song": {
+            "description": "is the intent to learn what is the next song?",
+            "domain": [
+                "home"
+            ]
+        },
+        "order": {
+            "description": "is the intent to make an order or make a purchase?",
+            "domain": [
+                "home"
+            ]
+        },
+        "todo_list": {
+            "description": "is the intent to check whether an event is on the todo list?",
+            "domain": [
+                "home"
+            ]
+        },
+        "shopping_list_update": {
+            "description": "is the intent to add or remove an item from the shopping list?",
+            "domain": [
+                "home"
+            ]
+        },
+        "smart_home": {
+            "description": "is the intent to do something through smart home?",
+            "domain": [
+                "home"
+            ]
+        },
+        "current_location": {
+            "description": "is the intent to check my current location?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "oil_change_when": {
+            "description": "is the intent to ask when or how often to change the oil?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "oil_change_how": {
+            "description": "is the intent to ask how to change the oil?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "uber": {
+            "description": "is the intent to order an uber?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "traffic": {
+            "description": "is the intent to find out the status of the traffic?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "tire_pressure": {
+            "description": "is the intent to check the tire pressure and whether tires need pressure?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "schedule_maintenance": {
+            "description": "is the intent to schedule car maintenance works such as inspecting tires or getting oil changed?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "gas": {
+            "description": "is the intent to ask how much fuel the car currently has?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "mpg": {
+            "description": "is the intent to ask about mpg or miles per gallon of a car?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "distance": {
+            "description": "is the intent to find out how long it takes from one place to the other?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "directions": {
+            "description": "is the intent to ask for directions?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "last_maintenance": {
+            "description": "is the intent to ask when was the last maintenance",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "gas_type": {
+            "description": "is the intent to check what type of fuel the car uses?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "tire_change": {
+            "description": "is the intent to find out when to change the tires?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "jump_start": {
+            "description": "is the intent to ask how to jump start a car?",
+            "domain": [
+                "auto_and_commute"
+            ]
+        },
+        "plug_type": {
+            "description": "is the intent to find out what type of plug is used in a country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "travel_notification": {
+            "description": "is the intent to notify the bank that the user is travelling to a different country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "translate": {
+            "description": "is the intent to ask for translation of a phrase?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "flight_status": {
+            "description": "is the intent to ask about the status of a flight?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "international_visa": {
+            "description": "is the intent to find out whether a visa is needed for a country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "timezone": {
+            "description": "is the intent to ask about the timezone in a country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "exchange_rate": {
+            "description": "is the intent to ask about the exchange rate between two currency?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "travel_suggestion": {
+            "description": "is the intent to ask about tourist things to do or see in a city?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "travel_alert": {
+            "description": "is the intent to ask about alerts or safety issues in a country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "vaccines": {
+            "description": "is the intent to ask about vaccinations in a country?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "lost_luggage": {
+            "description": "is the intent to ask about lost luggage?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "book_flight": {
+            "description": "is the intent to book a flight?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "book_hotel": {
+            "description": "is the intent to book a hotel?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "carry_on": {
+            "description": "is the intent to find out what are the limits for carry on luggage?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "car_rental": {
+            "description": "is the intent to rent a car?",
+            "domain": [
+                "travel"
+            ]
+        },
+        "weather": {
+            "description": "is the intent to ask about the weather in a city?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "alarm": {
+            "description": "is the intent to set an alarm?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "date": {
+            "description": "is the intent to ask what is the date in several days?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "find_phone": {
+            "description": "is the intent to find my phone?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "share_location": {
+            "description": "is the intent to share the gps coordinates with someone?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "timer": {
+            "description": "is the intent to set a timer?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "make_call": {
+            "description": "is the intent to call someone?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "calculator": {
+            "description": "is the intent to calculate something?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "definition": {
+            "description": "is the intent to ask for the definition of a word?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "measurement_conversion": {
+            "description": "is the intent to convert between several units?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "flip_coin": {
+            "description": "is the intent to flip a coin?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "spelling": {
+            "description": "is the intent to ask how to spell a word?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "time": {
+            "description": "is the intent to ask for current time somewhere?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "roll_dice": {
+            "description": "is the intent to roll a dice?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "text": {
+            "description": "is the intent to send a text message?",
+            "domain": [
+                "utility"
+            ]
+        },
+        "pto_request_status": {
+            "description": "is the intent to ask for the vacation time approval status?",
+            "domain": [
+                "work"
+            ]
+        },
+        "next_holiday": {
+            "description": "is the intent to ask when is the next holiday?",
+            "domain": [
+                "work"
+            ]
+        },
+        "insurance_change": {
+            "description": "is the intent to ask whether to change the type of insurance?",
+            "domain": [
+                "work"
+            ]
+        },
+        "insurance": {
+            "description": "is the intent to ask about benefits of the insurance type?",
+            "domain": [
+                "work"
+            ]
+        },
+        "meeting_schedule": {
+            "description": "is the intent to learn the details of meeting schedule?",
+            "domain": [
+                "work"
+            ]
+        },
+        "payday": {
+            "description": "is the intent to ask when the next paycheck is?",
+            "domain": [
+                "work"
+            ]
+        },
+        "taxes": {
+            "description": "is the intent to ask details about the income taxes?",
+            "domain": [
+                "work"
+            ]
+        },
+        "income": {
+            "description": "is the intent to learn one's monthly income?",
+            "domain": [
+                "work"
+            ]
+        },
+        "rollover_401k": {
+            "description": "is the intent to roll over or transfer the 401k form?",
+            "domain": [
+                "work"
+            ]
+        },
+        "pto_balance": {
+            "description": "is the intent to learn how many days off or pto is left?",
+            "domain": [
+                "work"
+            ]
+        },
+        "pto_request": {
+            "description": "is the intent to request days off?",
+            "domain": [
+                "work"
+            ]
+        },
+        "w2": {
+            "description": "is the intent to ask how to get w2 form?",
+            "domain": [
+                "work"
+            ]
+        },
+        "schedule_meeting": {
+            "description": "is the intent to schedule a meeting?",
+            "domain": [
+                "work"
+            ]
+        },
+        "direct_deposit": {
+            "description": "is the intent to set up a direct deposit?",
+            "domain": [
+                "work"
+            ]
+        },
+        "pto_used": {
+            "description": "is the intent to ask how many days off are left?",
+            "domain": [
+                "work"
+            ]
+        },
+        "who_made_you": {
+            "description": "is the intent to ask who made you?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "meaning_of_life": {
+            "description": "is the intent to ask what is the meaning of life?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "who_do_you_work_for": {
+            "description": "is the intent to ask who you work for?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "do_you_have_pets": {
+            "description": "is the intent to ask if you have pets?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "what_are_your_hobbies": {
+            "description": "is the intent to ask what you do in your free time?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "fun_fact": {
+            "description": "is the intent to ask about trivia or a fun fact?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "what_is_your_name": {
+            "description": "is the intent to ask what is your name?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "where_are_you_from": {
+            "description": "is the intent to ask where you are from?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "goodbye": {
+            "description": "is the intent to say good bye?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "thank_you": {
+            "description": "is the intent to say thank you?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "greeting": {
+            "description": "is the intent to say hello?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "tell_joke": {
+            "description": "is the intent to ask to tell a joke?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "are_you_a_bot": {
+            "description": "is the intent to ask whether a system is a bot?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "how_old_are_you": {
+            "description": "is the intent to ask how old you are?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "what_can_i_ask_you": {
+            "description": "is the intent to learn what one can ask you about?",
+            "domain": [
+                "small_talk"
+            ]
+        },
+        "change_speed": {
+            "description": "is the intent to change speed of speech or voice?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "user_name": {
+            "description": "is the intent to ask what user's name is?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "whisper_mode": {
+            "description": "is the intent to turn to whisper mode?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "yes": {
+            "description": "is the intent to agree?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "change_volume": {
+            "description": "is the intent to turn up or lower the volume?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "no": {
+            "description": "is the intent to disagree?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "change_language": {
+            "description": "is the intent to change the language?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "repeat": {
+            "description": "is the intent to ask to repeat something?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "change_accent": {
+            "description": "is the intent to change the voice?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "cancel": {
+            "description": "is the intent to ask to stop talking?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "sync_device": {
+            "description": "is the intent to ask to disconnect the device?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "change_user_name": {
+            "description": "is the intent to change the username?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "change_ai_name": {
+            "description": "is the intent to change the system's name?",
+            "domain": [
+                "meta"
+            ]
+        },
+        "reset_settings": {
+            "description": "is the intent to change the settings to factory ones?",
+            "domain": [
+                "meta"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1039 @@
+[
+    {
+        "text": "Çıkış öğleden sonra saat 15:35",
+        "slots": {
+            "time_to": {
+                "text": "öğleden sonra saat 15:35",
+                "span": [
+                    6,
+                    30
+                ],
+                "value": {
+                    "hour": 15,
+                    "minute": 35
+                }
+            }
+        },
+        "uid": "hotel_14_0",
+        "lang": "tr"
+    },
+    {
+        "text": "Dün sipariş etmediğim bir oda servisi için benden ücret aldınız ve ben hala paramı geri almak için bekliyorum...",
+        "intents": [
+            "room_service",
+            "wrong_notworking_notshowing",
+            "refund"
+        ],
+        "slots": {
+            "date": {
+                "text": "Dün",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_1",
+        "lang": "tr"
+    },
+    {
+        "text": "odamı temizlemesi için hemen birini göndermelisiniz.",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "housekeeping"
+        ],
+        "uid": "hotel_14_2",
+        "lang": "tr"
+    },
+    {
+        "text": "O odayı ne kadar süreyle ayırttım?",
+        "intents": [
+            "how_long",
+            "booking"
+        ],
+        "uid": "hotel_14_3",
+        "lang": "tr"
+    },
+    {
+        "text": "tamam o zaman odama yiyecek bir şeyler alabilir miyim",
+        "intents": [
+            "acknowledge",
+            "make_open_apply_setup_get_activate",
+            "room_service"
+        ],
+        "uid": "hotel_14_4",
+        "lang": "tr"
+    },
+    {
+        "text": "Oda numaramı hatırlayamıyorum.",
+        "intents": [
+            "dont_know"
+        ],
+        "slots": {
+            "rooms": {
+                "text": "Oda",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_5",
+        "lang": "tr"
+    },
+    {
+        "text": "lütfen bunu tekrar et",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "hotel_14_6",
+        "lang": "tr"
+    },
+    {
+        "text": "beni spa ekibine aktarır mısınız lütfen",
+        "intents": [
+            "spa",
+            "handoff"
+        ],
+        "uid": "hotel_14_7",
+        "lang": "tr"
+    },
+    {
+        "text": "Giriş saatinden daha erken gelmenin ekstra bir maliyeti var mı?",
+        "intents": [
+            "how_much",
+            "check_in",
+            "less_lower_before"
+        ],
+        "uid": "hotel_14_8",
+        "lang": "tr"
+    },
+    {
+        "text": "lütfen giriş saatimi ileri bir tarihe değiştirin.",
+        "intents": [
+            "change",
+            "check_in",
+            "more_higher_after"
+        ],
+        "uid": "hotel_14_9",
+        "lang": "tr"
+    },
+    {
+        "text": "Spor salonunun çalışma saatleri nedir?",
+        "intents": [
+            "when",
+            "gym"
+        ],
+        "uid": "hotel_14_10",
+        "lang": "tr"
+    },
+    {
+        "text": "Lütfen çıkışı daha sonrasına planlayın, 12 iyi olur.",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "more_higher_after",
+            "check_out"
+        ],
+        "slots": {
+            "time": {
+                "text": "12",
+                "span": [
+                    40,
+                    42
+                ],
+                "value": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            }
+        },
+        "uid": "hotel_14_11",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, odanın normal bir banyoya ihtiyacı olduğunu söylemeye gerek yok!",
+        "intents": [
+            "affirm",
+            "room_ammenities"
+        ],
+        "uid": "hotel_14_12",
+        "lang": "tr"
+    },
+    {
+        "text": "bana yenisini yapalım",
+        "intents": [
+            "new",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "hotel_14_13",
+        "lang": "tr"
+    },
+    {
+        "text": "Where is the pool?",
+        "intents": [
+            "request_info",
+            "swimming_pool"
+        ],
+        "uid": "hotel_14_14",
+        "lang": "tr"
+    },
+    {
+        "text": "Bugün 4 kişilik akşam yemeği için rezervasyonum var ve yanımda shar-pei getirmemin uygun olup olmadığını bilmek istiyorum.",
+        "intents": [
+            "booking",
+            "restaurant",
+            "request_info",
+            "pets",
+            "existing"
+        ],
+        "slots": {
+            "date": {
+                "text": "Bugün",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "4",
+                "span": [
+                    6,
+                    7
+                ],
+                "value": 4
+            }
+        },
+        "uid": "hotel_14_15",
+        "lang": "tr"
+    },
+    {
+        "text": "hayır hayır hayır",
+        "intents": [
+            "deny"
+        ],
+        "uid": "hotel_14_16",
+        "lang": "tr"
+    },
+    {
+        "text": "internetim yok",
+        "intents": [
+            "wifi",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "hotel_14_17",
+        "lang": "tr"
+    },
+    {
+        "text": "Mutfağı ve 2 tuvaleti olan bir oda iyi olur.",
+        "intents": [
+            "room_ammenities"
+        ],
+        "slots": {
+            "number": {
+                "text": "2",
+                "span": [
+                    11,
+                    12
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_18",
+        "lang": "tr"
+    },
+    {
+        "text": "Spor salonu erişimi olan tek kişilik oda ne kadar?",
+        "intents": [
+            "how_much",
+            "gym"
+        ],
+        "slots": {
+            "rooms": {
+                "text": "tek kişilik oda",
+                "span": [
+                    25,
+                    40
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_19",
+        "lang": "tr"
+    },
+    {
+        "text": "varış 31 Ağustos 9 gece",
+        "slots": {
+            "date_from": {
+                "text": "31 Ağustos",
+                "span": [
+                    6,
+                    16
+                ],
+                "value": {
+                    "day": 31,
+                    "month": 8,
+                    "year": 2022
+                }
+            },
+            "number": {
+                "text": "9",
+                "span": [
+                    17,
+                    18
+                ],
+                "value": 9
+            }
+        },
+        "uid": "hotel_14_20",
+        "lang": "tr"
+    },
+    {
+        "text": "kaybedip bulduğun bir eşya bildirimi mi yapacaksın",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "hotel_14_21",
+        "lang": "tr"
+    },
+    {
+        "text": "yakınlarda ücretsiz park yeri önerebilir misin",
+        "intents": [
+            "request_info",
+            "parking"
+        ],
+        "uid": "hotel_14_22",
+        "lang": "tr"
+    },
+    {
+        "text": "Motosikletleri bir geceleyin bırakmak için ayrılmış bir alan var mı?",
+        "intents": [
+            "request_info",
+            "parking"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "geceleyin",
+                "span": [
+                    19,
+                    28
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 6,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_14_23",
+        "lang": "tr"
+    },
+    {
+        "text": "bu gece için bir spa rezervasyonu yapmak istiyorum",
+        "intents": [
+            "booking",
+            "spa",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "hotel_14_24",
+        "lang": "tr"
+    },
+    {
+        "text": "duane dietzel adında bugünkü pedikür seansını iptal et",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "spa",
+            "booking"
+        ],
+        "slots": {
+            "date": {
+                "text": "bugünkü",
+                "span": [
+                    21,
+                    28
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "duane dietzel",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": "duane dietzel"
+            }
+        },
+        "uid": "hotel_14_25",
+        "lang": "tr"
+    },
+    {
+        "text": "lekeshia an, öğleden sonra saat 13:15 için 8 kişilik bir öğle yemeği partisi rezervasyonu yaptım",
+        "intents": [
+            "existing",
+            "restaurant",
+            "booking"
+        ],
+        "slots": {
+            "time": {
+                "text": "öğleden sonra saat 13:15",
+                "span": [
+                    13,
+                    37
+                ],
+                "value": {
+                    "hour": 13,
+                    "minute": 15
+                }
+            },
+            "person_name": {
+                "text": "lekeshia an",
+                "span": [
+                    0,
+                    11
+                ],
+                "value": "lekeshia an"
+            },
+            "people": {
+                "text": "8",
+                "span": [
+                    43,
+                    44
+                ],
+                "value": 8
+            }
+        },
+        "uid": "hotel_14_26",
+        "lang": "tr"
+    },
+    {
+        "text": "2 kişilik sauna rezervasyonu yapmak istiyorum, yarın 12'de",
+        "intents": [
+            "booking",
+            "spa",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "time": {
+                "text": "12'de",
+                "span": [
+                    53,
+                    58
+                ],
+                "value": {
+                    "hour": 12,
+                    "minute": 0
+                }
+            },
+            "date": {
+                "text": "yarın",
+                "span": [
+                    47,
+                    52
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "2",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_27",
+        "lang": "tr"
+    },
+    {
+        "text": "odalara yemek gönderiyor musunuz?",
+        "intents": [
+            "request_info",
+            "room_service"
+        ],
+        "uid": "hotel_14_28",
+        "lang": "tr"
+    },
+    {
+        "text": "o paketi direk odama gönderin",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "room_service"
+        ],
+        "uid": "hotel_14_29",
+        "lang": "tr"
+    },
+    {
+        "text": "bende zaten var",
+        "intents": [
+            "existing"
+        ],
+        "uid": "hotel_14_30",
+        "lang": "tr"
+    },
+    {
+        "text": "Sabah saat 10:25'te 4 kişilik masa istiyorum",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "restaurant",
+            "booking"
+        ],
+        "slots": {
+            "time": {
+                "text": "Sabah saat 10:25'te",
+                "span": [
+                    0,
+                    19
+                ],
+                "value": {
+                    "hour": 10,
+                    "minute": 25
+                }
+            },
+            "people": {
+                "text": "4",
+                "span": [
+                    20,
+                    21
+                ],
+                "value": 4
+            }
+        },
+        "uid": "hotel_14_31",
+        "lang": "tr"
+    },
+    {
+        "text": "12 Haziran için 2 kişilik rezervasyonum var, bunu düzelttebilir miyim?",
+        "intents": [
+            "booking",
+            "change"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "12 Haziran",
+                "span": [
+                    0,
+                    10
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 6,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "2",
+                "span": [
+                    16,
+                    17
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_32",
+        "lang": "tr"
+    },
+    {
+        "text": "Rezervasyonumu 2 odada 3 yetişkin olarak değiştirmek istiyorum lütfen",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "slots": {
+            "adults": {
+                "text": "3",
+                "span": [
+                    23,
+                    24
+                ],
+                "value": 3
+            },
+            "rooms": {
+                "text": "2",
+                "span": [
+                    15,
+                    16
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_33",
+        "lang": "tr"
+    },
+    {
+        "text": "sadece kendim",
+        "slots": {
+            "people": {
+                "text": "kendim",
+                "span": [
+                    7,
+                    13
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_34",
+        "lang": "tr"
+    },
+    {
+        "text": "2 kişi 9 gecelik, ayrı odalar, 13 Ağustostan itibaren",
+        "slots": {
+            "date_period": {
+                "text": "9 gecelik",
+                "span": [
+                    7,
+                    16
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 9
+                }
+            },
+            "date_from": {
+                "text": "13 Ağustostan",
+                "span": [
+                    31,
+                    44
+                ],
+                "value": {
+                    "day": 13,
+                    "month": 8,
+                    "year": 2022
+                }
+            },
+            "people": {
+                "text": "2",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "ayrı odalar",
+                "span": [
+                    18,
+                    29
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_35",
+        "lang": "tr"
+    },
+    {
+        "text": "2 Aralık",
+        "slots": {
+            "date": {
+                "text": "2 Aralık",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 2,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_36",
+        "lang": "tr"
+    },
+    {
+        "text": "1 oda 2 yetişkin 2 çocuk 4 gecelik, 9 Eylülden itibaren",
+        "slots": {
+            "date_period": {
+                "text": "4 gecelik",
+                "span": [
+                    25,
+                    34
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 4
+                }
+            },
+            "date_from": {
+                "text": "9 Eylülden",
+                "span": [
+                    36,
+                    46
+                ],
+                "value": {
+                    "day": 9,
+                    "month": 9,
+                    "year": 2022
+                }
+            },
+            "kids": {
+                "text": "2",
+                "span": [
+                    17,
+                    18
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "2",
+                "span": [
+                    6,
+                    7
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "1",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_37",
+        "lang": "tr"
+    },
+    {
+        "text": "2 çift yataklı bir oda istiyorum, 14 Şubat ile 22 Şubat arasında konaklama",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "14 Şubat",
+                "span": [
+                    34,
+                    42
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 2,
+                    "year": 2023
+                }
+            },
+            "date_to": {
+                "text": "22",
+                "span": [
+                    47,
+                    49
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 1,
+                    "year": 2022
+                }
+            },
+            "rooms": {
+                "text": "bir oda",
+                "span": [
+                    15,
+                    22
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_38",
+        "lang": "tr"
+    },
+    {
+        "text": "3 gecelik çift kişilik oda, hafta ortası gezisi",
+        "slots": {
+            "date_period": {
+                "text": "3 gecelik",
+                "span": [
+                    0,
+                    9
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 3
+                }
+            },
+            "rooms": {
+                "text": "çift kişilik oda",
+                "span": [
+                    10,
+                    26
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_39",
+        "lang": "tr"
+    },
+    {
+        "text": "26 Nisan ile 2 Mayıs arasında bir yetişkin ve 2 çocuk için 6 gecelik konaklama için yeriniz var mı",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "6 gecelik",
+                "span": [
+                    59,
+                    68
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 6
+                }
+            },
+            "date_from": {
+                "text": "26 Nisan",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 26,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "2 Mayıs",
+                "span": [
+                    13,
+                    20
+                ],
+                "value": {
+                    "day": 2,
+                    "month": 5,
+                    "year": 2022
+                }
+            },
+            "kids": {
+                "text": "2",
+                "span": [
+                    46,
+                    47
+                ],
+                "value": 2
+            },
+            "adults": {
+                "text": "bir",
+                "span": [
+                    30,
+                    33
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_14_40",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu tarihler arasında herhangi 3 gece",
+        "slots": {
+            "date_period": {
+                "text": "3 gece",
+                "span": [
+                    30,
+                    36
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 3
+                }
+            }
+        },
+        "uid": "hotel_14_41",
+        "lang": "tr"
+    },
+    {
+        "text": "18'inde 8 gecelik check in",
+        "slots": {
+            "date_period": {
+                "text": "8 gecelik",
+                "span": [
+                    8,
+                    17
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 8
+                }
+            },
+            "date_from": {
+                "text": "18'inde",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_42",
+        "lang": "tr"
+    },
+    {
+        "text": "bir gün",
+        "slots": {
+            "date_period": {
+                "text": "bir gün",
+                "span": [
+                    0,
+                    7
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 1
+                }
+            }
+        },
+        "uid": "hotel_14_43",
+        "lang": "tr"
+    },
+    {
+        "text": "çocuk yok, sadece ben ve eşim",
+        "slots": {
+            "kids": {
+                "text": "çocuk yok",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": 0
+            },
+            "adults": {
+                "text": "ben ve eşim",
+                "span": [
+                    18,
+                    29
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_44",
+        "lang": "tr"
+    },
+    {
+        "text": "iki çocuk",
+        "slots": {
+            "kids": {
+                "text": "iki",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_14_45",
+        "lang": "tr"
+    },
+    {
+        "text": "6 yetişkin",
+        "slots": {
+            "adults": {
+                "text": "6",
+                "span": [
+                    0,
+                    1
+                ],
+                "value": 6
+            }
+        },
+        "uid": "hotel_14_46",
+        "lang": "tr"
+    },
+    {
+        "text": "12'sinde varış 22'sinde gidiş",
+        "slots": {
+            "date_from": {
+                "text": "12'sinde",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "22'sinde",
+                "span": [
+                    15,
+                    23
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_47",
+        "lang": "tr"
+    },
+    {
+        "text": "Pazar günü gelmeyi planlıyorum",
+        "slots": {
+            "date_from": {
+                "text": "Pazar",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": {
+                    "day": 20,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_48",
+        "lang": "tr"
+    },
+    {
+        "text": "16 Martta ayrılacağım",
+        "slots": {
+            "date_to": {
+                "text": "16 Martta",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_14_49",
+        "lang": "tr"
+    }
+]

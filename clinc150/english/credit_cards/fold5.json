@@ -1,0 +1,1262 @@
+[
+    {
+        "text": "when will my card come",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how long should i expect to wait for my new card in the mail",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how long will it take for me to get a new credit card to replace the one that was stolen",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "when will me new card arrive",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what's the typical time it takes for a new card to arrive",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "when can i expect my new card to get here",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how long until i get a replacement card",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how many days does it take to receive a new card",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how many days will it take to get a new credit card to replace the one stolen from me",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what is the time frame to get a new card mailed to me",
+        "intents": [
+            "replacement_card_duration"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "when do i have to renew my card so it doesn't expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how much longer until my credit card expires",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "when does my card expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what date will my hy-vee card need to be renewed",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "find out for me when my mastercard expires",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "when is my card going to expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "when does my capital one visa expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "when does my amex expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "tell me the expiration date for my current credit card",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "when my credit card is going to expire",
+        "intents": [
+            "expiration_date"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "the magnetic strip on my card is scratched up pretty badly from overuse can i get a new one",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "corner of my credit card is chipped off",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "my card has a deep crease through the middle so i would like to report it",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "the card is torn, let's report it",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how do i report my card if it got cut in half",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i need to report a bent card",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i cracked my card and need a replacement",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "the dog chewed up my card, will you find out what it takes to get a replacement",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "my card is cracked and i want to report it",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i need to report my bent card",
+        "intents": [
+            "damaged_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what are some way s i can do to improe my credit score",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what methods can i use to improve my credit score",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i want to keep my credit from going down, how do i do this",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "tell me some things i can do to secure my credit rating",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i'm not sure if this will hurt my credit score",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can i harm my credit if i miss a car payment",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what can harm my credit score",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what can i do to maintain good credit",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how can i stop my credit score from dropping",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can i protect my credit score",
+        "intents": [
+            "improve_credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i can't find my student id card and i want to report it as lost",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "file a report for a lost american express card",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how do i report a lost discover credit card",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i need to report that my card has been lost",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i need to report my stolen card",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i lost my card, what do i do",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "report lost card to discover company",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i'd like to report my card as stolen, please",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i lost my card, how should i report that",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i need to report a card that's been lost but i dont know how",
+        "intents": [
+            "report_lost_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i was at trader joe's trying to buy groceries and my card got declined",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "my card was malfunctioning and was returned to me",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "buying qtips today, my card got declined at walmart",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i was at albertsons trying to buy milk when my card wasn't accepted",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how come my card was not accepted yesterday",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i think my card was declined at wal mart and i want to know why",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what was wrong with my card yesterday",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "why did you decline my card at sfo",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i wonder why my card got declined yesterday",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "where can i find out why my card was recently declined at amazoncom",
+        "intents": [
+            "card_declined"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "credit limit change",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "is it possible to increase my credit limit to 1000 dollars",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how would i raise my credit spending by 2500 dollars",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can i increase the credit limit for my visa platinum card",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can my credit limit on my discovery card go up",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can i increase my credit limit to 500 dollars",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can i increase the credit limit for my chase card",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "is there a way to raise my mastercard credit",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can you increase my credit limit to $7,500",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "is it possible to get a credit limit increase to 3000",
+        "intents": [
+            "credit_limit_change"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "would you please inform me about my credit card's apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what is the apr on my visa card",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what is the apr on my aaa visa card",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "review of my card apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "tell me my credit card apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i must know my visa card's apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i want to know my credit card apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can you give me an appraisal of my card's apr",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do i have a good apr on my credit card",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what's my apr on the card i recently used to make a purchase",
+        "intents": [
+            "apr"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "explain to me how to cash in rewards for my mastercard",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "walk me through the best ways to use my credit card points",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "let's use my credit card points",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can i use my credit card points for gas",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can i use my credit card point on amazon",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do i have enough points to for a redemption",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how do i cash the reward for first bankcard",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "do you think i could get a target gift card with my credit card points",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "can i convert my credit card points to milage",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do i have enough credit card points to redeem a new appliance",
+        "intents": [
+            "redeem_rewards"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what is the spending limit on my visa",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i would love to know my spending limit",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how high is my credit limit for my old navy card",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "please let me know the credit limit on my citibank card",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "where can i go to find out my credit limit",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "tell me the credit limit on my mastercard",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what is the credit limit for my bank of the west card",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "will you tell me my spending limit",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what's my visa limit",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do you know my credit limit for the visa card",
+        "intents": [
+            "credit_limit"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how many reward points does my discover card have",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i need to know my reward point total looking at my debit card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what is my wells fargo card's rewards balance",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how many points do i have in total on my marriot rewards card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what's the reward point count on my discover card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what is the amount of rewards points on my visa card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "figure out my reward points for discovery card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how many rewards points do i have for my amazon card",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how many rewards points do i have for my mastercard",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what is my citigroup card's rewards balance",
+        "intents": [
+            "rewards_balance"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do you know if anyone's even looked at the application i sent in for the new visa card",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how will i know when my application for a credit card has been processed",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "has my application for the mastercard card gone through",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i would like an update on the progress of my credit card application",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what status is my card application in",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "did the application i put in for a mastercard go through yet",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "where can i go to see if my credit card application has been processed",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what is the status of my credit card application",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "did my visa card app go through yet",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "tell me the status of my credit card application",
+        "intents": [
+            "application_status"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how do i find out my credit rating",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how do i locate my credit score",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i'd like the number for my credit score",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "if i want my credit score, how do i find it",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "websites that share credit ratings",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "inform me of my credit score",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "where is my credit score located",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "tell me the steps to getting my credit score",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what's my credit score rating",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "is my credit score high",
+        "intents": [
+            "credit_score"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "apply for a kbc card for me",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what if you want a new credit card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i need to apply for a bank of america travel rewards credit card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "how do i apply for a visa card, please",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "tell me the process of applying for a apollo card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "how do i sign up for a new credit card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what is the process i need to follow to get a new credit card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "can i get a new card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "i would like to apply for a visa card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "i wanna apply for a new credit card",
+        "intents": [
+            "new_card"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "does my card charge a fee for use in indonesia",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what are the fees for using my card in toronto",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "will i be charged if i use the card in australia",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "when i am in spain using my cmaden card, is there any transaction fee",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "are there fees for using my card in tampa",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "do you charge me if i use my card in japan",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what additional fees do you charge if i use my card in lisbon",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "what kind of international transaction fees are related to my amex",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 1
+    },
+    {
+        "text": "are there transaction fees charged to my discover card in japan",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "what are the international transaction fees for my chase card",
+        "intents": [
+            "international_fees"
+        ],
+        "domain": "credit_cards",
+        "fold": 0
+    },
+    {
+        "text": "when was kobe bryant born",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what trees change color in autumn",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how is glue made",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how fast does an airplane travel",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "where is the dipstick",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "how many sides are in a hexagon",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what years has korea been at war",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "what animals have alpha males",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "is k-12 education required outside of the united states",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    },
+    {
+        "text": "get me dwight howard shooting average",
+        "intents": [],
+        "domain": "",
+        "fold": 0
+    }
+]

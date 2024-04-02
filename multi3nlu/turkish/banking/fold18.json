@@ -1,0 +1,1497 @@
+[
+    {
+        "text": "lütfen tekrar edebilir misiniz?",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "bank_18_0",
+        "lang": "tr"
+    },
+    {
+        "text": "yeni bir kart istiyorum, gelmesi ne kadar sürer?",
+        "intents": [
+            "card",
+            "arrival",
+            "how_long",
+            "new"
+        ],
+        "uid": "bank_18_1",
+        "lang": "tr"
+    },
+    {
+        "text": "dokuz olacak",
+        "slots": {
+            "number": {
+                "text": "dokuz",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": 9
+            }
+        },
+        "uid": "bank_18_2",
+        "lang": "tr"
+    },
+    {
+        "text": "son 5 saatteki tüm ödemelerimi bana gösterebilir misiniz",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "son 5 saatteki",
+                "span": [
+                    0,
+                    14
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 4,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 9,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_18_3",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu doğru, dün akşamdan beri her şey bozuk.",
+        "intents": [
+            "affirm",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date": {
+                "text": "dün",
+                "span": [
+                    10,
+                    13
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "time_period": {
+                "text": "akşamdan",
+                "span": [
+                    14,
+                    22
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 0,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "bank_18_4",
+        "lang": "tr"
+    },
+    {
+        "text": "O şirket hesabının Pazartesinden önce veya en geç Pazartesi açılması gerekiyor",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "account",
+            "business",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date": {
+                "text": "Pazartesinden",
+                "span": [
+                    19,
+                    32
+                ],
+                "value": {
+                    "day": 21,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_5",
+        "lang": "tr"
+    },
+    {
+        "text": "hyatt için 9 gün içindeki otomatik ödeme emrini iptal etmem gerekiyor",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "standing_order"
+        ],
+        "slots": {
+            "date": {
+                "text": "9 gün içindeki",
+                "span": [
+                    11,
+                    25
+                ],
+                "value": {
+                    "day": 24,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "hyatt",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": "hyatt"
+            }
+        },
+        "uid": "bank_18_6",
+        "lang": "tr"
+    },
+    {
+        "text": "o saçma otomatik ödeme emrinden dolayı arıyorum.",
+        "intents": [
+            "standing_order"
+        ],
+        "uid": "bank_18_7",
+        "lang": "tr"
+    },
+    {
+        "text": "anladım, bu çok faydalı oldu, saygılar",
+        "intents": [
+            "acknowledge",
+            "end_call",
+            "thank"
+        ],
+        "uid": "bank_18_8",
+        "lang": "tr"
+    },
+    {
+        "text": "Pekala, başka bir soru - yurtdışındayken atm kullanmak için bazı ücretleri ödemem gerekiyor mu? bazı bankaların çok fazla aldığını biliyorum!",
+        "intents": [
+            "international",
+            "acknowledge",
+            "request_info",
+            "fees_interests",
+            "withdrawal"
+        ],
+        "uid": "bank_18_9",
+        "lang": "tr"
+    },
+    {
+        "text": "çekimin parası henüz gelmedi",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_10",
+        "lang": "tr"
+    },
+    {
+        "text": "Çekimi uygulamanızdan yatıramıyorum",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_11",
+        "lang": "tr"
+    },
+    {
+        "text": "eşim halen hiçbir şey almadı, şimdi 4 gündür bekliyoruz",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "arrival"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "4 gündür",
+                "span": [
+                    36,
+                    44
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 4
+                }
+            }
+        },
+        "uid": "bank_18_12",
+        "lang": "tr"
+    },
+    {
+        "text": "kartımı henüz almadım",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "arrival",
+            "card"
+        ],
+        "uid": "bank_18_13",
+        "lang": "tr"
+    },
+    {
+        "text": "bulamıyorum",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "bank_18_14",
+        "lang": "tr"
+    },
+    {
+        "text": "bir yerde unutmuş olabilirim",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "bank_18_15",
+        "lang": "tr"
+    },
+    {
+        "text": "Maks kredi limitim ne",
+        "intents": [
+            "how_much",
+            "limits",
+            "credit"
+        ],
+        "uid": "bank_18_16",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, kredi kartımı derhal dondurun!",
+        "intents": [
+            "affirm",
+            "cancel_close_leave_freeze",
+            "card",
+            "credit"
+        ],
+        "uid": "bank_18_17",
+        "lang": "tr"
+    },
+    {
+        "text": "Geçen hafta Pazartesi ile bu Perşembe arasında süpermarket için ne kadar harcadım",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "Geçen hafta Pazartesi",
+                "span": [
+                    0,
+                    21
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "bu Perşembe",
+                "span": [
+                    26,
+                    37
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "süpermarket",
+                "span": [
+                    47,
+                    58
+                ],
+                "value": "supermarket"
+            }
+        },
+        "uid": "bank_18_18",
+        "lang": "tr"
+    },
+    {
+        "text": "hesabımda 8 Aralık tarihine kadar ek hesabı kullanmak istiyorum",
+        "intents": [
+            "overdraft",
+            "make_open_apply_setup_get_activate",
+            "account"
+        ],
+        "slots": {
+            "date_to": {
+                "text": "8 Aralık",
+                "span": [
+                    10,
+                    18
+                ],
+                "value": {
+                    "day": 8,
+                    "month": 12,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_19",
+        "lang": "tr"
+    },
+    {
+        "text": "27 Ocak 2022'den başlayarak",
+        "slots": {
+            "date_from": {
+                "text": "27 Ocak 2022'den",
+                "span": [
+                    0,
+                    16
+                ],
+                "value": {
+                    "day": 27,
+                    "month": 1,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_20",
+        "lang": "tr"
+    },
+    {
+        "text": "Son 3 ay içinde hangi ek gıda alışverişi masraflarım oldu",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "Son 3 ay",
+                "span": [
+                    0,
+                    8
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 12,
+                        "year": 2021
+                    },
+                    "to": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "shopping_category": {
+                "text": "gıda alışverişi",
+                "span": [
+                    25,
+                    40
+                ],
+                "value": "food shopping"
+            }
+        },
+        "uid": "bank_18_21",
+        "lang": "tr"
+    },
+    {
+        "text": "m ve s ile son 2 ayda hangi ek maaş masrafları yaptım",
+        "intents": [
+            "transfer_payment_deposit",
+            "request_info",
+            "more_higher_after"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "son 2 ayda",
+                "span": [
+                    11,
+                    21
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 1,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "m ve s",
+                "span": [
+                    0,
+                    6
+                ],
+                "value": "m and s"
+            },
+            "shopping_category": {
+                "text": "maaş",
+                "span": [
+                    31,
+                    35
+                ],
+                "value": "my salary"
+            }
+        },
+        "uid": "bank_18_22",
+        "lang": "tr"
+    },
+    {
+        "text": "O toplantı için yarın ne zaman gelmem gerekiyor?",
+        "intents": [
+            "when",
+            "appointment"
+        ],
+        "slots": {
+            "date": {
+                "text": "yarın",
+                "span": [
+                    16,
+                    21
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_23",
+        "lang": "tr"
+    },
+    {
+        "text": "vadeli hesabımdaki faiz oranı ne zaman artacak?",
+        "intents": [
+            "change",
+            "savings",
+            "account",
+            "when",
+            "more_higher_after"
+        ],
+        "uid": "bank_18_24",
+        "lang": "tr"
+    },
+    {
+        "text": "Merhaba, bir para iadesi istedim ama adresime henüz gelmedi",
+        "intents": [
+            "refund",
+            "greet",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_18_25",
+        "lang": "tr"
+    },
+    {
+        "text": "Günaydın",
+        "intents": [
+            "greet"
+        ],
+        "uid": "bank_18_26",
+        "lang": "tr"
+    },
+    {
+        "text": "bir kart kullanarak ödemek istedim ama görünüşe göre iptal edildi, belki de pin kodu yanlıştı",
+        "intents": [
+            "pin",
+            "wrong_notworking_notshowing",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_27",
+        "lang": "tr"
+    },
+    {
+        "text": "numara şifrem",
+        "intents": [
+            "pin"
+        ],
+        "uid": "bank_18_28",
+        "lang": "tr"
+    },
+    {
+        "text": "teşekkürler, yurtdışında olacağım",
+        "intents": [
+            "thank",
+            "international"
+        ],
+        "uid": "bank_18_29",
+        "lang": "tr"
+    },
+    {
+        "text": "Teşekkürler, şimdi iptal edildi olarak görünüyor",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "thank"
+        ],
+        "uid": "bank_18_30",
+        "lang": "tr"
+    },
+    {
+        "text": "Banka kartı harcama limitimi artırmak istiyorum",
+        "intents": [
+            "debit",
+            "change",
+            "limits",
+            "card",
+            "more_higher_after"
+        ],
+        "uid": "bank_18_31",
+        "lang": "tr"
+    },
+    {
+        "text": "temassız, banka kartlarında da çalışıyor mu?",
+        "intents": [
+            "contactless",
+            "request_info",
+            "debit",
+            "card"
+        ],
+        "uid": "bank_18_32",
+        "lang": "tr"
+    },
+    {
+        "text": "kartım atm'de çalışmıyor!",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card",
+            "withdrawal"
+        ],
+        "uid": "bank_18_33",
+        "lang": "tr"
+    },
+    {
+        "text": "Para çekme hakkındaydı",
+        "intents": [
+            "withdrawal"
+        ],
+        "uid": "bank_18_34",
+        "lang": "tr"
+    },
+    {
+        "text": "railcard.co.uk aboneliğimi ödemek için yeni bir otomatik ödeme emrini nasıl verebilirim",
+        "intents": [
+            "how",
+            "make_open_apply_setup_get_activate",
+            "direct_debit",
+            "new"
+        ],
+        "slots": {
+            "company_name": {
+                "text": "railcard.co.uk",
+                "span": [
+                    0,
+                    14
+                ],
+                "value": "railcard.co.uk"
+            }
+        },
+        "uid": "bank_18_35",
+        "lang": "tr"
+    },
+    {
+        "text": "Otomatik ödeme emrini nasıl verebilirim?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "direct_debit",
+            "how"
+        ],
+        "uid": "bank_18_36",
+        "lang": "tr"
+    },
+    {
+        "text": "Nasıl yapıldığını soruyorum.",
+        "intents": [
+            "how"
+        ],
+        "uid": "bank_18_37",
+        "lang": "tr"
+    },
+    {
+        "text": "dün sabah 5 buçuk civarında blues kitchen shor'daki ödemem ne kadardı",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "time": {
+                "text": "sabah 5 buçuk",
+                "span": [
+                    4,
+                    17
+                ],
+                "value": {
+                    "hour": 5,
+                    "minute": 30
+                }
+            },
+            "date": {
+                "text": "dün",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "blues kitchen shor'daki",
+                "span": [
+                    28,
+                    51
+                ],
+                "value": "the blues kitchen shor"
+            }
+        },
+        "uid": "bank_18_38",
+        "lang": "tr"
+    },
+    {
+        "text": "Temmuzda ödeme yaptığım şirketlerin bir listesini bana verebilir misiniz?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "Temmuzda",
+                "span": [
+                    0,
+                    8
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 7,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 7,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_18_39",
+        "lang": "tr"
+    },
+    {
+        "text": "otomatik ödeme emrimin gerçekleşmesi hakkında sorgu",
+        "intents": [
+            "direct_debit"
+        ],
+        "uid": "bank_18_40",
+        "lang": "tr"
+    },
+    {
+        "text": "bir mağazada temassız bir ödeme yaptım ama henüz ulaşmadı gibi görünüyor",
+        "intents": [
+            "contactless",
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_18_41",
+        "lang": "tr"
+    },
+    {
+        "text": "temassızdı",
+        "intents": [
+            "contactless"
+        ],
+        "uid": "bank_18_42",
+        "lang": "tr"
+    },
+    {
+        "text": "gece 9 20'den önce yapabilir miyiz",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "less_lower_before"
+        ],
+        "slots": {
+            "time": {
+                "text": "gece 9 20'den",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": {
+                    "hour": 21,
+                    "minute": 20
+                }
+            }
+        },
+        "uid": "bank_18_43",
+        "lang": "tr"
+    },
+    {
+        "text": "Daha düşük işletim ücreti olan vadeli hesaplarınız var mı?",
+        "intents": [
+            "less_lower_before",
+            "fees_interests",
+            "request_info",
+            "savings",
+            "account"
+        ],
+        "uid": "bank_18_44",
+        "lang": "tr"
+    },
+    {
+        "text": "hayır, para iadesi istedim ama hesabımda gözükmüyor",
+        "intents": [
+            "refund",
+            "wrong_notworking_notshowing",
+            "account",
+            "deny"
+        ],
+        "uid": "bank_18_45",
+        "lang": "tr"
+    },
+    {
+        "text": "Bir para iadesi talep ettim!",
+        "intents": [
+            "refund"
+        ],
+        "uid": "bank_18_46",
+        "lang": "tr"
+    },
+    {
+        "text": "1100 dolarlık transferim neden reddedildi?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit",
+            "why"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "1100 dolarlık",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": {
+                    "amount": 1100.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_18_47",
+        "lang": "tr"
+    },
+    {
+        "text": "gece 4:50'deki toplantım neden iptal edildi?",
+        "intents": [
+            "why",
+            "appointment",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "time": {
+                "text": "gece 4:50'deki",
+                "span": [
+                    0,
+                    14
+                ],
+                "value": {
+                    "hour": 4,
+                    "minute": 50
+                }
+            }
+        },
+        "uid": "bank_18_48",
+        "lang": "tr"
+    },
+    {
+        "text": "Bir kredi talebimi neden reddettiniz? Paraya ihtiyacım var!",
+        "intents": [
+            "loan",
+            "wrong_notworking_notshowing",
+            "why"
+        ],
+        "uid": "bank_18_49",
+        "lang": "tr"
+    },
+    {
+        "text": "ayarlayabileceğim randevular konusunda herhangi bir limit var mı?",
+        "intents": [
+            "appointment",
+            "limits",
+            "request_info"
+        ],
+        "uid": "bank_18_50",
+        "lang": "tr"
+    },
+    {
+        "text": "O toplantı zamanını iptal etme konusunda çekinmeyin.",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "appointment"
+        ],
+        "uid": "bank_18_51",
+        "lang": "tr"
+    },
+    {
+        "text": "Konut kredisi ve yeniden finansman oranlarını nasıl karşılaştırabilirim?",
+        "intents": [
+            "mortgage",
+            "fees_interests",
+            "request_info"
+        ],
+        "uid": "bank_18_52",
+        "lang": "tr"
+    },
+    {
+        "text": "Sanırım sadece konut kredileri hakkında aradı.",
+        "intents": [
+            "mortgage"
+        ],
+        "uid": "bank_18_53",
+        "lang": "tr"
+    },
+    {
+        "text": "Önceki ay en çok kime ödeme yaptım",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "Önceki ay",
+                "span": [
+                    0,
+                    9
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 2,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 28,
+                        "month": 2,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_18_54",
+        "lang": "tr"
+    },
+    {
+        "text": "Birkaç günden beridir.",
+        "slots": {
+            "date_period": {
+                "text": "Birkaç günden beridir",
+                "span": [
+                    0,
+                    21
+                ],
+                "values": {
+                    "type": "ambiguous"
+                }
+            }
+        },
+        "uid": "bank_18_55",
+        "lang": "tr"
+    },
+    {
+        "text": "Bir krediye başvurmak istiyorum, ne yapmalıyım?",
+        "intents": [
+            "loan",
+            "make_open_apply_setup_get_activate",
+            "request_info"
+        ],
+        "uid": "bank_18_56",
+        "lang": "tr"
+    },
+    {
+        "text": "Kredi ile ilgili hiçbir şey söylemedim! Bir kişiyle konuşmama izin verin yeter",
+        "intents": [
+            "loan",
+            "deny",
+            "handoff"
+        ],
+        "uid": "bank_18_57",
+        "lang": "tr"
+    },
+    {
+        "text": "yanlış anlamayın kişisel bilgilerimi bir makineyle paylaşmak konusunda kendimi rahat hissetmiyorum.",
+        "intents": [
+            "handoff"
+        ],
+        "uid": "bank_18_58",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, gerçek bir kişiyle konuşmak istiyorum",
+        "intents": [
+            "affirm",
+            "handoff"
+        ],
+        "uid": "bank_18_59",
+        "lang": "tr"
+    },
+    {
+        "text": "Kartımın harcama limitimi artırmak istiyorum",
+        "intents": [
+            "change",
+            "limits",
+            "card",
+            "more_higher_after"
+        ],
+        "uid": "bank_18_60",
+        "lang": "tr"
+    },
+    {
+        "text": "bu kesinlikle daha fazlaydı!",
+        "intents": [
+            "more_higher_after"
+        ],
+        "uid": "bank_18_61",
+        "lang": "tr"
+    },
+    {
+        "text": "limit ile ilgili sorduk",
+        "intents": [
+            "limits"
+        ],
+        "uid": "bank_18_62",
+        "lang": "tr"
+    },
+    {
+        "text": "ek hesabımdan 58 dolar harcadım. Mevcut bakiyem ne?",
+        "intents": [
+            "balance",
+            "overdraft",
+            "how_much"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "58 dolar",
+                "span": [
+                    14,
+                    22
+                ],
+                "value": {
+                    "amount": 58.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_18_63",
+        "lang": "tr"
+    },
+    {
+        "text": "Ek hesabımla ilgili",
+        "intents": [
+            "overdraft"
+        ],
+        "uid": "bank_18_64",
+        "lang": "tr"
+    },
+    {
+        "text": "Kart okuyucumu değiştirmek istiyorum.",
+        "intents": [
+            "change",
+            "card"
+        ],
+        "uid": "bank_18_65",
+        "lang": "tr"
+    },
+    {
+        "text": "Çalışmıyor ve değiştirmek için yapabileceğim hiçbir şey yok",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "change"
+        ],
+        "uid": "bank_18_66",
+        "lang": "tr"
+    },
+    {
+        "text": "Oradaki paramın miktarını bana söyleyin",
+        "intents": [
+            "how_much"
+        ],
+        "uid": "bank_18_67",
+        "lang": "tr"
+    },
+    {
+        "text": "sadece bakiyemi kontrol ediyorum",
+        "intents": [
+            "balance"
+        ],
+        "uid": "bank_18_68",
+        "lang": "tr"
+    },
+    {
+        "text": "keandre yamaguchi'ye 962$'lık bir ödeme yapın",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "962$'lık",
+                "span": [
+                    21,
+                    29
+                ],
+                "value": {
+                    "amount": 962.0,
+                    "currency": "USD"
+                }
+            },
+            "person_name": {
+                "text": "keandre yamaguchi'ye",
+                "span": [
+                    0,
+                    20
+                ],
+                "value": "keandre yamaguchi"
+            }
+        },
+        "uid": "bank_18_69",
+        "lang": "tr"
+    },
+    {
+        "text": "bana bu sabah 950€ göndermesi gerekiyordu.",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "bu sabah",
+                "span": [
+                    5,
+                    13
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "950€ göndermesi",
+                "span": [
+                    14,
+                    29
+                ],
+                "value": {
+                    "amount": 950.0,
+                    "currency": "EUR"
+                }
+            }
+        },
+        "uid": "bank_18_70",
+        "lang": "tr"
+    },
+    {
+        "text": "2'sinde subrina cosner",
+        "slots": {
+            "date": {
+                "text": "2'sinde",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 2,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "subrina cosner",
+                "span": [
+                    8,
+                    22
+                ],
+                "value": "subrina cosner"
+            }
+        },
+        "uid": "bank_18_71",
+        "lang": "tr"
+    },
+    {
+        "text": "Aynen, başka bir vadeli hesap açmak istiyorum.",
+        "intents": [
+            "account",
+            "savings",
+            "affirm",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_18_72",
+        "lang": "tr"
+    },
+    {
+        "text": "faiz alıyor musunuz?",
+        "intents": [
+            "fees_interests",
+            "request_info"
+        ],
+        "uid": "bank_18_73",
+        "lang": "tr"
+    },
+    {
+        "text": "Farkında olmam gereken herhangi bir ücret var mı?",
+        "intents": [
+            "fees_interests",
+            "request_info"
+        ],
+        "uid": "bank_18_74",
+        "lang": "tr"
+    },
+    {
+        "text": "akşam 10'dan sonra 20 dakika",
+        "slots": {
+            "time": {
+                "text": "akşam 10'dan sonra 20 dakika",
+                "span": [
+                    0,
+                    28
+                ],
+                "value": {
+                    "hour": 22,
+                    "minute": 20
+                }
+            }
+        },
+        "uid": "bank_18_75",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet, akşam üstü 5 50 civarında.",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "time": {
+                "text": "akşam üstü 5 50 civarında",
+                "span": [
+                    6,
+                    31
+                ],
+                "value": {
+                    "hour": 17,
+                    "minute": 50
+                }
+            }
+        },
+        "uid": "bank_18_76",
+        "lang": "tr"
+    },
+    {
+        "text": "mevduat hesaplarınızın avantajları ne",
+        "intents": [
+            "request_info",
+            "current",
+            "account"
+        ],
+        "uid": "bank_18_77",
+        "lang": "tr"
+    },
+    {
+        "text": "Mevduat hesabımı kapatmak istiyorum",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "current",
+            "account"
+        ],
+        "uid": "bank_18_78",
+        "lang": "tr"
+    },
+    {
+        "text": "Hayır, sadece hesabı kapatmak istiyorum, başka bir şey yok.",
+        "intents": [
+            "deny",
+            "cancel_close_leave_freeze",
+            "account"
+        ],
+        "uid": "bank_18_79",
+        "lang": "tr"
+    },
+    {
+        "text": "Hesabımı kapatmak istiyorum",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "account"
+        ],
+        "uid": "bank_18_80",
+        "lang": "tr"
+    },
+    {
+        "text": "Uluslararası bir ödeme aslında, diğer hesabıma ne zaman yatacak?",
+        "intents": [
+            "international",
+            "transfer_payment_deposit",
+            "affirm",
+            "account",
+            "request_info"
+        ],
+        "uid": "bank_18_81",
+        "lang": "tr"
+    },
+    {
+        "text": "Bu alıcının uluslararası bir hesabı var",
+        "intents": [
+            "international",
+            "account"
+        ],
+        "uid": "bank_18_82",
+        "lang": "tr"
+    },
+    {
+        "text": "Adıma olan hesapları listeleyebilir misiniz?",
+        "intents": [
+            "request_info",
+            "account"
+        ],
+        "uid": "bank_18_83",
+        "lang": "tr"
+    },
+    {
+        "text": "Kartla ödeyip ödemediğimi hatırlamıyorum",
+        "intents": [
+            "dont_know",
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_84",
+        "lang": "tr"
+    },
+    {
+        "text": "Bilmiyorum",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_18_85",
+        "lang": "tr"
+    },
+    {
+        "text": "Perşembe transfer edemedim.",
+        "intents": [
+            "transfer_payment_deposit",
+            "wrong_notworking_notshowing",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date": {
+                "text": "Perşembe",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 17,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_86",
+        "lang": "tr"
+    },
+    {
+        "text": "bu doğru, etkinleştir",
+        "intents": [
+            "affirm",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_18_87",
+        "lang": "tr"
+    },
+    {
+        "text": "Atm'de yanlış bir şeye bastım ve şimdi kartım hiçbir yerde çalışmıyor.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "card"
+        ],
+        "uid": "bank_18_88",
+        "lang": "tr"
+    },
+    {
+        "text": "Visa kartı",
+        "intents": [
+            "card"
+        ],
+        "uid": "bank_18_89",
+        "lang": "tr"
+    },
+    {
+        "text": "27 Eylül nasıl",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date": {
+                "text": "27 Eylül",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 27,
+                    "month": 9,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_90",
+        "lang": "tr"
+    },
+    {
+        "text": "27 Eylül nasıl?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date": {
+                "text": "27 Eylül",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": {
+                    "day": 27,
+                    "month": 9,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_91",
+        "lang": "tr"
+    },
+    {
+        "text": "3'ü nasıl?",
+        "intents": [
+            "request_info"
+        ],
+        "slots": {
+            "date": {
+                "text": "3'ü",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": {
+                    "day": 3,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_18_92",
+        "lang": "tr"
+    },
+    {
+        "text": "Evet bana bundan bahsedin",
+        "intents": [
+            "affirm",
+            "request_info"
+        ],
+        "uid": "bank_18_93",
+        "lang": "tr"
+    },
+    {
+        "text": "Telefonumla ödemedim",
+        "intents": [
+            "deny",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_94",
+        "lang": "tr"
+    },
+    {
+        "text": "Hayır, okumanı istemiyorum",
+        "intents": [
+            "request_info",
+            "deny"
+        ],
+        "uid": "bank_18_95",
+        "lang": "tr"
+    },
+    {
+        "text": "O işlem mevcut değil, denediğim her şeye rağmen.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_96",
+        "lang": "tr"
+    },
+    {
+        "text": "bana şu adreste ödeyin",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_18_97",
+        "lang": "tr"
+    },
+    {
+        "text": "bu iyi görünüyor, bana daha fazla bilgi verebilir misiniz?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_18_98",
+        "lang": "tr"
+    },
+    {
+        "text": "bu iyi görünüyor, bana daha fazla bilgi verebilir misiniz",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_18_99",
+        "lang": "tr"
+    },
+    {
+        "text": "Kişisel bilgilerim için adresime de ihtiyacınız var mı?",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_18_100",
+        "lang": "tr"
+    },
+    {
+        "text": "İptal edildi",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_18_101",
+        "lang": "tr"
+    },
+    {
+        "text": "zaten sahibim",
+        "intents": [
+            "existing"
+        ],
+        "uid": "bank_18_102",
+        "lang": "tr"
+    },
+    {
+        "text": "kişisel bilgiler kısmında, adresim",
+        "uid": "bank_18_103",
+        "lang": "tr"
+    }
+]

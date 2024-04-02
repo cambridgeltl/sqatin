@@ -1,0 +1,1585 @@
+[
+    {
+        "text": "repita por favor",
+        "intents": [
+            "repeat"
+        ],
+        "uid": "bank_6_0",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, desde las 7:25 pm hasta las 11:20 pm, por favor.",
+        "intents": [
+            "affirm"
+        ],
+        "slots": {
+            "time_from": {
+                "text": "7:25 pm",
+                "span": [
+                    14,
+                    21
+                ],
+                "value": {
+                    "hour": 19,
+                    "minute": 25
+                }
+            },
+            "time_to": {
+                "text": "11:20 pm",
+                "span": [
+                    32,
+                    40
+                ],
+                "value": {
+                    "hour": 23,
+                    "minute": 20
+                }
+            }
+        },
+        "uid": "bank_6_1",
+        "lang": "es"
+    },
+    {
+        "text": "¿3 tal vez?",
+        "slots": {
+            "number": {
+                "text": "3",
+                "span": [
+                    1,
+                    2
+                ],
+                "value": 3
+            }
+        },
+        "uid": "bank_6_2",
+        "lang": "es"
+    },
+    {
+        "text": "durante 11 horas",
+        "slots": {
+            "time_period": {
+                "text": "11 horas",
+                "span": [
+                    8,
+                    16
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 660.0
+                }
+            }
+        },
+        "uid": "bank_6_3",
+        "lang": "es"
+    },
+    {
+        "text": "¿ofrecen cuentas para pequeñas empresas?",
+        "intents": [
+            "business",
+            "account",
+            "request_info"
+        ],
+        "uid": "bank_6_4",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, abrí la cuenta para mi negocio el 23 de marzo.",
+        "intents": [
+            "affirm",
+            "business",
+            "account"
+        ],
+        "slots": {
+            "date": {
+                "text": "23 de marzo",
+                "span": [
+                    38,
+                    49
+                ],
+                "value": {
+                    "day": 23,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_5",
+        "lang": "es"
+    },
+    {
+        "text": "no tengo ninguna orden permanente activa, que yo sepa.",
+        "intents": [
+            "deny",
+            "standing_order"
+        ],
+        "uid": "bank_6_6",
+        "lang": "es"
+    },
+    {
+        "text": "eso fue muy útil, adiós.",
+        "intents": [
+            "acknowledge",
+            "end_call"
+        ],
+        "uid": "bank_6_7",
+        "lang": "es"
+    },
+    {
+        "text": "Tengo que salir a la carretera",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "bank_6_8",
+        "lang": "es"
+    },
+    {
+        "text": "Ya veo, genial gracias",
+        "intents": [
+            "thank",
+            "acknowledge"
+        ],
+        "uid": "bank_6_9",
+        "lang": "es"
+    },
+    {
+        "text": "¿puedo utilizar un cheque para recargar mi cuenta?",
+        "intents": [
+            "cheque",
+            "request_info",
+            "account",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_6_10",
+        "lang": "es"
+    },
+    {
+        "text": "mi cheque fue rechazado en un banco",
+        "intents": [
+            "cheque",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_11",
+        "lang": "es"
+    },
+    {
+        "text": "se suponía que esto iba a llegar hace 4 semanas.",
+        "intents": [
+            "arrival"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 4 semanas",
+                "span": [
+                    33,
+                    47
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 2,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_12",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuándo llegará mi nueva tarjeta de débito?",
+        "intents": [
+            "when",
+            "debit",
+            "card",
+            "arrival",
+            "new"
+        ],
+        "uid": "bank_6_13",
+        "lang": "es"
+    },
+    {
+        "text": "déjame pensar, la perdí la noche del 18.",
+        "intents": [
+            "lost_stolen"
+        ],
+        "slots": {
+            "date": {
+                "text": "el 18",
+                "span": [
+                    34,
+                    39
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_14",
+        "lang": "es"
+    },
+    {
+        "text": "Creo que se han olvidado de enviarme uno de los estados de cuenta recientes de mi visa",
+        "intents": [
+            "lost_stolen",
+            "card"
+        ],
+        "uid": "bank_6_15",
+        "lang": "es"
+    },
+    {
+        "text": "¿qué tarjetas de crédito ofrecen?",
+        "intents": [
+            "request_info",
+            "credit",
+            "card"
+        ],
+        "uid": "bank_6_16",
+        "lang": "es"
+    },
+    {
+        "text": "la de crédito",
+        "intents": [
+            "credit"
+        ],
+        "uid": "bank_6_17",
+        "lang": "es"
+    },
+    {
+        "text": "¿hay algún pago al restaurante griego elia entre el 22 y el 29 de mayo?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "el 22",
+                "span": [
+                    49,
+                    54
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 5,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "el 29 de mayo",
+                "span": [
+                    57,
+                    70
+                ],
+                "value": {
+                    "day": 29,
+                    "month": 5,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "restaurante griego elia",
+                "span": [
+                    19,
+                    42
+                ],
+                "value": "elia greek restaurant"
+            }
+        },
+        "uid": "bank_6_18",
+        "lang": "es"
+    },
+    {
+        "text": "no, me refiero a que me muestre todas las transacciones desde el domingo hasta el lunes por favor",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit",
+            "deny"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "domingo",
+                "span": [
+                    65,
+                    72
+                ],
+                "value": {
+                    "day": 20,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "lunes",
+                "span": [
+                    82,
+                    87
+                ],
+                "value": {
+                    "day": 21,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_19",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuáles son mis gastos adicionales en impuestos desde noviembre",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "noviembre",
+                "span": [
+                    54,
+                    63
+                ],
+                "value": {
+                    "day": 1,
+                    "month": 11,
+                    "year": 2022
+                }
+            },
+            "shopping_category": {
+                "text": "impuesto",
+                "span": [
+                    38,
+                    46
+                ],
+                "value": "tax"
+            }
+        },
+        "uid": "bank_6_20",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuánto he gastado en bebida en el año en curso?",
+        "intents": [
+            "transfer_payment_deposit",
+            "how_much",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "año en curso",
+                "span": [
+                    35,
+                    47
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 31,
+                        "month": 12,
+                        "year": 2022
+                    }
+                }
+            },
+            "shopping_category": {
+                "text": "bebida",
+                "span": [
+                    22,
+                    28
+                ],
+                "value": "drinking"
+            }
+        },
+        "uid": "bank_6_21",
+        "lang": "es"
+    },
+    {
+        "text": "¿Mi periódico ha gastado menos de lo habitual en los últimos 23 días?",
+        "intents": [
+            "request_info",
+            "transfer_payment_deposit",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "últimos 23 días",
+                "span": [
+                    53,
+                    68
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 20,
+                        "month": 2,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 15,
+                        "month": 3,
+                        "year": 2022
+                    }
+                }
+            },
+            "shopping_category": {
+                "text": "periódico",
+                "span": [
+                    4,
+                    13
+                ],
+                "value": "newspaper"
+            }
+        },
+        "uid": "bank_6_22",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuándo ofrecerán transferencias internacionales sin intereses?",
+        "intents": [
+            "when",
+            "fees_interests",
+            "transfer_payment_deposit",
+            "international"
+        ],
+        "uid": "bank_6_23",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuál es la fecha exacta en la que finaliza mi hipoteca?",
+        "intents": [
+            "mortgage",
+            "when"
+        ],
+        "uid": "bank_6_24",
+        "lang": "es"
+    },
+    {
+        "text": "hola, lo que quiero es domiciliar el pago con Cash back para los próximos 2 meses",
+        "intents": [
+            "greet",
+            "direct_debit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "próximos 2 meses",
+                "span": [
+                    65,
+                    81
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 4,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 1,
+                        "month": 6,
+                        "year": 2022
+                    }
+                }
+            },
+            "company_name": {
+                "text": "Cash back",
+                "span": [
+                    46,
+                    55
+                ],
+                "value": "Cash back"
+            }
+        },
+        "uid": "bank_6_25",
+        "lang": "es"
+    },
+    {
+        "text": "hola puedo cambiar mi cuenta de ahorro",
+        "intents": [
+            "greet",
+            "change",
+            "savings",
+            "account"
+        ],
+        "uid": "bank_6_26",
+        "lang": "es"
+    },
+    {
+        "text": "¿por qué necesito mi pin para hacer una pregunta sobre los descubiertos?",
+        "intents": [
+            "pin",
+            "overdraft",
+            "why"
+        ],
+        "uid": "bank_6_27",
+        "lang": "es"
+    },
+    {
+        "text": "Estoy completamente seguro de que mi pin es correcto pero no funciona por alguna razón",
+        "intents": [
+            "pin",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_28",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, gracias",
+        "intents": [
+            "affirm",
+            "thank"
+        ],
+        "uid": "bank_6_29",
+        "lang": "es"
+    },
+    {
+        "text": "Muchas gracias",
+        "intents": [
+            "thank"
+        ],
+        "uid": "bank_6_30",
+        "lang": "es"
+    },
+    {
+        "text": "Aumentar el límite de gasto de mi tarjeta de débito, es un asunto realmente urgente",
+        "intents": [
+            "debit",
+            "change",
+            "limits",
+            "card",
+            "more_higher_after"
+        ],
+        "uid": "bank_6_31",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, es de débito",
+        "intents": [
+            "debit",
+            "affirm"
+        ],
+        "uid": "bank_6_32",
+        "lang": "es"
+    },
+    {
+        "text": "Esa transacción aún está pendiente aunque retiré el dinero hace casi 3 meses.",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "withdrawal",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace casi 3 meses",
+                "span": [
+                    59,
+                    76
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 12,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_6_33",
+        "lang": "es"
+    },
+    {
+        "text": "¿por qué son cada vez más altas las comisiones por retirar dinero en efectivo en el extranjero?",
+        "intents": [
+            "why",
+            "fees_interests",
+            "withdrawal",
+            "more_higher_after",
+            "international"
+        ],
+        "uid": "bank_6_34",
+        "lang": "es"
+    },
+    {
+        "text": "¿qué tengo que hacer para transferir 2.000 dólares a un banco en el extranjero?",
+        "intents": [
+            "how",
+            "transfer_payment_deposit",
+            "make_open_apply_setup_get_activate",
+            "international"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "2.000 dólares",
+                "span": [
+                    37,
+                    50
+                ],
+                "value": {
+                    "amount": 2000.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_6_35",
+        "lang": "es"
+    },
+    {
+        "text": "¿cómo puedo tener derecho a un préstamo en su banco?",
+        "intents": [
+            "loan",
+            "make_open_apply_setup_get_activate",
+            "how"
+        ],
+        "uid": "bank_6_36",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo recargarlo?",
+        "intents": [
+            "transfer_payment_deposit",
+            "how"
+        ],
+        "uid": "bank_6_37",
+        "lang": "es"
+    },
+    {
+        "text": "Fue un pago sin contacto de 53 dólares por la suscripción a Blues Kitchen",
+        "intents": [
+            "transfer_payment_deposit",
+            "contactless"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "53 dólares",
+                "span": [
+                    28,
+                    38
+                ],
+                "value": {
+                    "amount": 53.0,
+                    "currency": "USD"
+                }
+            },
+            "company_name": {
+                "text": "Blues Kitchen",
+                "span": [
+                    60,
+                    73
+                ],
+                "value": "Blues Kitchen"
+            }
+        },
+        "uid": "bank_6_38",
+        "lang": "es"
+    },
+    {
+        "text": "Fue un pago sin contacto de 53 dólares para Blues Kitchen",
+        "intents": [
+            "transfer_payment_deposit",
+            "contactless"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "53 dólares",
+                "span": [
+                    28,
+                    38
+                ],
+                "value": {
+                    "amount": 53.0,
+                    "currency": "USD"
+                }
+            },
+            "company_name": {
+                "text": "Blues Kitchen",
+                "span": [
+                    44,
+                    57
+                ],
+                "value": "Blues Kitchen"
+            }
+        },
+        "uid": "bank_6_39",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuánto gastó mi mujer en la tienda web de Godaddy el lunes de la semana pasada?",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "el lunes de la semana pasada",
+                "span": [
+                    51,
+                    79
+                ],
+                "value": {
+                    "day": 7,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "company_name": {
+                "text": "Godaddy",
+                "span": [
+                    43,
+                    50
+                ],
+                "value": "Godaddy"
+            }
+        },
+        "uid": "bank_6_40",
+        "lang": "es"
+    },
+    {
+        "text": "¿hacer un pago para ponerse al día con un débito directo tiene alguna comisión adicional?",
+        "intents": [
+            "direct_debit",
+            "transfer_payment_deposit",
+            "fees_interests",
+            "request_info"
+        ],
+        "uid": "bank_6_41",
+        "lang": "es"
+    },
+    {
+        "text": "¡Intenté pagar sin contacto y no pude! ¡Sólo era algo alrededor de 10 libras esterlinas!",
+        "intents": [
+            "contactless",
+            "wrong_notworking_notshowing",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "10 libras esterlinas",
+                "span": [
+                    67,
+                    87
+                ],
+                "value": {
+                    "amount": 10.0,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_6_42",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo funciona esto del sin contacto?",
+        "intents": [
+            "contactless",
+            "request_info"
+        ],
+        "uid": "bank_6_43",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuánto cobran por las minusvalías de más de mil dólares?",
+        "intents": [
+            "overdraft",
+            "how_much",
+            "less_lower_before"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "mil dólares",
+                "span": [
+                    45,
+                    56
+                ],
+                "value": {
+                    "amount": 1000.0,
+                    "currency": "USD"
+                }
+            }
+        },
+        "uid": "bank_6_44",
+        "lang": "es"
+    },
+    {
+        "text": "No, quiero abrir la cuenta mañana o incluso antes.",
+        "intents": [
+            "deny",
+            "make_open_apply_setup_get_activate",
+            "account",
+            "less_lower_before"
+        ],
+        "slots": {
+            "date": {
+                "text": "mañana",
+                "span": [
+                    27,
+                    33
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_45",
+        "lang": "es"
+    },
+    {
+        "text": "Me dijeron que me iban a devolver 80,24 libras hace 3 días pero no aparece",
+        "intents": [
+            "refund",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 3 días",
+                "span": [
+                    47,
+                    58
+                ],
+                "value": {
+                    "day": 12,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "80,24 libras",
+                "span": [
+                    34,
+                    46
+                ],
+                "value": {
+                    "amount": 80.24,
+                    "currency": "GBP"
+                }
+            }
+        },
+        "uid": "bank_6_46",
+        "lang": "es"
+    },
+    {
+        "text": "No quiero un reembolso",
+        "intents": [
+            "refund",
+            "deny"
+        ],
+        "uid": "bank_6_47",
+        "lang": "es"
+    },
+    {
+        "text": "¿por qué no aparece el pago en mi saldo?",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "balance",
+            "transfer_payment_deposit",
+            "why"
+        ],
+        "uid": "bank_6_48",
+        "lang": "es"
+    },
+    {
+        "text": "¿y por qué es así?",
+        "intents": [
+            "why"
+        ],
+        "uid": "bank_6_49",
+        "lang": "es"
+    },
+    {
+        "text": "Estoy esperando la cita de mañana",
+        "intents": [
+            "appointment"
+        ],
+        "slots": {
+            "date": {
+                "text": "mañana",
+                "span": [
+                    27,
+                    33
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_50",
+        "lang": "es"
+    },
+    {
+        "text": "necesito programar una reunión para hablar de mis tarjetas y préstamos, podemos hacerlo a las 10:10 de la mañana del martes",
+        "intents": [
+            "loan",
+            "appointment",
+            "card",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "time": {
+                "text": "10:10 de la mañana",
+                "span": [
+                    94,
+                    112
+                ],
+                "value": {
+                    "hour": 10,
+                    "minute": 10
+                }
+            },
+            "date": {
+                "text": "martes",
+                "span": [
+                    117,
+                    123
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_51",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, esta es una nueva cita",
+        "intents": [
+            "affirm",
+            "appointment",
+            "new"
+        ],
+        "uid": "bank_6_52",
+        "lang": "es"
+    },
+    {
+        "text": "Creo que sí ¿Puede enumerar todas mis opciones hipotecarias?",
+        "intents": [
+            "affirm",
+            "mortgage",
+            "request_info"
+        ],
+        "uid": "bank_6_53",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, quería hablar de mi hipoteca",
+        "intents": [
+            "affirm",
+            "mortgage"
+        ],
+        "uid": "bank_6_54",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuáles son mis pagos más altos del último mes?",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "del último mes",
+                "span": [
+                    32,
+                    46
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "day": 1,
+                        "month": 2,
+                        "year": 2022
+                    },
+                    "to": {
+                        "day": 28,
+                        "month": 2,
+                        "year": 2022
+                    }
+                }
+            }
+        },
+        "uid": "bank_6_55",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuál es el máximo que puedo aportar a mi cuenta de ahorro cada mes?",
+        "intents": [
+            "how_much",
+            "transfer_payment_deposit",
+            "savings",
+            "limits"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "cada mes",
+                "span": [
+                    59,
+                    67
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 30
+                }
+            }
+        },
+        "uid": "bank_6_56",
+        "lang": "es"
+    },
+    {
+        "text": "¿cuál es el límite de los préstamos a corto plazo?",
+        "intents": [
+            "how_much",
+            "limits",
+            "loan"
+        ],
+        "uid": "bank_6_57",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cómo puedo acceder a más información sobre los préstamos que aún debo a la gente?",
+        "intents": [
+            "loan",
+            "request_info"
+        ],
+        "uid": "bank_6_58",
+        "lang": "es"
+    },
+    {
+        "text": "Parece que el saldo no es correcto. ¿Puedo conseguir a alguien más en la línea para confirmarlo?",
+        "intents": [
+            "balance",
+            "handoff",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_59",
+        "lang": "es"
+    },
+    {
+        "text": "Quiero dejar de hablar con bots y agentes virtuales, ¡déjenme hablar con alguien más!",
+        "intents": [
+            "handoff"
+        ],
+        "uid": "bank_6_60",
+        "lang": "es"
+    },
+    {
+        "text": "¿Cuál fue mi mayor gasto hace 4 meses?",
+        "intents": [
+            "request_info",
+            "more_higher_after",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 4 meses",
+                "span": [
+                    25,
+                    37
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 11,
+                    "year": 2021
+                }
+            }
+        },
+        "uid": "bank_6_61",
+        "lang": "es"
+    },
+    {
+        "text": "No entiendo a qué se refiere con no poder aumentar el límite de sobregiro",
+        "intents": [
+            "more_higher_after",
+            "overdraft",
+            "limits",
+            "change"
+        ],
+        "uid": "bank_6_62",
+        "lang": "es"
+    },
+    {
+        "text": "¿hay algun límite superior o tope?",
+        "intents": [
+            "limits"
+        ],
+        "uid": "bank_6_63",
+        "lang": "es"
+    },
+    {
+        "text": "¿puedo gastar más dinero del que tengo en mi cuenta?",
+        "intents": [
+            "overdraft",
+            "request_info",
+            "account"
+        ],
+        "uid": "bank_6_64",
+        "lang": "es"
+    },
+    {
+        "text": "no recuerdo cómo actualizar mi dirección a través de la aplicación móvil",
+        "intents": [
+            "dont_know",
+            "change"
+        ],
+        "uid": "bank_6_65",
+        "lang": "es"
+    },
+    {
+        "text": "cambiar",
+        "intents": [
+            "change"
+        ],
+        "uid": "bank_6_66",
+        "lang": "es"
+    },
+    {
+        "text": "¿tengo dinero en mi cuenta?",
+        "intents": [
+            "account",
+            "balance",
+            "how_much"
+        ],
+        "uid": "bank_6_67",
+        "lang": "es"
+    },
+    {
+        "text": "¿tengo que pagar algo si cierro una cuenta con saldo negativo?",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "balance",
+            "account",
+            "fees_interests"
+        ],
+        "uid": "bank_6_68",
+        "lang": "es"
+    },
+    {
+        "text": "ah, ¿puedo hacer una transferencia de 800 a gregory?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "amount_of_money": {
+                "text": "800",
+                "span": [
+                    38,
+                    41
+                ],
+                "value": {
+                    "amount": 800.0,
+                    "currency": "ambiguous"
+                }
+            },
+            "person_name": {
+                "text": "gregory",
+                "span": [
+                    44,
+                    51
+                ],
+                "value": "greogry"
+            }
+        },
+        "uid": "bank_6_69",
+        "lang": "es"
+    },
+    {
+        "text": "Envié 554,2 euros a kayshia maharaj a través de SWIFT hace 9 días, pero aún no ha llegado.",
+        "intents": [
+            "transfer_payment_deposit",
+            "international",
+            "wrong_notworking_notshowing"
+        ],
+        "slots": {
+            "date": {
+                "text": "hace 9 días",
+                "span": [
+                    54,
+                    65
+                ],
+                "value": {
+                    "day": 6,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "amount_of_money": {
+                "text": "554,2 euros",
+                "span": [
+                    6,
+                    17
+                ],
+                "value": {
+                    "amount": 554.2,
+                    "currency": "EUR"
+                }
+            },
+            "person_name": {
+                "text": "kayshia maharaj",
+                "span": [
+                    20,
+                    35
+                ],
+                "value": "kayshia maharaj"
+            }
+        },
+        "uid": "bank_6_70",
+        "lang": "es"
+    },
+    {
+        "text": "Necesito hacer una transferencia a arwood",
+        "intents": [
+            "transfer_payment_deposit",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "person_name": {
+                "text": "arwood",
+                "span": [
+                    35,
+                    41
+                ],
+                "value": "arwood"
+            }
+        },
+        "uid": "bank_6_71",
+        "lang": "es"
+    },
+    {
+        "text": "volver a enviar la misma cantidad a shawanna broadwater en 8 horas",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "time": {
+                "text": "en 8 horas",
+                "span": [
+                    56,
+                    66
+                ],
+                "value": {
+                    "hour": 17,
+                    "minute": 0
+                }
+            },
+            "person_name": {
+                "text": "shawanna broadwater",
+                "span": [
+                    36,
+                    55
+                ],
+                "value": "shawanna broadwater"
+            }
+        },
+        "uid": "bank_6_72",
+        "lang": "es"
+    },
+    {
+        "text": "¿Qué opciones de cuentas de ahorro ofrecen ustedes?",
+        "intents": [
+            "request_info",
+            "savings",
+            "account"
+        ],
+        "uid": "bank_6_73",
+        "lang": "es"
+    },
+    {
+        "text": "¿Qué pasa con mis tasas de interés?",
+        "intents": [
+            "fees_interests",
+            "request_info"
+        ],
+        "uid": "bank_6_74",
+        "lang": "es"
+    },
+    {
+        "text": "Necesito recargar mi tarjeta lo antes posible",
+        "intents": [
+            "card",
+            "make_open_apply_setup_get_activate",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_6_75",
+        "lang": "es"
+    },
+    {
+        "text": "el 18 a las 20:50 de la tarde",
+        "slots": {
+            "time": {
+                "text": "20:50 de la tarde",
+                "span": [
+                    12,
+                    29
+                ],
+                "value": {
+                    "hour": 20,
+                    "minute": 50
+                }
+            },
+            "date": {
+                "text": "el 18",
+                "span": [
+                    0,
+                    5
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_76",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, es una cuenta corriente",
+        "intents": [
+            "current",
+            "affirm"
+        ],
+        "uid": "bank_6_77",
+        "lang": "es"
+    },
+    {
+        "text": "Es una cuenta corriente",
+        "intents": [
+            "current"
+        ],
+        "uid": "bank_6_78",
+        "lang": "es"
+    },
+    {
+        "text": "cerrarla el 23 de marzo",
+        "intents": [
+            "cancel_close_leave_freeze"
+        ],
+        "slots": {
+            "date": {
+                "text": "23 de marzo",
+                "span": [
+                    12,
+                    23
+                ],
+                "value": {
+                    "day": 23,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_79",
+        "lang": "es"
+    },
+    {
+        "text": "¡Congélelo pronto por favor!",
+        "intents": [
+            "cancel_close_leave_freeze"
+        ],
+        "uid": "bank_6_80",
+        "lang": "es"
+    },
+    {
+        "text": "en otro país",
+        "intents": [
+            "international"
+        ],
+        "uid": "bank_6_81",
+        "lang": "es"
+    },
+    {
+        "text": "la lista de transacciones recientes en mi cuenta FlexiPlus existente está vacía, eso no puede ser correcto",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "account",
+            "transfer_payment_deposit",
+            "existing"
+        ],
+        "uid": "bank_6_82",
+        "lang": "es"
+    },
+    {
+        "text": "La verdad es que no recuerdo esa información.",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_6_83",
+        "lang": "es"
+    },
+    {
+        "text": "no estoy seguro de ello",
+        "intents": [
+            "dont_know"
+        ],
+        "uid": "bank_6_84",
+        "lang": "es"
+    },
+    {
+        "text": "Me gustaría seleccionar un beneficiario existente",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "existing"
+        ],
+        "uid": "bank_6_85",
+        "lang": "es"
+    },
+    {
+        "text": "Hágalo",
+        "intents": [
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "bank_6_86",
+        "lang": "es"
+    },
+    {
+        "text": "tengo un problema con mi tarjeta",
+        "intents": [
+            "card",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_87",
+        "lang": "es"
+    },
+    {
+        "text": "Pagué con tarjeta",
+        "intents": [
+            "card",
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_6_88",
+        "lang": "es"
+    },
+    {
+        "text": "La fecha sería el 14 de abril de 2018",
+        "slots": {
+            "date": {
+                "text": "14 de abril de 2018",
+                "span": [
+                    18,
+                    37
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 4,
+                    "year": 2018
+                }
+            }
+        },
+        "uid": "bank_6_89",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, lo pagué ayer",
+        "intents": [
+            "affirm",
+            "transfer_payment_deposit"
+        ],
+        "slots": {
+            "date": {
+                "text": "ayer",
+                "span": [
+                    13,
+                    17
+                ],
+                "value": {
+                    "day": 14,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "bank_6_90",
+        "lang": "es"
+    },
+    {
+        "text": "Sí, es exactamente eso",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "bank_6_91",
+        "lang": "es"
+    },
+    {
+        "text": "No, es que no está....",
+        "intents": [
+            "deny",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_92",
+        "lang": "es"
+    },
+    {
+        "text": "Nunca dije eso",
+        "intents": [
+            "deny"
+        ],
+        "uid": "bank_6_93",
+        "lang": "es"
+    },
+    {
+        "text": "Fue una transferencia de dinero",
+        "intents": [
+            "transfer_payment_deposit"
+        ],
+        "uid": "bank_6_94",
+        "lang": "es"
+    },
+    {
+        "text": "hábleme de las pensiones.",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_6_95",
+        "lang": "es"
+    },
+    {
+        "text": "dígame lo que dice",
+        "intents": [
+            "request_info"
+        ],
+        "uid": "bank_6_96",
+        "lang": "es"
+    },
+    {
+        "text": "parece que sigue sin funcionar",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_97",
+        "lang": "es"
+    },
+    {
+        "text": "Mi dirección no está en la lista",
+        "intents": [
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "bank_6_98",
+        "lang": "es"
+    },
+    {
+        "text": "es una nueva",
+        "intents": [
+            "new"
+        ],
+        "uid": "bank_6_99",
+        "lang": "es"
+    },
+    {
+        "text": "He usado la aplicación",
+        "uid": "bank_6_100",
+        "lang": "es"
+    },
+    {
+        "text": "Es nueva",
+        "intents": [
+            "new"
+        ],
+        "uid": "bank_6_101",
+        "lang": "es"
+    }
+]

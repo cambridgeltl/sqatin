@@ -1,0 +1,1061 @@
+[
+    {
+        "text": "ከምሽቱ 4:10 አካባቢ እሄዳለሁ",
+        "slots": {
+            "time_to": {
+                "text": "ከምሽቱ 4:10",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "hour": 22,
+                    "minute": 10
+                }
+            }
+        },
+        "uid": "hotel_17_0",
+        "lang": "am"
+    },
+    {
+        "text": "የመዋኛ ገንዳው ለምን ተዘጋ?",
+        "intents": [
+            "why",
+            "swimming_pool",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "hotel_17_1",
+        "lang": "am"
+    },
+    {
+        "text": "እንዴት ነው ማሳጅ ማስያዝ የምችለው?",
+        "intents": [
+            "how",
+            "booking",
+            "spa"
+        ],
+        "uid": "hotel_17_2",
+        "lang": "am"
+    },
+    {
+        "text": "መገኘት የምችልበት ፈጣኑ ጊዜ መቼ ነው",
+        "intents": [
+            "request_info",
+            "check_in",
+            "when",
+            "limits"
+        ],
+        "uid": "hotel_17_3",
+        "lang": "am"
+    },
+    {
+        "text": "አሪፍ ከዳሪያና ፕረንቲ በታች አንድ ጠረጴዛ ለምሽቱ 8:10 ያስያዝኩ ይመስለኛል",
+        "intents": [
+            "acknowledge",
+            "existing",
+            "booking",
+            "restaurant"
+        ],
+        "slots": {
+            "time": {
+                "text": "ለምሽቱ 8:10",
+                "span": [
+                    28,
+                    37
+                ],
+                "value": {
+                    "hour": 2,
+                    "minute": 10
+                }
+            },
+            "person_name": {
+                "text": "ከዳሪያና ፕረንቲ",
+                "span": [
+                    4,
+                    14
+                ],
+                "value": "dariana prunty"
+            }
+        },
+        "uid": "hotel_17_4",
+        "lang": "am"
+    },
+    {
+        "text": "የምፈልገው በሙሉ ነው",
+        "intents": [
+            "end_call"
+        ],
+        "uid": "hotel_17_5",
+        "lang": "am"
+    },
+    {
+        "text": "ሰላም ለመጪው ቅዳሜ እና እሁድ አንድ ክፍል ማስያዝ እፈልጋለው እኔ እና ባሌ ነን ምን ክፍት ነገር አላችሁ?",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate",
+            "greet",
+            "request_info"
+        ],
+        "slots": {
+            "adults": {
+                "text": "እኔ እና ባሌ",
+                "span": [
+                    40,
+                    48
+                ],
+                "value": 2
+            },
+            "rooms": {
+                "text": "አንድ ክፍል",
+                "span": [
+                    20,
+                    27
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_6",
+        "lang": "am"
+    },
+    {
+        "text": "እባኮትን ከስፖርት መስሪያ ቦታ ጋር ማውራት እፈልጋለሁ",
+        "intents": [
+            "handoff",
+            "gym"
+        ],
+        "uid": "hotel_17_7",
+        "lang": "am"
+    },
+    {
+        "text": "ከምሽቱ 1:55 በፊት ክፍት የሆነ ምንም አይነት ጠረጴዛ ይኖራል?",
+        "intents": [
+            "restaurant",
+            "booking",
+            "request_info",
+            "less_lower_before"
+        ],
+        "slots": {
+            "time": {
+                "text": "ከምሽቱ 1:55",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "hour": 19,
+                    "minute": 55
+                }
+            }
+        },
+        "uid": "hotel_17_8",
+        "lang": "am"
+    },
+    {
+        "text": "ጠዋት ስንት ሰዓት ነው የስፖርት መስሪያ ቤቱ የሚከፈተው?",
+        "intents": [
+            "when",
+            "gym"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "ጠዋት",
+                "span": [
+                    0,
+                    3
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 0,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 12,
+                        "minute": 0
+                    }
+                }
+            }
+        },
+        "uid": "hotel_17_9",
+        "lang": "am"
+    },
+    {
+        "text": "ለመውጫ ሰዓት የምንደርስ አይመስለኝም",
+        "intents": [
+            "check_out",
+            "wrong_notworking_notshowing"
+        ],
+        "uid": "hotel_17_10",
+        "lang": "am"
+    },
+    {
+        "text": "የመዋኛ ገንዳውን ለመጠቀም ያስያዝኩትን ቦታ ማሻሻል እችል ይሆን?",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "booking",
+            "swimming_pool",
+            "more_higher_after"
+        ],
+        "uid": "hotel_17_11",
+        "lang": "am"
+    },
+    {
+        "text": "እሺ ምንም ችግር የለውም",
+        "intents": [
+            "affirm"
+        ],
+        "uid": "hotel_17_12",
+        "lang": "am"
+    },
+    {
+        "text": "አዲስ ይስሩ",
+        "intents": [
+            "new",
+            "make_open_apply_setup_get_activate"
+        ],
+        "uid": "hotel_17_13",
+        "lang": "am"
+    },
+    {
+        "text": "ለውሻ የሚስማማ ክፍል ለሰጥኝ ይቻል ይሆን",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "booking",
+            "pets"
+        ],
+        "slots": {
+            "rooms": {
+                "text": "ለውሻ የሚስማማ ክፍል",
+                "span": [
+                    0,
+                    13
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_14",
+        "lang": "am"
+    },
+    {
+        "text": "አይ አያቴ ብቻ ናቸው ሆቴላችሁ ውስጥ የሚቆዩት",
+        "intents": [
+            "deny"
+        ],
+        "slots": {
+            "people": {
+                "text": "አያቴ",
+                "span": [
+                    3,
+                    6
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_15",
+        "lang": "am"
+    },
+    {
+        "text": "የመዝናኛው ስፍራ ለእንግዶቹ የኢንተርኔት አገልግሎት ይሰጣል?",
+        "intents": [
+            "request_info",
+            "wifi"
+        ],
+        "uid": "hotel_17_16",
+        "lang": "am"
+    },
+    {
+        "text": "መታጠቢያው ምንም አይነት ሙቅ ውሃ ሊያገኝ አልቻለም እስካሁን ድረስ ሰውነቴን በቀዝቃዛ ውሃ ነው የምታጠበው",
+        "intents": [
+            "wrong_notworking_notshowing",
+            "room_ammenities"
+        ],
+        "uid": "hotel_17_17",
+        "lang": "am"
+    },
+    {
+        "text": "ለአንድ ሳምንት ከበረንዳ ጋር",
+        "intents": [
+            "room_ammenities"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "ለአንድ ሳምንት",
+                "span": [
+                    0,
+                    9
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 7
+                }
+            }
+        },
+        "uid": "hotel_17_18",
+        "lang": "am"
+    },
+    {
+        "text": "የስፖርት መስሪያ ቤታችሁ ውስጥ ለሶስት ሰዓት ያህል ከግል አሰልጣኝ ጋር ስንት ነው የምከፍለው?",
+        "intents": [
+            "gym",
+            "how_much"
+        ],
+        "slots": {
+            "time_period": {
+                "text": "ለሶስት ሰዓት",
+                "span": [
+                    20,
+                    28
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 180.0
+                }
+            }
+        },
+        "uid": "hotel_17_19",
+        "lang": "am"
+    },
+    {
+        "text": "ቁርስ ለአምስት ሰው ምን ያህል ገንዘብ ነው?",
+        "intents": [
+            "how_much",
+            "restaurant"
+        ],
+        "slots": {
+            "people": {
+                "text": "ለአምስት",
+                "span": [
+                    4,
+                    9
+                ],
+                "value": 5
+            }
+        },
+        "uid": "hotel_17_20",
+        "lang": "am"
+    },
+    {
+        "text": "አንድ",
+        "slots": {
+            "number": {
+                "text": "አንድ",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_21",
+        "lang": "am"
+    },
+    {
+        "text": "የመንጃ ፍቃዴ ጠፋብኝ",
+        "intents": [
+            "lost_stolen"
+        ],
+        "uid": "hotel_17_22",
+        "lang": "am"
+    },
+    {
+        "text": "እየነዳው ነው ማቆም እችላለሁ",
+        "intents": [
+            "request_info",
+            "parking"
+        ],
+        "uid": "hotel_17_23",
+        "lang": "am"
+    },
+    {
+        "text": "ለነገ ማታ በኮሊሻ ስም የተያዘ የምግብ ቤት ቦታ አለን!",
+        "intents": [
+            "booking",
+            "restaurant",
+            "existing"
+        ],
+        "slots": {
+            "date": {
+                "text": "ለነገ",
+                "span": [
+                    0,
+                    3
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "time_period": {
+                "text": "ማታ",
+                "span": [
+                    4,
+                    6
+                ],
+                "values": {
+                    "type": "absolute",
+                    "from": {
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "to": {
+                        "hour": 0,
+                        "minute": 0
+                    }
+                }
+            },
+            "person_name": {
+                "text": "በኮሊሻ",
+                "span": [
+                    7,
+                    11
+                ],
+                "value": "colisha"
+            }
+        },
+        "uid": "hotel_17_24",
+        "lang": "am"
+    },
+    {
+        "text": "ያለውን ይሰርዙት",
+        "intents": [
+            "cancel_close_leave_freeze",
+            "existing"
+        ],
+        "uid": "hotel_17_25",
+        "lang": "am"
+    },
+    {
+        "text": "ነገ 8:50 ለካሚኒ ሉዎማ የተያዘ የምግብ ቤት ቦታ አለኝ",
+        "intents": [
+            "existing",
+            "restaurant",
+            "booking"
+        ],
+        "slots": {
+            "time": {
+                "text": "8:50",
+                "span": [
+                    3,
+                    7
+                ],
+                "value": {
+                    "hour": 14,
+                    "minute": 50
+                }
+            },
+            "date": {
+                "text": "ነገ",
+                "span": [
+                    0,
+                    2
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "person_name": {
+                "text": "ለካሚኒ ሉዎማ",
+                "span": [
+                    8,
+                    16
+                ],
+                "value": "kamini luoma"
+            }
+        },
+        "uid": "hotel_17_26",
+        "lang": "am"
+    },
+    {
+        "text": "ዛሬ ከምሽቱ 2 ሰዓት ላይ ጥፍሬን መሰራት እችል ይሆን?",
+        "intents": [
+            "booking",
+            "spa"
+        ],
+        "slots": {
+            "time": {
+                "text": "2 ሰዓት",
+                "span": [
+                    8,
+                    13
+                ],
+                "value": {
+                    "hour": 8,
+                    "minute": 0
+                }
+            },
+            "date": {
+                "text": "ዛሬ ከምሽቱ",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_27",
+        "lang": "am"
+    },
+    {
+        "text": "ከጠዋቱ 11:30 ላይ የሚከፈቱ ምንም አይነት የምግብ ቤቶች ይኖራል?",
+        "intents": [
+            "request_info",
+            "restaurant"
+        ],
+        "slots": {
+            "time": {
+                "text": "ከጠዋቱ 11:30",
+                "span": [
+                    0,
+                    10
+                ],
+                "value": {
+                    "hour": 5,
+                    "minute": 30
+                }
+            }
+        },
+        "uid": "hotel_17_28",
+        "lang": "am"
+    },
+    {
+        "text": "በአንድ ሰዓት ውስጥ ሆት ዶግ ወደ ክፍሌ ማዘዝ እችል ይሆን",
+        "intents": [
+            "make_open_apply_setup_get_activate",
+            "room_service"
+        ],
+        "slots": {
+            "time": {
+                "text": "በአንድ ሰዓት ውስጥ",
+                "span": [
+                    0,
+                    12
+                ],
+                "value": {
+                    "hour": 10,
+                    "minute": 0
+                }
+            }
+        },
+        "uid": "hotel_17_29",
+        "lang": "am"
+    },
+    {
+        "text": "ቀድሞውንም አለኝ",
+        "intents": [
+            "existing"
+        ],
+        "uid": "hotel_17_30",
+        "lang": "am"
+    },
+    {
+        "text": "ለአንድ ሰው ብቻ የሚሆን ጠረጴዛ",
+        "intents": [
+            "restaurant",
+            "booking"
+        ],
+        "slots": {
+            "people": {
+                "text": "ለአንድ",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_31",
+        "lang": "am"
+    },
+    {
+        "text": "ከምሽቱ 2:10 ቢሆን ምርጥ ነው",
+        "slots": {
+            "time": {
+                "text": "ከምሽቱ 2:10",
+                "span": [
+                    0,
+                    9
+                ],
+                "value": {
+                    "hour": 20,
+                    "minute": 10
+                }
+            }
+        },
+        "uid": "hotel_17_32",
+        "lang": "am"
+    },
+    {
+        "text": "ለ ነሐሴ 12 ያስያዝኩትን ቦታ ማሻሻል እፈልጋለሁ",
+        "intents": [
+            "change",
+            "booking"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "ነሐሴ 12",
+                "span": [
+                    2,
+                    8
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 8,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_33",
+        "lang": "am"
+    },
+    {
+        "text": "ያስያዝኩትን አንድ ክፍል ወደ ስድስት ሰዎች ማዘመን እችል ይሆን?",
+        "intents": [
+            "booking",
+            "change"
+        ],
+        "slots": {
+            "people": {
+                "text": "ስድስት",
+                "span": [
+                    19,
+                    23
+                ],
+                "value": 6
+            },
+            "rooms": {
+                "text": "አንድ ክፍል",
+                "span": [
+                    8,
+                    15
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_34",
+        "lang": "am"
+    },
+    {
+        "text": "ከቤተሰቤ ጋር አራት ሆነን ነው የምመጣው",
+        "slots": {
+            "people": {
+                "text": "አራት",
+                "span": [
+                    9,
+                    12
+                ],
+                "value": 4
+            }
+        },
+        "uid": "hotel_17_35",
+        "lang": "am"
+    },
+    {
+        "text": "ነገ",
+        "slots": {
+            "date": {
+                "text": "ነገ",
+                "span": [
+                    0,
+                    2
+                ],
+                "value": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_36",
+        "lang": "am"
+    },
+    {
+        "text": "አስቀድመን ዛሬ የምደርስ ይመስለኛል እና ለብዙ ምሽቶች እንቆያለን",
+        "slots": {
+            "date": {
+                "text": "ዛሬ",
+                "span": [
+                    7,
+                    9
+                ],
+                "value": {
+                    "day": 15,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_37",
+        "lang": "am"
+    },
+    {
+        "text": "ለሁለት ምሽቶች የሚሆን ድርብ ክፍል እፈልጋለሁ",
+        "slots": {
+            "date_period": {
+                "text": "ለሁለት ምሽቶች",
+                "span": [
+                    0,
+                    9
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            },
+            "rooms": {
+                "text": "ድርብ ክፍል",
+                "span": [
+                    15,
+                    22
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_38",
+        "lang": "am"
+    },
+    {
+        "text": "ከ ሰኞ መስከረም 16 ጀምሮ ለ አራት አዋቂዎች የሚሆን ሁለት ክፍሎች እና በየክፍሉ ሁለት ሁለት አዋቂዎች የሚቆዩበት አንደኛው ክፍል ውስጥ አንድ ድርብ አልጋ ያለበት ሌላኛው ላይ ደግሞ ሁለት ነጠላ አልጋ ያለበት ክፍል ለሁለት ምሽቶች ማስያዝ እችል ይሆን",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_period": {
+                "text": "ለሁለት ምሽቶች",
+                "span": [
+                    138,
+                    147
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 2
+                }
+            },
+            "date_from": {
+                "text": "ሰኞ መስከረም 16",
+                "span": [
+                    2,
+                    13
+                ],
+                "value": {
+                    "day": 26,
+                    "month": 9,
+                    "year": 2022
+                }
+            },
+            "adults": {
+                "text": "አራት",
+                "span": [
+                    20,
+                    23
+                ],
+                "value": 4
+            },
+            "rooms": {
+                "text": "ሁለት",
+                "span": [
+                    35,
+                    38
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_17_39",
+        "lang": "am"
+    },
+    {
+        "text": "አንድ ክፍል ከ ጥቅምት 8 እስከ ሃያ ሁለተኛው ቀን ድረስ ማስያዝ እፈልጋለሁ",
+        "intents": [
+            "booking",
+            "make_open_apply_setup_get_activate"
+        ],
+        "slots": {
+            "date_from": {
+                "text": "ጥቅምት 8",
+                "span": [
+                    10,
+                    16
+                ],
+                "value": {
+                    "day": 18,
+                    "month": 10,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "ሃያ ሁለተኛው ቀን",
+                "span": [
+                    21,
+                    32
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_40",
+        "lang": "am"
+    },
+    {
+        "text": "ለዘጠኝ አዋቂዎች ከእሁድ ጀምሮ ለሰባት ምሽቶች",
+        "slots": {
+            "date_period": {
+                "text": "ለሰባት ምሽቶች",
+                "span": [
+                    20,
+                    29
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 7
+                }
+            },
+            "date_from": {
+                "text": "ከእሁድ",
+                "span": [
+                    11,
+                    15
+                ],
+                "value": {
+                    "day": 20,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "adults": {
+                "text": "ለዘጠኝ",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": 9
+            }
+        },
+        "uid": "hotel_17_41",
+        "lang": "am"
+    },
+    {
+        "text": "ለሁለት አዋቂዎች እና ዘጠኝ ልጆች ወር ከገባ ከአስረኛው ቀን ጀምሮ ለአምስት ምሽቶች",
+        "slots": {
+            "date_period": {
+                "text": "ለአምስት ምሽቶች",
+                "span": [
+                    43,
+                    53
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 5
+                }
+            },
+            "date_from": {
+                "text": "ወር ከገባ ከአስረኛው ቀን",
+                "span": [
+                    22,
+                    38
+                ],
+                "value": {
+                    "day": 10,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "kids": {
+                "text": "ዘጠኝ",
+                "span": [
+                    14,
+                    17
+                ],
+                "value": 9
+            },
+            "adults": {
+                "text": "ለሁለት",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_17_42",
+        "lang": "am"
+    },
+    {
+        "text": "ወር ከገባ እስከ አስራ አንደኛው ቀን ድረስ ለአምስት ምሽቶች መቆየት እፈልጋለሁ",
+        "slots": {
+            "date_period": {
+                "text": "ለአምስት ምሽቶች",
+                "span": [
+                    28,
+                    38
+                ],
+                "values": {
+                    "type": "relative",
+                    "days": 5
+                }
+            },
+            "date_to": {
+                "text": "ወር ከገባ እስከ አስራ አንደኛው ቀን",
+                "span": [
+                    0,
+                    23
+                ],
+                "value": {
+                    "day": 11,
+                    "month": 4,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_43",
+        "lang": "am"
+    },
+    {
+        "text": "ልጆች ሳንይዝ እየመጣን ነው",
+        "slots": {
+            "kids": {
+                "text": "ልጆች ሳንይዝ",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": 0
+            }
+        },
+        "uid": "hotel_17_44",
+        "lang": "am"
+    },
+    {
+        "text": "እኔ እና ባሌ ከሴት ልጃችን ጋር እንመጣለን",
+        "slots": {
+            "kids": {
+                "text": "ጋር",
+                "span": [
+                    18,
+                    20
+                ],
+                "value": 1
+            },
+            "adults": {
+                "text": "እኔ እና ባሌ",
+                "span": [
+                    0,
+                    8
+                ],
+                "value": 2
+            }
+        },
+        "uid": "hotel_17_45",
+        "lang": "am"
+    },
+    {
+        "text": "ወር ከገባ ከአስራ ሶስተኛው ቀን ጀምሮ እስከ መስከረም 22 ለአንድ አዋቂ",
+        "slots": {
+            "date_from": {
+                "text": "ወር ከገባ ከአስራ ሶስተኛው ቀን",
+                "span": [
+                    0,
+                    20
+                ],
+                "value": {
+                    "day": 13,
+                    "month": 4,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "መስከረም 22",
+                "span": [
+                    29,
+                    37
+                ],
+                "value": {
+                    "day": 2,
+                    "month": 10,
+                    "year": 2022
+                }
+            },
+            "adults": {
+                "text": "ለአንድ",
+                "span": [
+                    38,
+                    42
+                ],
+                "value": 1
+            }
+        },
+        "uid": "hotel_17_46",
+        "lang": "am"
+    },
+    {
+        "text": "ከሃያ ስድት እስከ ግንቦት 21",
+        "slots": {
+            "date_from": {
+                "text": "ከሃያ ስድት",
+                "span": [
+                    0,
+                    7
+                ],
+                "value": {
+                    "day": 26,
+                    "month": 1,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "ግንቦት 21",
+                "span": [
+                    12,
+                    19
+                ],
+                "value": {
+                    "day": 29,
+                    "month": 5,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_47",
+        "lang": "am"
+    },
+    {
+        "text": "ማክሰኞ ገብቼ የሚቀጥለው ሳምንት ማክሰኞ እወጣለሁ",
+        "slots": {
+            "date_from": {
+                "text": "ማክሰኞ",
+                "span": [
+                    0,
+                    4
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            },
+            "date_to": {
+                "text": "የሚቀጥለው ሳምንት ማክሰኞ",
+                "span": [
+                    9,
+                    25
+                ],
+                "value": {
+                    "day": 22,
+                    "month": 3,
+                    "year": 2022
+                }
+            }
+        },
+        "uid": "hotel_17_48",
+        "lang": "am"
+    }
+]
